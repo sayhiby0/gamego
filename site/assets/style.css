@@ -42,8 +42,11 @@ small,.muted-copy{color:var(--muted)}
 .live-dot{display:inline-block;width:6px;height:6px;vertical-align:middle;border-radius:50%;background:#4c956c;margin-right:7px}
 .local-label{font-size:9px;letter-spacing:1.4px;color:#9aa59e}
 .workspace{margin-left:222px}
-.topbar{height:69px;border-bottom:1px solid var(--line);padding:0 42px;display:flex;align-items:center;justify-content:space-between;background:#ffffffb8;color:#839088;font-size:11px;letter-spacing:.5px}
-.topbar>div{display:flex;align-items:center;gap:24px}
+.topbar{height:69px;border-bottom:1px solid var(--line);padding:0 42px;display:flex;align-items:center;justify-content:space-between;gap:16px;background:#ffffffb8;color:#839088;font-size:11px;letter-spacing:.5px}
+.topbar>span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topbar>div{display:flex;align-items:center;gap:24px;flex-shrink:0}
+.github-link{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex-shrink:0;border-radius:8px;color:#61706a}
+.github-link:hover{background:var(--pale);color:var(--green);text-decoration:none}
 .timezone{font-size:10px}
 .text-button{color:var(--green);padding:7px 2px;font-size:12px;white-space:nowrap}
 .text-button:hover{text-decoration:underline}

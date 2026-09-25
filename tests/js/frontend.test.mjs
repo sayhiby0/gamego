@@ -367,6 +367,27 @@ function configure(app, key = FAKE_KEY, remember = false, region = 'cn-beijing',
 const paidCalls = (app) => app.calls.filter(({ url }) => /\/api\/(test|agent)$/.test(url));
 const settle = async () => { for (let i = 0; i < 8; i++) await new Promise(setImmediate); };
 
+test('DOM wiring: GitHub link stays in the shared header and opens the exact project safely', async () => {
+  const app = await browserDouble();
+  const link = app.nodes.get('github-link');
+  assert.equal(link.tagName, 'A');
+  assert.equal(link.attrs.href, 'https://github.com/sayhiby0/gamego');
+  assert.equal(link.attrs.target, '_blank');
+  assert.deepEqual(new Set(link.attrs.rel.split(/\s+/)), new Set(['noopener', 'noreferrer']));
+  assert.match(link.attrs['aria-label'], /GitHub.*GameGo.*新标签页/);
+  assert.match(link.attrs.title, /GitHub.*新标签页/);
+  assert.equal(link.children.find(node => node.tagName === 'SVG').attrs['aria-hidden'], 'true');
+  assert.equal(link.parent.parent.tagName, 'HEADER');
+  for (const view of ['news', 'rankings', 'movements', 'skills', 'assistant']) {
+    app.run(`location.hash = '#${view}'; navigate()`);
+    for (let node = link; node; node = node.parent) assert.equal(node.hidden, false);
+  }
+  const calls = app.calls.length;
+  assert.equal(link.emit('click').defaultPrevented, false);
+  assert.equal(app.calls.length, calls);
+  assert.equal(paidCalls(app).length, 0);
+});
+
 test('DOM wiring: empty config disables paid actions, but drafts and public views remain open', async () => {
   const app = await browserDouble();
   assert.equal(app.nodes.get('send').disabled, true);
