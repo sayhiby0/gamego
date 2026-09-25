@@ -52,7 +52,7 @@ def checked_settings(url, token, api_key):
             or token.lower().startswith('sk-')):
         raise ValueError('invalid public content configuration')
     if (not isinstance(api_key, str) or len(api_key) > 256 or placeholder(api_key)
-            or not re.fullmatch(r'sk-[A-Za-z0-9_-]{16,253}', api_key) or api_key.lower().startswith('sk-sp-')):
+            or not re.fullmatch(r'sk-[A-Za-z0-9._~+/-]{16,253}={0,2}', api_key) or api_key.lower().startswith('sk-sp-')):
         raise ValueError('invalid public content configuration')
     return u
 

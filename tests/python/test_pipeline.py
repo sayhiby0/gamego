@@ -438,7 +438,7 @@ class BoundaryTests(unittest.TestCase):
                     self.assertNotIn(secret, str(raised.exception))
                 self.assertEqual(safe_text('内容 ' + secret), '')
                 self.assertEqual(safe_text('普通公开文本'), '普通公开文本')
-        for value in ('sk-short', 'sk-A._~9-', ENV['CONTENT_API_KEY']):
+        for value in ('sk-short', 'sk-A._~9-', 'sk-+/~.~+/_-b.~+/_-c012345==', ENV['CONTENT_API_KEY']):
             self.assertEqual(safe_text(value), '')
             with self.assertRaises(ValueError):
                 privacy_check(value)

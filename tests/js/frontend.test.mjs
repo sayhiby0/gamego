@@ -165,6 +165,11 @@ const savedConfig = (changes = {}) => ({ version: 1, key: FAKE_KEY, model: 'qwen
 test('BYOK basic format validation rejects Coding Plan, controls, Unicode and unsafe length', () => {
   assert.equal(keyProblem(FAKE_KEY), '');
   assert.equal(keyProblem('sk-' + 'a'.repeat(253)), '');
+  for (const key of ['sk-' + 'a'.repeat(16), 'sk-AbCd.~+/ef012345_6789==', 'sk-' + 'a'.repeat(251) + '==']) {
+    assert.equal(keyProblem(key), '');
+    assert.equal(storedConfig(savedConfig({ key })).key, key);
+  }
+  for (const key of [`${FAKE_KEY}=middle`, `${FAKE_KEY}===`, 'sk-' + 'a'.repeat(253) + '=', 'sk-' + 'a'.repeat(15) + '=']) assert.ok(keyProblem(key));
   for (const value of [null, {}, '', 'sk-short', 'sk-sp-synthetic-coding-key', 'sk-' + 'a'.repeat(254), ` ${FAKE_KEY}`, `${FAKE_KEY}\n`, `${FAKE_KEY}汉`, `${FAKE_KEY}:secret`, `${FAKE_KEY}\u007f`]) assert.ok(keyProblem(value));
   assert.match(keyProblem('sk-sp-synthetic-coding-key'), /Coding Plan/);
 });
@@ -188,6 +193,19 @@ test('secret filter withholds split keys and request detection scans nested fiel
   assert.ok(containsSecret({ history: [{ content: FAKE_KEY }] }, FAKE_KEY));
   assert.ok(containsSecret({ games: [OTHER_KEY] }, FAKE_KEY));
   assert.equal(containsSecret({ message: 'normal' }, FAKE_KEY), false);
+});
+test('Bearer punctuation keys are blocked in nested input and fully hidden in streams and exports', () => {
+  const key = 'sk-A.~+/_-b.~+/_-c012345==';
+  assert.ok(containsSecret({ history: [{ content: key }] }));
+  assert.ok(containsSecret({ url: `https://example.test/${encodeURIComponent(key)}` }));
+  for (let split = 1; split < key.length; split++) {
+    const filter = secretFilter(key);
+    assert.equal(filter.push(key.slice(0, split)), '');
+    assert.equal(filter.push(key.slice(split), true), '[密钥已隐藏]');
+  }
+  const output = exportMarkdown([{ role: 'assistant', content: `before ${key} after`, sources: [] }]);
+  assert.doesNotMatch(output, /sk-|012345|==/);
+  assert.match(output, /密钥已隐藏/);
 });
 test('usage validates safe integer micro-yuan, unknown never becomes zero', () => {
   assert.deepEqual(normalizeUsage({ input: 0, output: 8, cost: 1250000 }), { input: 0, output: 8, cost: 1250000 });

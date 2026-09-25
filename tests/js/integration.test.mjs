@@ -16,6 +16,7 @@ test('public boundary rejects private fields, credentials, emails and machine pa
   assert.throws(() => assertPublic({ notice: 'private-contact@example.com' }));
   for (const value of [
     { allowlist: [] }, { nested: { token_hash: 'hashed' } }, { history: [] },
+    { title: 'sk-A.~+/_-b.~+/_-c012345==' }, { title: 'sk-' + 'a'.repeat(16) },
     { title: `sk-${'x'.repeat(30)}` }, { title: 'person@example.org' }, { title: 'C:\\Users\\someone\\secret' },
     { sources: [{ url: 'file:///etc/passwd' }] },
   ]) assert.throws(() => assertPublic(value));

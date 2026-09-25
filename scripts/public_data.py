@@ -18,7 +18,7 @@ BEIJING = timezone(timedelta(hours=8))
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT = json.loads((ROOT / 'config/public-contract.json').read_text(encoding='utf-8'))
 CATEGORIES = {'产品与版本', '运营活动', '营销与联动', '发行与渠道', '行业与公司', '玩家口碑'}
-SECRET = re.compile(r'(?i)(?:\bBearer\s+\S+|(?<![A-Za-z0-9])sk-[A-Za-z0-9._~-]+|-----BEGIN [A-Z ]*PRIVATE KEY|\bgh[pousr]_[A-Za-z0-9]{16,}|\bAKIA[A-Z0-9]{16}\b)')
+SECRET = re.compile(r'(?i)(?:\bBearer\s+\S+|(?<![A-Za-z0-9])sk-[A-Za-z0-9._~+/-]+={0,2}|-----BEGIN [A-Z ]*PRIVATE KEY|\bgh[pousr]_[A-Za-z0-9]{16,}|\bAKIA[A-Z0-9]{16}\b)')
 PERSONAL = re.compile(r'(?i)(?:[\w.+-]+@[\w.-]+\.[a-z]{2,}|steamcommunity\.com/(?:id|profiles)/\S+|\b7656119\d{10}\b|(?<!\d)1[3-9]\d{9}(?!\d))')
 PRIVATE_FIELDS = {'steamid', 'steam_id', 'username', 'profile', 'avatar', 'email', 'phone', 'password', 'token', 'authorization', 'cookie', 'apikey', 'api_key', 'secret', 'prompt', 'systemprompt', 'system_prompt', 'developer_prompt', 'ledger', 'allowlist', 'raw', 'raw_response', 'raw_html', 'review', 'reviews', 'cursor', 'access_token', 'refresh_token', 'client_secret', 'service_token', 'model_key', 'player_profile'}
 

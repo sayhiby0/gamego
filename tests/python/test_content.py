@@ -21,7 +21,8 @@ ENV = {'CONTENT_PROCESS_URL': 'https://content.unit.test/internal/content',
 BAD_SETTINGS = (
     [('CONTENT_API_KEY', value) for value in ('', 'sk-sp-ordinaryNotAllowed', 'sk-placeholder', 'sk-your-key',
       'sk-replace-with-value', 'sk-CHANGE_THIS', 'sk-xxxx', 'sk-', 'sk-a\r\nInjected: yes',
-      'sk-中文', 'sk-a b', 'sk-' + 'a' * 254)] +
+      'sk-中文', 'sk-a b', 'sk-' + 'a' * 254, 'sk-' + 'a' * 253 + '=',
+      'sk-' + 'a' * 15 + '=', 'sk-safeUnit9e8d7c6b5a4321===', 'sk-safeUnit9e8d7c6b5a4321=middle')] +
     [('CONTENT_SERVICE_TOKEN', value) for value in ('', 'short', 'replace-me-' * 4, 'your-token-' * 4,
       'x' * 32, 'token\r\n' + 'a' * 32, '令' * 32, 'a' * 513, 'sk-' + 'a' * 40)] +
     [('CONTENT_PROCESS_URL', value) for value in ('', 'http://127.0.0.1:8000/internal/content',
@@ -361,9 +362,11 @@ class ServicePostTests(unittest.TestCase):
         self.assertEqual(set(headers), {'Authorization', 'X-Content-API-Key', 'Content-Type', 'Accept',
                                         'Accept-Encoding', 'Idempotency-Key', 'Connection'})
         self.connection.close.assert_called_once()
-        for key in ('sk-safeUnit9e8d7c6b5a4321', 'sk-' + 'a' * 253):
+        for key in ('sk-safeUnit9e8d7c6b5a4321', 'sk-' + 'a' * 16, 'sk-' + 'a' * 253,
+                    'sk-AbCd.~+/ef012345_6789==', 'sk-' + 'a' * 252 + '=', 'sk-' + 'a' * 251 + '=='):
             self.response.read1.side_effect = [b'{"items": []}', b'']
             self.send(CONTENT_API_KEY=key)
+            self.assertEqual(self.connection.request.call_args.kwargs['headers']['X-Content-API-Key'], key)
             self.assertEqual(self.connection.request.call_args.kwargs['headers']['Idempotency-Key'], headers['Idempotency-Key'])
 
     def test_missing_invalid_and_untrusted_configuration_cannot_open_connection(self):

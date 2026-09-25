@@ -808,7 +808,7 @@ test('Agent requires a valid worker visitor rather than an OAuth identity or env
 
 test('Agent rejects current Keys and generic sk-shaped secrets anywhere in a task before research', async t => {
   const DB = database(t); const env = { DB, ...envConfig('AGENT'), PUBLIC_DATA_URL: 'https://public.example.test/latest' }; let calls = 0;
-  for (const secret of [AGENT_KEY, CONTENT_KEY, 'sk-Other0123456789secret', 'fake-AGENT-secret']) {
+  for (const secret of [AGENT_KEY, CONTENT_KEY, 'sk-Other0123456789secret', 'sk-A.~+/_-b.~+/_-c012345==', 'fake-AGENT-secret']) {
     for (const patch of [{ message: `问题 ${secret}` }, { history: [{ role: 'assistant', content: `历史 ${secret}` }] }, { games: [secret] }]) {
       const response = await runAgent({ ...agentBody, ...patch }, env, { fetcher: () => { calls++; assert.fail('secret reached research'); } });
       assert.equal(response.status, 400); assert.equal((await response.json()).error, 'input');

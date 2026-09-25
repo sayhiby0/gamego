@@ -51,7 +51,8 @@ function streaming({ missingUsage = false, missingDone = false, text = '你好\n
 }
 
 test('API keys have exact ASCII boundaries, are never normalized, and distinguish Coding Plan', () => {
-  for (const key of [CONTENT_KEY, 'sk-' + 'a'.repeat(16), 'sk-' + 'Z_9-'.repeat(63) + 'x', 'sk-SP-' + 'a'.repeat(32)]) assert.equal(validateApiKey(key), key);
+  for (const key of [CONTENT_KEY, 'sk-' + 'a'.repeat(16), 'sk-' + 'Z_9-'.repeat(63) + 'x', 'sk-SP-' + 'a'.repeat(32), 'sk-AbCd.~+/ef012345_6789==', 'sk-' + 'a'.repeat(252) + '=', 'sk-' + 'a'.repeat(251) + '==']) assert.equal(validateApiKey(key), key);
+  for (const key of ['sk-' + 'a'.repeat(253) + '=', 'sk-' + 'a'.repeat(15) + '=', `${AGENT_KEY}=middle`, `${AGENT_KEY}===`, `${AGENT_KEY}:suffix`, `${AGENT_KEY}\u007f`]) assert.throws(() => validateApiKey(key), failsWith('key_invalid'));
   for (const key of [undefined, null, 1, {}, '', 'sk-' + 'x'.repeat(15), 'sk-' + 'x'.repeat(254), 'SK-' + 'x'.repeat(16), 'SK-SP-' + 'a'.repeat(32), ` ${AGENT_KEY}`, `${AGENT_KEY} `, `${AGENT_KEY}\n`, `${AGENT_KEY}\r`, `${AGENT_KEY}\0`, `${AGENT_KEY}中`, `${AGENT_KEY}é`, `${AGENT_KEY}！`]) {
     assert.throws(() => validateApiKey(key), failsWith('key_invalid'));
   }
@@ -389,5 +390,5 @@ test('error-body reads are bounded and cancelled; redirects, oversized and non-J
 test('model text rejects secret echoes, arbitrary links, active markup and control characters', () => {
   for (const value of ['https://evil.test/x', '[x](javascript:alert(1))', '<script>x</script>', 'key=secret-123456', 'x\ny', '//evil.test/x', 'www.evil.test', '[x]: ftp://evil.test']) assert.throws(() => checkedText(value, 1000, ['secret-123456']));
   assert.equal(checkedText('事实与推论分开。', 100), '事实与推论分开。');
-  for (const value of ['person@example.org', 'sk-abcdef0123456789', 'C:\\Users\\name\\secret']) assert.throws(() => checkedText(value, 1000));
+  for (const value of ['person@example.org', 'sk-abcdef0123456789', 'sk-A.~+/_-b.~+/_-c012345==', 'C:\\Users\\name\\secret']) assert.throws(() => checkedText(value, 1000));
 });

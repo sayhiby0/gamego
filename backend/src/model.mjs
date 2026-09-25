@@ -31,8 +31,8 @@ function integer(value, min, max) {
 
 export function validateApiKey(key) {
   if (typeof key === 'string' && /^sk-sp-/.test(key)) throw new ModelError('key_type');
-  if (typeof key !== 'string' || key.length > 256 || /[^A-Za-z0-9_-]/.test(key)
-      || !/^sk-(?!sp-)[A-Za-z0-9_-]{16,253}$/.test(key)) throw new ModelError('key_invalid');
+  if (typeof key !== 'string' || key.length > 256 || /[^\x21-\x7e]/.test(key)
+      || !/^sk-(?!sp-)[A-Za-z0-9._~+\/-]{16,253}={0,2}$/.test(key)) throw new ModelError('key_invalid');
   return key;
 }
 function supportedModel(model) {
@@ -370,7 +370,7 @@ export async function invokeModel(config, { db, owner, messages, signal, fetcher
 export function checkedText(value, max, secrets = []) {
   if (typeof value !== 'string' || !value.trim() || value.length > max
       || /[<>\u0000-\u001f\u007f]|(?:https?:|javascript:|data:|file:|www\.|\/\/)|\]\s*[(:\[]|\[[^\]]+\]:/i.test(value)
-      || /\bsk-[a-z0-9_-]{8,}|\bBearer\s+\S{8,}|[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}|[a-z]:\\|\/(?:home|Users|etc)\//i.test(value)
+      || /\bsk-[a-z0-9._~+\/-]{8,}={0,2}|\bBearer\s+\S{8,}|[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}|[a-z]:\\|\/(?:home|Users|etc)\//i.test(value)
       || secrets.some(secret => typeof secret === 'string' && secret.length >= 6 && value.includes(secret))) throw new ModelError('output');
   return value.trim();
 }

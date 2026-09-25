@@ -25,7 +25,7 @@ function errorResponse(error) {
 function rejectSecrets(value, secrets) {
   let text = JSON.stringify(value);
   for (let pass = 0; pass < 3; pass++) {
-    if (/\bsk-[a-z0-9_-]{8,}|\bBearer\s+\S{8,}/i.test(text)
+    if (/\bsk-[a-z0-9._~+\/-]{8,}={0,2}|\bBearer\s+\S{8,}/i.test(text)
         || secrets.some(secret => typeof secret === 'string' && secret.length >= 6 && text.includes(secret))) throw new HttpError(400, '输入包含不可公开凭据');
     try {
       const decoded = decodeURIComponent(text);

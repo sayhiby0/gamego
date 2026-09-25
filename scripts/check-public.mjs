@@ -5,7 +5,7 @@ import { normalizeDashboard, normalizeManifest } from '../site/assets/core.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const privateKey = /^(?:api[_-]?key|.*[_-]api[_-]?key|access[_-]?token|refresh[_-]?token|token|token_hash|password|secret|client_secret|email|identity_hashes|whitelist|allowlist|messages|history|prompt|authorization|usage|owner|author_id|steamid)$/i;
-const secretValue = /(?:sk-[a-zA-Z0-9_-]{20,}|gh[pousr]_[a-zA-Z0-9]{20,}|github_pat_[a-zA-Z0-9_]{20,}|-----BEGIN [A-Z ]*PRIVATE KEY-----)/;
+const secretValue = /(?:sk-[a-zA-Z0-9._~+\/-]{16,}={0,2}|gh[pousr]_[a-zA-Z0-9]{20,}|github_pat_[a-zA-Z0-9_]{20,}|-----BEGIN [A-Z ]*PRIVATE KEY-----)/;
 
 export function assertPublic(value, path = '$') {
   if (typeof value === 'string') {

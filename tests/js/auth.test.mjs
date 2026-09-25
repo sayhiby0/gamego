@@ -186,7 +186,7 @@ test('missing, forged and malformed credentials never fall back to environment k
 
 test('ordinary keys at minimum and maximum length preserve case and punctuation', async t => {
   const f = fixture(t); f.upstream = async () => probeReply();
-  for (const token of ['sk-' + 'a'.repeat(16), 'sk-' + 'Z'.repeat(253), 'sk-AbCdEf012345_-6789']) {
+  for (const token of ['sk-' + 'a'.repeat(16), 'sk-' + 'Z'.repeat(253), 'sk-AbCdEf012345_-6789', 'sk-AbCd.~+/ef012345_6789==', 'sk-' + 'a'.repeat(251) + '==']) {
     assert.equal((await call(f, '/api/test', SELECTION, {token})).status, 200);
     assert.equal(f.calls.at(-1).init.headers.Authorization, `Bearer ${token}`);
   }

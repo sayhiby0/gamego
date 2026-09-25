@@ -5,6 +5,7 @@ import { readSSE } from '../site/assets/core.mjs';
 const read = path => JSON.parse(readFileSync(new URL(`../${path}`, import.meta.url), 'utf8'));
 const phase = process.argv[2];
 let stage = 'configuration';
+const safeCodes = ['disabled', 'configuration', 'price', 'budget', 'key_invalid', 'key_type', 'permission', 'balance', 'rate_limit', 'input', 'provider', 'usage', 'output', 'aborted', 'timeout'];
 function keyProblem(value) {
   if (!value) return 'missing';
   if (value !== value.trim()) return 'surrounding_whitespace';
@@ -14,7 +15,7 @@ function keyProblem(value) {
   if (!value.startsWith('sk-')) return 'unsupported_prefix';
   if (/[*\u2022\u2026]/.test(value)) return 'masked_value';
   if (/[^\x21-\x7e]/.test(value)) return 'non_ascii_or_control';
-  if (/[^A-Za-z0-9_-]/.test(value)) return /^[A-Za-z0-9._~+/-]+={0,2}$/.test(value) ? 'standard_bearer_characters' : 'invalid_bearer_characters';
+  if (!/^[A-Za-z0-9._~+/-]+={0,2}$/.test(value)) return 'invalid_bearer_characters';
   return 'invalid_length';
 }
 function requireCheck(condition) {
@@ -68,6 +69,10 @@ try {
     }] }, { Authorization: `Bearer ${token}`, 'X-Content-API-Key': key }));
     requireCheck(body.items?.length === 1);
     const result = body.items[0];
+    if (result.processing?.status !== 'processed') {
+      const code = safeCodes.find(code => new ModelError(code).message === result.processing?.reason);
+      if (code) throw new ModelError(code);
+    }
     requireCheck(result.processing?.status === 'processed' && result.summary && result.insight?.startsWith('AI 推论：'));
     const urls = new Set(item.sources.map(source => source.url));
     requireCheck(['summary', 'insight'].every(field => result.processing.citations?.[field]?.length
@@ -123,7 +128,7 @@ try {
   report.verifiedAt = new Date().toISOString();
   console.log(JSON.stringify(report));
 } catch (error) {
-  const code = error instanceof ModelError && ['key_invalid', 'key_type'].includes(error.code) ? error.code : 'check_failed';
+  const code = error instanceof ModelError && safeCodes.includes(error.code) ? error.code : 'check_failed';
   const detail = stage === 'api-key' ? { keyIssue: keyProblem(process.env.ACCEPTANCE_API_KEY) } : {};
   console.error(JSON.stringify({ ok: false, phase: ['content', 'agent', 'stop'].includes(phase) ? phase : 'invalid', stage, code, ...detail }));
   process.exitCode = 1;

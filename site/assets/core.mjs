@@ -165,7 +165,7 @@ export function agentRequest(skill, message, games, history) {
 export const BYOK_STORAGE_KEY = 'gamego.byok.v1';
 export function keyProblem(key) {
   if (typeof key === 'string' && /^sk-sp-/i.test(key)) return 'Coding Plan 专用 Key 不能用于本站，请创建普通模型 API Key。';
-  if (typeof key !== 'string' || key.length < 19 || key.length > 256 || !/^sk-[A-Za-z0-9_-]+$/.test(key)) return '请输入普通 sk- API Key（19–256 个 ASCII 字符，无空格）；这里只检查明显格式错误。';
+  if (typeof key !== 'string' || key.length > 256 || /[^\x21-\x7e]/.test(key) || !/^sk-[A-Za-z0-9._~+\/-]{16,253}={0,2}$/.test(key)) return '请输入普通 sk- API Key（19–256 个 ASCII 字符，无空格）；这里只检查明显格式错误。';
   return '';
 }
 const modelID = (value) => typeof value === 'string' && /^[a-zA-Z0-9][a-zA-Z0-9._-]{0,99}$/.test(value) && !value.startsWith('sk-');
@@ -189,7 +189,7 @@ export function containsSecret(value, key) {
   let source = typeof value === 'string' ? value : JSON.stringify(value);
   if (typeof source !== 'string') return false;
   for (let pass = 0; pass < 3; pass++) {
-    if ((key && source.includes(key)) || /sk-[A-Za-z0-9_-]{13,}/.test(source)) return true;
+    if ((key && source.includes(key)) || /sk-[A-Za-z0-9._~+\/-]{13,}={0,2}/.test(source)) return true;
     try {
       const decoded = decodeURIComponent(source);
       if (decoded === source) break;
@@ -365,7 +365,7 @@ export function markdownLiteral(value) {
 }
 export function exportMarkdown(messages, createdAt = new Date().toISOString()) {
   const sections = ['# GameGo · 当前会话报告', `导出时间：${formatTime(createdAt)}（北京时间）`, '仅导出当前页面内容。AI 输出需核实，停止或失败的报告可能不完整。'];
-  const literal = (value) => markdownLiteral(text(value, LIMITS.output).replace(/sk-[A-Za-z0-9_-]{13,}/g, '[密钥已隐藏]'));
+  const literal = (value) => markdownLiteral(text(value, LIMITS.output).replace(/sk-[A-Za-z0-9._~+\/-]{13,}={0,2}/g, '[密钥已隐藏]'));
   for (const message of list(messages, 24)) {
     if (!record(message) || !['user', 'assistant'].includes(message.role)) continue;
     sections.push(`## ${message.role === 'user' ? '问题' : '分析'}`, literal(message.content));
