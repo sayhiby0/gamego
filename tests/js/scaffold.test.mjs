@@ -81,14 +81,17 @@ test('真实验收只允许主仓库主分支显式手动授权且不保存密�
 });
 
 test('真实验收缺少配置时在网络请求前失败且只报告固定错误码', () => {
-  for (const [env, stage, code] of [
-    [{}, 'api-key', 'key_invalid'],
-    [{ ACCEPTANCE_API_KEY: `sk-sp-${'x'.repeat(20)}` }, 'api-key', 'key_type'],
-    [{ ACCEPTANCE_API_KEY: `sk-${'x'.repeat(20)}` }, 'service-token', 'check_failed'],
+  for (const [env, stage, code, keyIssue] of [
+    [{}, 'api-key', 'key_invalid', 'missing'],
+    [{ ACCEPTANCE_API_KEY: `sk-sp-${'x'.repeat(20)}` }, 'api-key', 'key_type', 'coding_plan'],
+    [{ ACCEPTANCE_API_KEY: `sk-${'x'.repeat(20)}\n` }, 'api-key', 'key_invalid', 'surrounding_whitespace'],
+    [{ ACCEPTANCE_API_KEY: 'not-a-provider-prefix' }, 'api-key', 'key_invalid', 'unsupported_prefix'],
+    [{ ACCEPTANCE_API_KEY: `"sk-${'x'.repeat(20)}"` }, 'api-key', 'key_invalid', 'quoted_value'],
+    [{ ACCEPTANCE_API_KEY: `sk-${'x'.repeat(20)}` }, 'service-token', 'check_failed', undefined],
   ]) {
     const result = spawnSync(process.execPath, [join(root, 'scripts/verify-live.mjs'), 'content'], { env, encoding: 'utf8', timeout: 5000 });
     assert.equal(result.status, 1);
     assert.equal(result.stdout, '');
-    assert.deepEqual(JSON.parse(result.stderr), { ok: false, phase: 'content', stage, code });
+    assert.deepEqual(JSON.parse(result.stderr), { ok: false, phase: 'content', stage, code, ...(keyIssue ? { keyIssue } : {}) });
   }
 });

@@ -5,6 +5,16 @@ import { readSSE } from '../site/assets/core.mjs';
 const read = path => JSON.parse(readFileSync(new URL(`../${path}`, import.meta.url), 'utf8'));
 const phase = process.argv[2];
 let stage = 'configuration';
+function keyProblem(value) {
+  if (!value) return 'missing';
+  if (value !== value.trim()) return 'surrounding_whitespace';
+  if (/\s/.test(value)) return 'embedded_whitespace';
+  if (/^["']|["']$/.test(value)) return 'quoted_value';
+  if (/^sk-sp-/i.test(value)) return 'coding_plan';
+  if (!value.startsWith('sk-')) return 'unsupported_prefix';
+  if (/[^A-Za-z0-9_-]/.test(value)) return 'unsupported_characters';
+  return 'invalid_length';
+}
 function requireCheck(condition) {
   if (!condition) throw new Error('Acceptance check failed');
 }
@@ -112,6 +122,7 @@ try {
   console.log(JSON.stringify(report));
 } catch (error) {
   const code = error instanceof ModelError && ['key_invalid', 'key_type'].includes(error.code) ? error.code : 'check_failed';
-  console.error(JSON.stringify({ ok: false, phase: ['content', 'agent', 'stop'].includes(phase) ? phase : 'invalid', stage, code }));
+  const detail = stage === 'api-key' ? { keyIssue: keyProblem(process.env.ACCEPTANCE_API_KEY) } : {};
+  console.error(JSON.stringify({ ok: false, phase: ['content', 'agent', 'stop'].includes(phase) ? phase : 'invalid', stage, code, ...detail }));
   process.exitCode = 1;
 }
