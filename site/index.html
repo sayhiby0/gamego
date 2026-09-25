@@ -23,7 +23,7 @@
       <a href="#skills" data-view="skills"><span aria-hidden="true">◇</span>Skills<span class="nav-small">精选</span></a>
       <a href="#assistant" data-view="assistant"><span aria-hidden="true">✳</span>AI 助手<span class="nav-small">自带 API</span></a>
     </nav>
-    <div class="sidebar-bottom"><span class="live-dot"></span>依据优先，保持审慎<p>中国手游 · 全球 PC / Steam<br>公开来源，不等于全市场覆盖</p><span class="local-label">LOCAL DEVELOPMENT</span></div>
+    <div class="sidebar-bottom"><span class="live-dot"></span>依据优先，保持审慎<p>中国手游 · 全球 PC / Steam<br>公开来源，不等于全市场覆盖</p><span class="local-label">PUBLIC PREVIEW</span></div>
   </aside>
   <div class="workspace">
     <header class="topbar"><span>Gaming Industry Intelligence</span><div><span class="timezone">北京时间 UTC+8</span><button id="open-coverage" class="text-button" type="button">数据覆盖 <span aria-hidden="true">↗</span></button></div></header>
@@ -85,7 +85,7 @@
           <form id="agent-form" class="agent-form"><fieldset id="agent-fields"><legend class="sr-only">向 AI 助手提问</legend><div class="preset-questions" role="group" aria-label="预设研究问题"><span>从一个问题开始</span><button type="button" class="secondary-button" data-preset="daily">近期发行动态</button><button type="button" class="secondary-button" data-preset="marketing">运营与营销案例</button><button type="button" class="secondary-button" data-preset="compare">两款游戏对比</button></div><div class="agent-inputs"><label for="agent-skill">分析能力<select id="agent-skill"><option value="game-daily">game-daily · 行业资讯</option><option value="game-monitor">game-monitor · 游戏调查</option></select></label><label id="games-label" for="agent-games" hidden>游戏名称（可选，最多两款）<input id="agent-games" maxlength="200" placeholder="用逗号分隔，后端核验游戏实体" autocomplete="off"></label></div><label class="sr-only" for="agent-message">研究问题</label><textarea id="agent-message" rows="4" maxlength="2000" placeholder="例如：整理最近一周的游戏发行动态，注明来源和不确定性。不要输入机密或密钥。" required></textarea><div class="composer-bottom"><span>上限 2,000 字 · 最近 8 条上下文，每条最多 1,000 字</span><button type="submit" class="primary-button" id="send" disabled>开始分析 <span aria-hidden="true">↗</span></button></div></fieldset></form>
           <p class="privacy-note">隐私提示：模型与搜索服务会接收完成请求所需内容，其数据保留政策独立于本站。请勿输入密钥、公司机密或未获授权的玩家个人数据。停止仅尽力取消，已受理的调用仍可能计费。</p></div></div>
       </section>
-      <footer><span>GameGo <span class="footer-separator">/</span> Gaming Industry Intelligence</span><span>公开情报，审慎解读。<span class="footer-separator">·</span> 本地开发，未发布</span></footer>
+      <footer><span>GameGo <span class="footer-separator">/</span> Gaming Industry Intelligence</span><span>公开情报，审慎解读。<span class="footer-separator">·</span> 公开预览 · 覆盖范围见说明</span></footer>
     </main>
   </div>
   <dialog id="coverage-dialog" aria-labelledby="coverage-title"><div class="drawer-header"><div><p class="eyebrow">SOURCE TRANSPARENCY</p><h2 id="coverage-title">数据覆盖与采集边界</h2></div><button type="button" id="close-coverage" class="icon-button" aria-label="关闭覆盖明细">×</button></div><p class="method-note">逐项区分方法、尝试和最近成功。HTTP 200、首页可见或搜索命中不等于有效数据；受阻渠道不会绕过访问限制。</p><div id="coverage-list"></div></dialog>

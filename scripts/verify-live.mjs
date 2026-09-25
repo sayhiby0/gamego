@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { validateApiKey } from '../backend/src/model.mjs';
+import { ModelError, validateApiKey } from '../backend/src/model.mjs';
 import { readSSE } from '../site/assets/core.mjs';
 
 const read = path => JSON.parse(readFileSync(new URL(`../${path}`, import.meta.url), 'utf8'));
@@ -32,6 +32,7 @@ try {
   const vars = read('wrangler.json').vars;
   const base = new URL(read('site/config.json').apiBase);
   requireCheck(base.href === 'https://gamego-api.byl55007424.workers.dev/');
+  stage = 'api-key';
   const key = validateApiKey(process.env.ACCEPTANCE_API_KEY);
   const selection = { region: 'cn-beijing', model: vars.CONTENT_MODEL };
   const origin = vars.SITE_ORIGIN;
@@ -41,8 +42,10 @@ try {
   });
   const report = { ok: true, phase, ...selection };
   if (phase === 'content') {
+    stage = 'service-token';
     const token = process.env.CONTENT_SERVICE_TOKEN;
     requireCheck(typeof token === 'string' && /^[A-Za-z0-9]{32,512}$/.test(token));
+    stage = 'public-evidence';
     const data = read('site/data/latest.json');
     const item = data.news.find(item => item.originalTitle && item.sources?.length && Date.parse(item.publishedAt) >= Date.now() - 7 * 86_400_000);
     requireCheck(item);
@@ -107,7 +110,8 @@ try {
   }
   report.verifiedAt = new Date().toISOString();
   console.log(JSON.stringify(report));
-} catch {
-  console.error(JSON.stringify({ ok: false, phase: ['content', 'agent', 'stop'].includes(phase) ? phase : 'invalid', stage }));
+} catch (error) {
+  const code = error instanceof ModelError && ['key_invalid', 'key_type'].includes(error.code) ? error.code : 'check_failed';
+  console.error(JSON.stringify({ ok: false, phase: ['content', 'agent', 'stop'].includes(phase) ? phase : 'invalid', stage, code }));
   process.exitCode = 1;
 }
