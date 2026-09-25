@@ -1,0 +1,53 @@
+name: Verify live model
+
+on:
+  workflow_dispatch:
+    inputs:
+      phase:
+        description: Explicit paid acceptance phase (no retries)
+        type: choice
+        required: true
+        options: [content, agent, stop]
+      confirm_paid:
+        description: Allow these bounded model calls with the owner's test key
+        type: boolean
+        default: false
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gamego-live-acceptance
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: ${{ github.repository == 'sayhiby0/gamego' && github.ref == 'refs/heads/main' && inputs.confirm_paid == true }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Check public assets
+        run: node scripts/check-public.mjs
+      - name: Verify one budgeted public item
+        if: ${{ inputs.phase == 'content' }}
+        env:
+          ACCEPTANCE_API_KEY: ${{ secrets.CONTENT_API_KEY }}
+          CONTENT_SERVICE_TOKEN: ${{ secrets.CONTENT_SERVICE_TOKEN }}
+        run: node scripts/verify-live.mjs content
+      - name: Verify BYOK connection and streamed report
+        if: ${{ inputs.phase == 'agent' }}
+        env:
+          ACCEPTANCE_API_KEY: ${{ secrets.CONTENT_API_KEY }}
+        run: node scripts/verify-live.mjs agent
+      - name: Verify client stream cancellation
+        if: ${{ inputs.phase == 'stop' }}
+        env:
+          ACCEPTANCE_API_KEY: ${{ secrets.CONTENT_API_KEY }}
+        run: node scripts/verify-live.mjs stop

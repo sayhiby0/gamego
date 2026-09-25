@@ -1,0 +1,4636 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "environment": "local_pipeline_not_production_acceptance",
+    "maxFallbacks": 2,
+    "maxRequests": 90,
+    "timeoutSeconds": 10,
+    "totalSeconds": 240,
+    "maxBytes": 2000000,
+    "newsHours": 24,
+    "newsLimit": 30,
+    "rankingLimit": 20,
+    "minimumReviews": 100,
+    "movementLimits": {
+      "pc": 2,
+      "mobile": 4
+    },
+    "retentionDays": 30,
+    "contentMaxItems": 30,
+    "search": "disabled; future adapter must enforce domain/date/quote/budget controls, not search-result publication",
+    "web": "only Steam table adapter enabled; other HTML candidates need dated-field adapters and access review"
+  },
+  "sources": [
+    {
+      "id": "ign",
+      "name": "IGN",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://feeds.ign.com/ign/all",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "ign",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:40:59.773439+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [
+        "ign-canonical"
+      ],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "feeds.ign.com",
+        "www.ign.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS，有24小时内内容"
+      }
+    },
+    {
+      "id": "kotaku",
+      "name": "Kotaku",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://kotaku.com/rss",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "kotaku",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:59.775063+00:00",
+      "lastSuccessAt": null,
+      "reason": "403/防护，未取得有效RSS；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "kotaku.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "gamespot",
+      "name": "GameSpot",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.gamespot.com/feeds/mashup/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "gamespot",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:40:59.775909+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.gamespot.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS，有24小时内内容"
+      }
+    },
+    {
+      "id": "polygon",
+      "name": "Polygon",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.polygon.com/rss/index.xml",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "polygon",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:40:59.776684+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [
+        "polygon-canonical"
+      ],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.polygon.com",
+        "www.polygon.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS，有24小时内内容"
+      }
+    },
+    {
+      "id": "eurogamer",
+      "name": "Eurogamer",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://eurogamer.net/feed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "eurogamer",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:40:59.977855+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [
+        "eurogamer-canonical"
+      ],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "eurogamer.net",
+        "www.eurogamer.net"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS，有24小时内内容"
+      }
+    },
+    {
+      "id": "rps",
+      "name": "Rock Paper Shotgun",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.rockpapershotgun.com/feed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rps",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:40:59.988572+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.rockpapershotgun.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS，有24小时内内容"
+      }
+    },
+    {
+      "id": "vg247",
+      "name": "VG247",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://vg247.com/feed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "vg247",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:41:00.183413+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [
+        "vg247-canonical"
+      ],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "vg247.com",
+        "www.vg247.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS但已过时"
+      }
+    },
+    {
+      "id": "gematsu",
+      "name": "Gematsu",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://gematsu.com/feed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "gematsu",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:41:00.580062+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [
+        "gematsu-canonical"
+      ],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "gematsu.com",
+        "www.gematsu.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS，有24小时内内容"
+      }
+    },
+    {
+      "id": "playstation",
+      "name": "PlayStation Blog",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://blog.playstation.com/feed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "playstation",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:41:00.907367+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "blog.playstation.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS，有24小时内内容"
+      }
+    },
+    {
+      "id": "gcores",
+      "name": "机核",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.gcores.com/rss",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "gcores",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:41:01.232818+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.gcores.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS，有24小时内内容"
+      }
+    },
+    {
+      "id": "chuapp",
+      "name": "触乐",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.chuapp.com/feed",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "chuapp",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:41:01.254925+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅限有限公开订阅采集；原文许可与持续稳定性仍待验收",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.chuapp.com"
+      ],
+      "httpsUpgradeHosts": [
+        "www.chuapp.com"
+      ],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效RSS，有24小时内内容"
+      }
+    },
+    {
+      "id": "rsshub-843ed2f2957d",
+      "name": "游民星空",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/gamersky/news",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-843ed2f2957d",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:01.661304+00:00",
+      "lastSuccessAt": null,
+      "reason": "公共 RSSHub 实例首轮403；未取得路由/访问许可依据，不换镜像、不绕过",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-0f44a19c6993",
+      "name": "3DM",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/3dm/news",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-0f44a19c6993",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:01.705868+00:00",
+      "lastSuccessAt": null,
+      "reason": "公共 RSSHub 实例首轮403；未取得路由/访问许可依据，不换镜像、不绕过",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-5e1082e4af94",
+      "name": "游侠网",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/ali213/news",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-5e1082e4af94",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:01.760885+00:00",
+      "lastSuccessAt": null,
+      "reason": "公共 RSSHub 实例首轮403；未取得路由/访问许可依据，不换镜像、不绕过",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-eb0ff923066b",
+      "name": "17173",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/17173/news",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-eb0ff923066b",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:01.811497+00:00",
+      "lastSuccessAt": null,
+      "reason": "公共 RSSHub 实例首轮403；未取得路由/访问许可依据，不换镜像、不绕过",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-3d2b81d8887e",
+      "name": "TapTap 142793",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/142793/official",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "142793",
+          "game": "不休的乌拉拉（先行服；非全站榜）",
+          "identity": "not_a_chart",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-3d2b81d8887e",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:01.860511+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 142793：不休的乌拉拉（先行服；非全站榜）；身份状态=not_a_chart；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-a8e2b2db306c",
+      "name": "TapTap 168332",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/168332/official",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "168332",
+          "game": "原神",
+          "identity": "verified",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-a8e2b2db306c",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:01.906105+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 168332：原神；身份状态=verified；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-dd6c93ecd3fe",
+      "name": "TapTap 328943",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/328943/official",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "328943",
+          "game": "崩坏：星穹铁道（旧映射未确认）",
+          "identity": "unknown",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-dd6c93ecd3fe",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:01.940121+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 328943：崩坏：星穹铁道（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-e861ec26b5e7",
+      "name": "TapTap 183019",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/183019/official",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "183019",
+          "game": "绝区零（旧映射未确认）",
+          "identity": "unknown",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-e861ec26b5e7",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:02.014618+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 183019：绝区零（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-1e12cc860241",
+      "name": "TapTap 200112",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/200112/official",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "200112",
+          "game": "王者荣耀（旧映射未确认）",
+          "identity": "unknown",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-1e12cc860241",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:02.047081+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 200112：王者荣耀（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-c914483221c8",
+      "name": "TapTap 34599",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/34599/official",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "34599",
+          "game": "PATIENCE（不是明日方舟）",
+          "identity": "mismatch",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-c914483221c8",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:02.119142+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 34599：PATIENCE（不是明日方舟）；身份状态=mismatch；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "rsshub-4226de7860f2",
+      "name": "TapTap 218205",
+      "purpose": "news",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/218205/official",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "218205",
+          "game": "鸣潮（旧映射未确认）",
+          "identity": "unknown",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "rsshub-4226de7860f2",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "daily",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:02.123028+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 218205：鸣潮（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rsshub.app"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "403/防护，未取得有效RSS"
+      }
+    },
+    {
+      "id": "web-327b50890931",
+      "name": "GameLook",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.gamelook.com.cn/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-327b50890931",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:42.158503+00:00",
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.gamelook.com.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "网络失败"
+      }
+    },
+    {
+      "id": "web-9807c553569b",
+      "name": "游戏葡萄",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.youxiputao.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-9807c553569b",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:42.160202+00:00",
+      "lastSuccessAt": null,
+      "reason": "页面可读但非资讯列表；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.youxiputao.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "页面可读但非资讯列表"
+      }
+    },
+    {
+      "id": "web-f4af570f7c78",
+      "name": "游戏陀螺",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.youxituoluo.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-f4af570f7c78",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:42.161466+00:00",
+      "lastSuccessAt": null,
+      "reason": "资讯列表可读；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.youxituoluo.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "资讯列表可读"
+      }
+    },
+    {
+      "id": "web-97729c70f226",
+      "name": "NGA综合区",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://bbs.nga.cn/thread.php?fid=-563198",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-97729c70f226",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:42.162207+00:00",
+      "lastSuccessAt": null,
+      "reason": "入口受阻；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "bbs.nga.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "入口受阻"
+      }
+    },
+    {
+      "id": "web-33ee9f243ea3",
+      "name": "NGA原神预置分区",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://bbs.nga.cn/thread.php?fid=650601",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-33ee9f243ea3",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:42.384660+00:00",
+      "lastSuccessAt": null,
+      "reason": "入口受阻；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "bbs.nga.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "入口受阻"
+      }
+    },
+    {
+      "id": "web-8a036be7d57f",
+      "name": "NGA方舟预置分区",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://bbs.nga.cn/thread.php?fid=650302",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-8a036be7d57f",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:42.546360+00:00",
+      "lastSuccessAt": null,
+      "reason": "入口受阻；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "bbs.nga.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "入口受阻"
+      }
+    },
+    {
+      "id": "web-7bc090255cae",
+      "name": "TapTap榜单",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/top",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-7bc090255cae",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:42.567128+00:00",
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "网络失败"
+      }
+    },
+    {
+      "id": "web-cc0cd0cca89a",
+      "name": "TapTap热门榜",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/top/download",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-cc0cd0cca89a",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:42.606059+00:00",
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "网络失败"
+      }
+    },
+    {
+      "id": "web-7ce89538ee0d",
+      "name": "TapTap热玩榜",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/top/played",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-7ce89538ee0d",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:42.688361+00:00",
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "网络失败"
+      }
+    },
+    {
+      "id": "web-2645de35c797",
+      "name": "百度贴吧原神吧",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://tieba.baidu.com/f?kw=%E5%8E%9F%E7%A5%9E",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-2645de35c797",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:47.224666+00:00",
+      "lastSuccessAt": null,
+      "reason": "安全验证阻断；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "tieba.baidu.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "安全验证阻断"
+      }
+    },
+    {
+      "id": "web-185f569793f4",
+      "name": "米游社",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.miyoushe.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-185f569793f4",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:47.318032+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.miyoushe.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-c7290b90aa9f",
+      "name": "Reddit原神",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.reddit.com/r/Genshin_Impact/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-c7290b90aa9f",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:47.564561+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.reddit.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-3ce5bc1c7627",
+      "name": "Reddit星铁",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.reddit.com/r/HonkaiStarRail/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-3ce5bc1c7627",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:47.654779+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.reddit.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-9de489f3ac63",
+      "name": "Reddit绝区零",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.reddit.com/r/ZenlessZoneZero/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-9de489f3ac63",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:47.741169+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.reddit.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-1ea3c60f7674",
+      "name": "Reddit英雄联盟",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.reddit.com/r/leagueoflegends/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-1ea3c60f7674",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:47.832878+00:00",
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.reddit.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "网络失败"
+      }
+    },
+    {
+      "id": "web-1a9b65d174c8",
+      "name": "Reddit明日方舟",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.reddit.com/r/arknights/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-1a9b65d174c8",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:57.586246+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.reddit.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-f3775f2cae65",
+      "name": "Reddit鸣潮",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.reddit.com/r/WutheringWaves/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-f3775f2cae65",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:57.615366+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.reddit.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-1d5387214e14",
+      "name": "B站原神搜索",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-1d5387214e14",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:57.676569+00:00",
+      "lastSuccessAt": null,
+      "reason": "搜索页部分数据可读；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "search.bilibili.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "搜索页部分数据可读"
+      }
+    },
+    {
+      "id": "web-b68fc09b976e",
+      "name": "王者营地",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://yingdi.qq.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-b68fc09b976e",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:57.694021+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "yingdi.qq.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-77468a137086",
+      "name": "PRTS Wiki",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://prts.wiki/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-77468a137086",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:57.726418+00:00",
+      "lastSuccessAt": null,
+      "reason": "百科内容可读；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "prts.wiki"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/community.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "百科内容可读"
+      }
+    },
+    {
+      "id": "steam-popularity",
+      "name": "Steam在线榜",
+      "purpose": "ranking",
+      "method": "web",
+      "url": "https://store.steampowered.com/charts/mostplayed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": "popularity",
+      "scope": "Steam 全球",
+      "seriesId": "steam",
+      "methodologyVersion": "steam-html-popularity-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "steam_chart",
+      "checkedAt": "2026-09-22T18:42:02.867022+00:00",
+      "lastSuccessAt": null,
+      "reason": "解析真实app表格行；首次无历史不计算涨幅；仅本地采集未做生产持续验收",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "store.steampowered.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效排名字段"
+      }
+    },
+    {
+      "id": "steam-commercial",
+      "name": "Steam全球畅销榜",
+      "purpose": "ranking",
+      "method": "web",
+      "url": "https://store.steampowered.com/charts/topselling/global",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": "commercial",
+      "scope": "Steam 全球",
+      "seriesId": "steam",
+      "methodologyVersion": "steam-html-commercial-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "daily",
+      "status": "enabled_local",
+      "adapter": "steam_chart",
+      "checkedAt": "2026-09-22T18:42:02.867903+00:00",
+      "lastSuccessAt": null,
+      "reason": "解析真实app表格行；首次无历史不计算涨幅；仅本地采集未做生产持续验收",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "store.steampowered.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效排名字段"
+      }
+    },
+    {
+      "id": "steam-reviews",
+      "name": "Steam评价样本",
+      "purpose": "evidence",
+      "method": "web",
+      "url": "https://store.steampowered.com/appreviews/570?json=1&language=all&filter=recent&num_per_page=1",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "仅当期榜单候选，按需、有限量",
+      "seriesId": "steam",
+      "methodologyVersion": "steam-explicit-query-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "on_demand",
+      "status": "on_demand",
+      "adapter": "steam_reviews",
+      "checkedAt": "2026-09-22T18:42:02.868707+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅由当期Steam候选按需调用；不使用登记样本appid作为固定监控列表",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "store.steampowered.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效JSON字段"
+      }
+    },
+    {
+      "id": "web-16cbcc41702e",
+      "name": "Steam新闻接口文档",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://partner.steamgames.com/doc/webapi/ISteamNews",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-16cbcc41702e",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:02.869566+00:00",
+      "lastSuccessAt": null,
+      "reason": "文档及公开API样本；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "partner.steamgames.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "文档及公开API样本"
+      }
+    },
+    {
+      "id": "web-73699a0dedd8",
+      "name": "Skill目录",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://skills.sh/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-73699a0dedd8",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:03.133359+00:00",
+      "lastSuccessAt": null,
+      "reason": "有效目录元数据；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "skills.sh"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效目录元数据"
+      }
+    },
+    {
+      "id": "web-163b89365cd3",
+      "name": "Apple官方RSS生成器",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://rss.marketingtools.apple.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-163b89365cd3",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:03.305823+00:00",
+      "lastSuccessAt": null,
+      "reason": "生成器及JSON样本；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rss.marketingtools.apple.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "生成器及JSON样本"
+      }
+    },
+    {
+      "id": "web-65f79bbe4ebf",
+      "name": "GooglePlay游戏页",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://play.google.com/store/games?hl=en_US&gl=US",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-65f79bbe4ebf",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:03.378255+00:00",
+      "lastSuccessAt": null,
+      "reason": "部分发现页数据；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "play.google.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "部分发现页数据"
+      }
+    },
+    {
+      "id": "web-3459952de6dc",
+      "name": "腾讯财报目录",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.tencent.com/investors/financial-reports/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-3459952de6dc",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:03.434933+00:00",
+      "lastSuccessAt": null,
+      "reason": "目录及报告文字可读；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.tencent.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "目录及报告文字可读"
+      }
+    },
+    {
+      "id": "web-a7aee6dc35a4",
+      "name": "官方销量公告样本",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://store.steampowered.com/news/app/2101390/view/681886390551577538",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-a7aee6dc35a4",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:03.538865+00:00",
+      "lastSuccessAt": null,
+      "reason": "正文及日期已验证；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "store.steampowered.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "正文及日期已验证"
+      }
+    },
+    {
+      "id": "web-1f3189cc02cc",
+      "name": "SensorTower公开博客",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://sensortower.com/blog",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-1f3189cc02cc",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:03.870727+00:00",
+      "lastSuccessAt": null,
+      "reason": "公开列表可读；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "sensortower.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "公开列表可读"
+      }
+    },
+    {
+      "id": "web-1a2edd76404d",
+      "name": "SensorTowerAPI说明",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://sensortower.com/api",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-1a2edd76404d",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:03.899299+00:00",
+      "lastSuccessAt": null,
+      "reason": "旧地址404；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "sensortower.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "旧地址404"
+      }
+    },
+    {
+      "id": "web-10e4f4ae1964",
+      "name": "AppMagic",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://appmagic.rocks/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-10e4f4ae1964",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:04.382916+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "appmagic.rocks"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-72033d9a6e13",
+      "name": "AppMagicAPI说明",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://appmagic.rocks/tool-descriptions/api",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-72033d9a6e13",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:04.444400+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "appmagic.rocks"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-cfe585484fcf",
+      "name": "YouTube游戏频道",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.youtube.com/gaming",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-cfe585484fcf",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:04.593626+00:00",
+      "lastSuccessAt": null,
+      "reason": "无有效视频列表；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.youtube.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "无有效视频列表"
+      }
+    },
+    {
+      "id": "web-5cda8bfa4514",
+      "name": "YouTubeAPI入门说明",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://developers.google.com/youtube/v3/getting-started",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-5cda8bfa4514",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:04.770966+00:00",
+      "lastSuccessAt": null,
+      "reason": "文档可读，未调用API；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "developers.google.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "文档可读，未调用API"
+      }
+    },
+    {
+      "id": "web-f9d8afd0cc85",
+      "name": "Twitch游戏目录",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.twitch.tv/directory",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-f9d8afd0cc85",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:04.825946+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.twitch.tv"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "仅网页外壳"
+      }
+    },
+    {
+      "id": "web-b348c5fbf833",
+      "name": "TwitchAPI入门说明",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://dev.twitch.tv/docs/api/get-started/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-b348c5fbf833",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:05.095927+00:00",
+      "lastSuccessAt": null,
+      "reason": "文档可读，未调用API；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "dev.twitch.tv"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "文档可读，未调用API"
+      }
+    },
+    {
+      "id": "web-a05c544f932c",
+      "name": "原神 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://ys.mihoyo.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "原神",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-a05c544f932c",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.156596+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "ys.mihoyo.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-e603430dcafa",
+      "name": "原神 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://genshin.hoyoverse.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "原神",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-e603430dcafa",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.158158+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "genshin.hoyoverse.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-b7bbf9be578e",
+      "name": "崩坏：星穹铁道 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://sr.mihoyo.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "崩坏：星穹铁道",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-b7bbf9be578e",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.159132+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "sr.mihoyo.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-287eee83ebd4",
+      "name": "崩坏：星穹铁道 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://hsr.hoyoverse.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "崩坏：星穹铁道",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-287eee83ebd4",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.159927+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "hsr.hoyoverse.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-9a4c5b3e01ec",
+      "name": "绝区零 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://zzz.mihoyo.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "绝区零",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-9a4c5b3e01ec",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.338915+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "zzz.mihoyo.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-3a0d3f9e6521",
+      "name": "绝区零 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://zenless.hoyoverse.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "绝区零",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-3a0d3f9e6521",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.364049+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "zenless.hoyoverse.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-f73e1d51ac8f",
+      "name": "王者荣耀 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://pvp.qq.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "王者荣耀",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-f73e1d51ac8f",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.452495+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "pvp.qq.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-565e71c37c80",
+      "name": "和平精英 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://gp.qq.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "和平精英",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-565e71c37c80",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.469508+00:00",
+      "lastSuccessAt": null,
+      "reason": "专题正文可读但发布日期未知；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "gp.qq.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "专题正文可读但发布日期未知"
+      }
+    },
+    {
+      "id": "web-a3624f1b9395",
+      "name": "英雄联盟 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://lol.qq.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "英雄联盟",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-a3624f1b9395",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.554149+00:00",
+      "lastSuccessAt": null,
+      "reason": "客户端跳转占位；公告未验证；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "lol.qq.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "客户端跳转占位；公告未验证"
+      }
+    },
+    {
+      "id": "web-2bc017a1366a",
+      "name": "英雄联盟 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.leagueoflegends.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "英雄联盟",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-2bc017a1366a",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.575926+00:00",
+      "lastSuccessAt": null,
+      "reason": "公告入口与一篇带日期正文已验证；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.leagueoflegends.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "公告入口与一篇带日期正文已验证"
+      }
+    },
+    {
+      "id": "web-7f88f68aed3a",
+      "name": "明日方舟 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://ak.hypergryph.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "明日方舟",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-7f88f68aed3a",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.582908+00:00",
+      "lastSuccessAt": null,
+      "reason": "公告入口与一篇带日期正文已验证；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "ak.hypergryph.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "公告入口与一篇带日期正文已验证"
+      }
+    },
+    {
+      "id": "web-68a7c439895a",
+      "name": "明日方舟 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.arknights.global/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "明日方舟",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-68a7c439895a",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.623312+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.arknights.global"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-0cf94c0915fe",
+      "name": "鸣潮 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://mc.kurogames.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "鸣潮",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-0cf94c0915fe",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.728513+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "mc.kurogames.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-a228e47a21fc",
+      "name": "鸣潮 official",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://wutheringwaves.kurogames.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [
+        {
+          "game": "鸣潮",
+          "identity": "official_home_only",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-a228e47a21fc",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.805730+00:00",
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "wutheringwaves.kurogames.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "200网页外壳；未取得公告"
+      }
+    },
+    {
+      "id": "web-043172c553f7",
+      "name": "TapTap app 142793",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/142793",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "142793",
+          "game": "不休的乌拉拉（先行服；非全站榜）",
+          "identity": "not_a_chart",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-043172c553f7",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.914942+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 142793：不休的乌拉拉（先行服；非全站榜）；身份状态=not_a_chart；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "TLS网络失败；游戏身份未知"
+      }
+    },
+    {
+      "id": "web-03c411ca725b",
+      "name": "TapTap app 168332",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/168332",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "168332",
+          "game": "原神",
+          "identity": "verified",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-03c411ca725b",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:46.962111+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 168332：原神；身份状态=verified；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "TLS网络失败；游戏身份未知"
+      }
+    },
+    {
+      "id": "web-98b14590b77a",
+      "name": "TapTap app 328943",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/328943",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "328943",
+          "game": "崩坏：星穹铁道（旧映射未确认）",
+          "identity": "unknown",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-98b14590b77a",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:47.653069+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 328943：崩坏：星穹铁道（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "HTTP错误；游戏身份未知"
+      }
+    },
+    {
+      "id": "web-1abcef4522f1",
+      "name": "TapTap app 183019",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/183019",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "183019",
+          "game": "绝区零（旧映射未确认）",
+          "identity": "unknown",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-1abcef4522f1",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:47.711681+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 183019：绝区零（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "TLS网络失败；游戏身份未知"
+      }
+    },
+    {
+      "id": "web-c7ea8bcd9bac",
+      "name": "TapTap app 200112",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/200112",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "200112",
+          "game": "王者荣耀（旧映射未确认）",
+          "identity": "unknown",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-c7ea8bcd9bac",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:40:47.979456+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 200112：王者荣耀（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "TLS网络失败；游戏身份未知"
+      }
+    },
+    {
+      "id": "web-810fb6b0b631",
+      "name": "TapTap app 34599",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/34599",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "34599",
+          "game": "PATIENCE（不是明日方舟）",
+          "identity": "mismatch",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-810fb6b0b631",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:01.959366+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 34599：PATIENCE（不是明日方舟）；身份状态=mismatch；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "TapTap游戏映射错误，禁止沿用"
+      }
+    },
+    {
+      "id": "web-13ac4d0cf54f",
+      "name": "TapTap app 218205",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/218205",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [
+        {
+          "platformId": "218205",
+          "game": "鸣潮（旧映射未确认）",
+          "identity": "unknown",
+          "enabled": false
+        }
+      ],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-13ac4d0cf54f",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "disabled_mapping",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:41:02.018011+00:00",
+      "lastSuccessAt": null,
+      "reason": "TapTap 218205：鸣潮（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "TLS网络失败；游戏身份未知"
+      }
+    },
+    {
+      "id": "web-4916c1e7314a",
+      "name": "英雄联盟 official article sample",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-19-notes",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-4916c1e7314a",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:15.494377+00:00",
+      "lastSuccessAt": null,
+      "reason": "带日期公告正文已验证；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.leagueoflegends.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "带日期公告正文已验证"
+      }
+    },
+    {
+      "id": "web-e92d7af92468",
+      "name": "明日方舟 official article sample",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://ak.hypergryph.com/news/4922",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-e92d7af92468",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:42:16.924176+00:00",
+      "lastSuccessAt": null,
+      "reason": "带日期公告正文已验证；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "ak.hypergryph.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/official-games.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "带日期公告正文已验证"
+      }
+    },
+    {
+      "id": "web-3db69e1313a6",
+      "name": "Apple CN Top Free",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/10/apps.json",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-3db69e1313a6",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:52:05.965839+00:00",
+      "lastSuccessAt": null,
+      "reason": "有效全应用榜JSON；非游戏专榜/营收榜；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rss.marketingtools.apple.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/apple.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效全应用榜JSON；非游戏专榜/营收榜"
+      }
+    },
+    {
+      "id": "web-3a78734e1f55",
+      "name": "Apple CN Top Paid",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-paid/10/apps.json",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-3a78734e1f55",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:52:55.966422+00:00",
+      "lastSuccessAt": null,
+      "reason": "有效全应用榜JSON；非游戏专榜/营收榜；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "rss.marketingtools.apple.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/apple.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "有效全应用榜JSON；非游戏专榜/营收榜"
+      }
+    },
+    {
+      "id": "steam-announcements",
+      "name": "steam_public_news_api",
+      "purpose": "evidence",
+      "method": "web",
+      "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2?appid=570&count=1&maxlength=200",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "仅当期榜单候选，按需、有限量",
+      "seriesId": "steam",
+      "methodologyVersion": "steam-explicit-query-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "on_demand",
+      "status": "on_demand",
+      "adapter": "steam_announcements",
+      "checkedAt": "2026-09-22T18:52:18.834580+00:00",
+      "lastSuccessAt": null,
+      "reason": "仅由当期Steam候选按需调用；不使用登记样本appid作为固定监控列表",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "api.steampowered.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded-details.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "structure_verified"
+      }
+    },
+    {
+      "id": "web-c8a41ba7ea2b",
+      "name": "tuoluo_article",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.youxituoluo.com/534901.html",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-c8a41ba7ea2b",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:52:19.179209+00:00",
+      "lastSuccessAt": null,
+      "reason": "body_and_relative_publish_time_verified；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.youxituoluo.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded-details.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "body_and_relative_publish_time_verified"
+      }
+    },
+    {
+      "id": "web-1610627d1057",
+      "name": "tencent_pdf",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-1610627d1057",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:52:19.590802+00:00",
+      "lastSuccessAt": null,
+      "reason": "minimal_pdf_text_verified；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.tencent.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded-details.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "minimal_pdf_text_verified"
+      }
+    },
+    {
+      "id": "web-4e6383098783",
+      "name": "twitch_rate_documentation",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://dev.twitch.tv/docs/api/guide/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-4e6383098783",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:52:20.359362+00:00",
+      "lastSuccessAt": null,
+      "reason": "documentation_read；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "dev.twitch.tv"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded-details.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "documentation_read"
+      }
+    },
+    {
+      "id": "web-d2bf4adae798",
+      "name": "sensortower_connect",
+      "purpose": "discovery",
+      "method": "web",
+      "url": "https://sensortower.com/product/connect",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "web-d2bf4adae798",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:52:20.537416+00:00",
+      "lastSuccessAt": null,
+      "reason": "official_api_product_description_verified_technical_access_unconfirmed；本流水线未启用，未宣称生产接入",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "sensortower.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/expanded-details.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "official_api_product_description_verified_technical_access_unconfirmed"
+      }
+    },
+    {
+      "id": "controlled_search-7cc010491bd6",
+      "name": "机核",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://gcores.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-7cc010491bd6",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "gcores.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit_search_metadata_only"
+      }
+    },
+    {
+      "id": "controlled_search-2e496e4e99dd",
+      "name": "触乐",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://chuapp.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-2e496e4e99dd",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "chuapp.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit"
+      }
+    },
+    {
+      "id": "controlled_search-76e5c93267fc",
+      "name": "游民星空",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://gamersky.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-76e5c93267fc",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "gamersky.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit_search_metadata_only"
+      }
+    },
+    {
+      "id": "controlled_search-e0d87100b15d",
+      "name": "3DM",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://3dmgame.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-e0d87100b15d",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "3dmgame.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit_search_metadata_only"
+      }
+    },
+    {
+      "id": "controlled_search-8779f37ee012",
+      "name": "GameLook",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://gamelook.com.cn/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-8779f37ee012",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "gamelook.com.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit_search_metadata_only"
+      }
+    },
+    {
+      "id": "controlled_search-30972e764e23",
+      "name": "游戏葡萄",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://youxiputao.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-30972e764e23",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "youxiputao.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "tool_error"
+      }
+    },
+    {
+      "id": "controlled_search-7d808882f0d1",
+      "name": "IGN",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://ign.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-7d808882f0d1",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "ign.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit_search_metadata_only"
+      }
+    },
+    {
+      "id": "controlled_search-1e6df392e145",
+      "name": "GameSpot",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://gamespot.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-1e6df392e145",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "gamespot.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "off_target_subdomain_only"
+      }
+    },
+    {
+      "id": "controlled_search-b13cbc9b806e",
+      "name": "Polygon",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://polygon.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-b13cbc9b806e",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "polygon.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit_search_metadata_only"
+      }
+    },
+    {
+      "id": "controlled_search-df561ec27af9",
+      "name": "Gematsu",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://gematsu.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-df561ec27af9",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:16Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "gematsu.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit"
+      }
+    },
+    {
+      "id": "controlled_search-2adaf81b4e96",
+      "name": "TapTap",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://taptap.cn/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-2adaf81b4e96",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:54Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "taptap.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit"
+      }
+    },
+    {
+      "id": "controlled_search-9a77df120b8c",
+      "name": "NGA",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://bbs.nga.cn/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-9a77df120b8c",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:54Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "bbs.nga.cn"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit"
+      }
+    },
+    {
+      "id": "controlled_search-f84c99c470b4",
+      "name": "百度贴吧",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://tieba.baidu.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-f84c99c470b4",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:54Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "tieba.baidu.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "weak_hit_no_verifiable_recent_post"
+      }
+    },
+    {
+      "id": "controlled_search-013b72c6d22d",
+      "name": "米游社",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://miyoushe.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-013b72c6d22d",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:54Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "miyoushe.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit"
+      }
+    },
+    {
+      "id": "controlled_search-48bbd3bb2a87",
+      "name": "Reddit",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://reddit.com/r/Genshin_Impact/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-48bbd3bb2a87",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:54Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "reddit.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit"
+      }
+    },
+    {
+      "id": "controlled_search-48fb95bbce2b",
+      "name": "B站",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://bilibili.com/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-48fb95bbce2b",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:54Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "bilibili.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit"
+      }
+    },
+    {
+      "id": "controlled_search-b68fc09b976e",
+      "name": "王者营地",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://yingdi.qq.com/",
+      "regions": [
+        "CN"
+      ],
+      "languages": [
+        "zh"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-b68fc09b976e",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:54Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "yingdi.qq.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "homepage_only_no_relevant_recent_content"
+      }
+    },
+    {
+      "id": "controlled_search-77468a137086",
+      "name": "PRTS Wiki",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://prts.wiki/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-77468a137086",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:54Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "prts.wiki"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "game_relevant_hit"
+      }
+    },
+    {
+      "id": "controlled_search-43315e4b16de",
+      "name": "GameSpot",
+      "purpose": "discovery",
+      "method": "controlled_search",
+      "url": "https://www.gamespot.com/articles/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "controlled_search-43315e4b16de",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "not_authorized_not_configured",
+      "enabled": false,
+      "mode": "on_demand",
+      "status": "not_configured",
+      "adapter": null,
+      "checkedAt": "2026-09-22T18:48:54Z",
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "fallbacks": [],
+      "fallbackVerified": false,
+      "allowedHosts": [
+        "www.gamespot.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/search-checks.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "media_article_hit_search_metadata_only"
+      }
+    },
+    {
+      "id": "ign-canonical",
+      "name": "IGN",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.ign.com/rss/articles/feed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "ign",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "fallback_only",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:40:59.773439+00:00",
+      "lastSuccessAt": null,
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "fallbacks": [],
+      "fallbackVerified": true,
+      "allowedHosts": [
+        "feeds.ign.com",
+        "www.ign.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "validated_redirect_destination_same_feed"
+      }
+    },
+    {
+      "id": "polygon-canonical",
+      "name": "Polygon",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.polygon.com/feed/",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "polygon",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "fallback_only",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:40:59.776684+00:00",
+      "lastSuccessAt": null,
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "fallbacks": [],
+      "fallbackVerified": true,
+      "allowedHosts": [
+        "www.polygon.com",
+        "www.polygon.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "validated_redirect_destination_same_feed"
+      }
+    },
+    {
+      "id": "eurogamer-canonical",
+      "name": "Eurogamer",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.eurogamer.net/feed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "eurogamer",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "fallback_only",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:40:59.977855+00:00",
+      "lastSuccessAt": null,
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "fallbacks": [],
+      "fallbackVerified": true,
+      "allowedHosts": [
+        "eurogamer.net",
+        "www.eurogamer.net"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "validated_redirect_destination_same_feed"
+      }
+    },
+    {
+      "id": "vg247-canonical",
+      "name": "VG247",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.vg247.com/feed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "vg247",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "fallback_only",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:41:00.183413+00:00",
+      "lastSuccessAt": null,
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "fallbacks": [],
+      "fallbackVerified": true,
+      "allowedHosts": [
+        "vg247.com",
+        "www.vg247.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "validated_redirect_destination_same_feed"
+      }
+    },
+    {
+      "id": "gematsu-canonical",
+      "name": "Gematsu",
+      "purpose": "news",
+      "method": "rss",
+      "url": "https://www.gematsu.com/feed",
+      "regions": [
+        "global"
+      ],
+      "languages": [
+        "en"
+      ],
+      "gameMappings": [],
+      "metric": null,
+      "scope": "来源订阅条目，发布时间前24小时",
+      "seriesId": "gematsu",
+      "methodologyVersion": "rss-published-v1",
+      "authentication": "none_public_only",
+      "license": "公开可读不等于取得批量采集或再分发许可；仅短元数据，持续使用待验收",
+      "cost": "no_paid_call",
+      "enabled": true,
+      "mode": "fallback_only",
+      "status": "enabled_local",
+      "adapter": "rss",
+      "checkedAt": "2026-09-22T18:41:00.580062+00:00",
+      "lastSuccessAt": null,
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "fallbacks": [],
+      "fallbackVerified": true,
+      "allowedHosts": [
+        "gematsu.com",
+        "www.gematsu.com"
+      ],
+      "httpsUpgradeHosts": [],
+      "validation": {
+        "file": "validation/feeds.json",
+        "environment": "one_off_local_or_tool_not_production",
+        "verdict": "validated_redirect_destination_same_feed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="GameGo 游戏行业情报：有依据的资讯、独立口径的榜单与玩家动向。">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self' https:; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+  <title>GameGo · Gaming Industry Intelligence</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <script type="module" src="./assets/app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <aside class="sidebar">
+    <a class="brand" href="#news" aria-label="GameGo 首页"><span class="brand-mark" aria-hidden="true">G<span>↗</span></span><span>GameGo<span class="brand-caption">GAMING INTELLIGENCE</span></span></a>
+    <p class="nav-label">工作台 / WORKSPACE</p>
+    <nav aria-label="主要导航">
+      <a href="#news" data-view="news" aria-current="page"><span aria-hidden="true">▤</span>今日情报</a>
+      <a href="#rankings" data-view="rankings"><span aria-hidden="true">▥</span>游戏榜单</a>
+      <a href="#movements" data-view="movements"><span aria-hidden="true">◎</span>玩家动向</a>
+      <a href="#skills" data-view="skills"><span aria-hidden="true">◇</span>Skills<span class="nav-small">精选</span></a>
+      <a href="#assistant" data-view="assistant"><span aria-hidden="true">✳</span>AI 助手<span class="nav-small">自带 API</span></a>
+    </nav>
+    <div class="sidebar-bottom"><span class="live-dot"></span>依据优先，保持审慎<p>中国手游 · 全球 PC / Steam<br>公开来源，不等于全市场覆盖</p><span class="local-label">LOCAL DEVELOPMENT</span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>Gaming Industry Intelligence</span><div><span class="timezone">北京时间 UTC+8</span><button id="open-coverage" class="text-button" type="button">数据覆盖 <span aria-hidden="true">↗</span></button></div></header>
+    <main id="main" tabindex="-1">
+      <section class="page-heading" aria-labelledby="page-title"><div><p class="eyebrow" id="page-eyebrow">DAILY BRIEFING</p><h1 id="page-title">今日情报<span class="heading-dot">.</span></h1><p id="page-description">从变化中发现机会，让每一个判断都有依据。</p></div><div class="archive-control" id="archive-control"><label for="archive-date">公开数据归档</label><select id="archive-date" disabled><option value="latest">最新可用数据</option></select><span>最多保留近 30 份日快照</span></div></section>
+      <div id="load-notice" class="notice" role="status">正在读取公开数据；尚未取得的数据不会以示例填充。</div>
+      <section class="overview" id="overview" aria-label="数据概览">
+        <div class="overview-primary"><span class="eyebrow">DATA PULSE</span><div><strong id="data-date">—</strong><span class="badge muted" id="data-state">等待数据</span></div><p id="data-detail">按来源说明采集方法与缺失原因</p></div>
+        <div class="stat"><span>有效资讯</span><strong id="news-count">—</strong><small>每日最多 30 条 · 不凑数</small></div>
+        <div class="stat"><span>玩家动向</span><strong id="movement-count">—</strong><small>手游 ≤ 4 · PC ≤ 2</small></div>
+        <div class="stat time-stat"><span>最近有效数据</span><strong id="last-success">暂无记录</strong><small id="last-attempt">本次尝试：暂无记录</small></div>
+      </section>
+      <section id="view-news" class="view" aria-label="今日情报">
+        <form id="filters" class="filter-panel" role="search">
+          <div class="filter-row"><label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">搜索资讯</span><input id="query" type="search" maxlength="200" placeholder="搜索标题、游戏或来源…" autocomplete="off"></label><label><span class="sr-only">市场</span><select id="market-filter"><option value="">全部市场</option></select></label><label><span class="sr-only">平台</span><select id="platform-filter"><option value="">全部平台</option></select></label><label><span class="sr-only">游戏</span><select id="game-filter"><option value="">全部游戏</option></select></label><button id="reset-filters" class="text-button" type="reset">重置筛选</button></div>
+          <fieldset class="category-filters"><legend>事件类别 · 可多选</legend><div id="category-filters"></div></fieldset>
+        </form>
+        <div class="content-layout"><section><div class="section-heading"><h2>情报速览 <span class="count-label" id="filtered-count">0 条</span></h2><span>事实摘要 / 独立标注 AI 启发</span></div><div id="news-list" class="card-list"></div></section><aside class="reading-aside"><div class="editorial-card"><span class="eyebrow">READ WITH CONTEXT</span><h3>关注变化，<br>不忽略边界。</h3><p>平台热度不是营收，少量讨论也不代表全体玩家。我们把事实、观点和 AI 推论分开呈现。</p><div class="mini-rule"><span>01</span>保留原文依据</div><div class="mini-rule"><span>02</span>缺失与陈旧可见</div><div class="mini-rule"><span>03</span>不同指标不混排</div></div><div class="coverage-preview"><div class="section-heading"><h3>来源运行概况</h3><button type="button" class="text-button" id="coverage-more">明细 ↗</button></div><div id="coverage-summary"></div><p class="muted-copy">“已尝试”不等于“已取得有效数据”。</p></div></aside></div>
+      </section>
+      <section id="view-rankings" class="view" aria-label="游戏榜单" hidden>
+        <div class="ranking-controls"><div class="segmented" role="group" aria-label="榜单平台"><button type="button" data-rank-platform="pc" aria-pressed="true">PC / Steam</button><button type="button" data-rank-platform="mobile" aria-pressed="false">中国手游</button></div><div class="metric-tabs" role="group" aria-label="榜单指标"><button type="button" data-rank-metric="popularity" aria-pressed="true">人气趋势</button><button type="button" data-rank-metric="reputation" aria-pressed="false">口碑表现</button><button type="button" data-rank-metric="commercial" aria-pressed="false">营收 / 销量</button></div></div>
+        <p class="method-note" id="ranking-method"></p><div id="ranking-list" class="card-list"></div>
+      </section>
+      <section id="view-movements" class="view" aria-label="玩家动向" hidden><div class="section-heading"><h2>从榜单变化，到玩家反馈</h2><span>动态选题 · 非固定游戏名单</span></div><p class="method-note">每日最多 6 款，不跨平台补足配额。优先最近 7 天证据；较早信息仅作背景，少量样本不代表整体玩家态度。</p><div id="movement-list" class="movement-grid"></div></section>
+      <section id="view-skills" class="view" aria-label="Skills 精选导航" hidden><div class="skills-intro"><div><span class="eyebrow">A CURATED TOOLBOX</span><h2>把方法，带入工作流。</h2><p>为研究、运营与营销精选的公开 Skills。按相关性排序，不拼造跨平台热度分。</p></div><span class="outline-label">仅导航 · 不自动安装</span></div><p class="method-note">外链仅打开原文，不代表可在任何 Agent 一键使用。第三方 Skill 的依赖、权限与数据处理方式须由使用者检查。本站 AI 能力与此目录独立。</p><div id="skills-list"></div></section>
+      <section id="view-assistant" class="view" aria-label="AI 助手" hidden>
+        <div class="assistant-layout"><aside class="capabilities"><span class="eyebrow">YOUR RESEARCH PARTNER</span><h2>更少信息噪声，<br>更清晰的依据。</h2><div><span class="capability-number">01</span><h3>game-daily</h3><p>按游戏、平台与运营主题整理近期资讯，明确来源与资料缺口。</p></div><div><span class="capability-number">02</span><h3>game-monitor</h3><p>单游戏调查或双游戏对比，区分玩家观点、运营事实与分析推论。</p></div><p class="privacy-note">仅当前会话：刷新、关闭或清空后不可恢复。不上传或安装任意 Skill，不自动执行外部操作。</p></aside>
+          <div class="assistant-panel">
+          <section id="api-panel" class="api-panel" aria-labelledby="api-title">
+            <div class="api-heading"><div><p class="eyebrow">BRING YOUR OWN KEY</p><h2 id="api-title">配置 API · 阿里云百炼</h2></div><span class="badge muted" id="api-state">未配置</span></div>
+            <p class="api-intro">配置你自己的百炼 API Key 后即可使用，模型费用由你的百炼账户承担。无需网站账号，预设与草稿始终开放。</p>
+            <form id="api-form" autocomplete="off">
+              <label class="api-key-label" for="api-key">普通 API Key<input id="api-key" type="password" autocomplete="off" spellcheck="false" autocapitalize="off" maxlength="256" placeholder="仅在这里粘贴普通 sk- Key" aria-describedby="key-note"></label>
+              <p id="key-note" class="api-hint">格式检查不代表 Key 有效；Coding Plan 专用 Key 不适用。模型权限须由百炼实际验证。</p>
+              <div class="api-selects"><label for="api-region">地域<select id="api-region" disabled><option value="">等待站主验收列表</option></select></label><label for="api-model">模型<select id="api-model" disabled><option value="">暂无可用模型</option></select></label></div>
+              <p id="model-detail" class="api-hint">只开放后端声明且验证元数据完整的组合；本地代码不代表已完成真实联调。</p>
+              <label class="remember-choice" for="remember-key"><input id="remember-key" type="checkbox" aria-describedby="storage-risk">记住在此浏览器（可选，默认关闭）</label>
+              <p id="storage-risk" class="storage-risk">本地存储不是加密保险箱。同源脚本、XSS、有权限的扩展或可访问浏览器的人可能读取 Key。特别是同一 GitHub Pages 域名下其他路径的项目也可同源读取，路径和存储键名前缀不能隔离。共享设备不推荐记住。Key 会经过本站后端和百炼，不落本站后端持久存储；聊天仅当前页面，不随配置保存。</p>
+              <div class="api-actions"><button id="save-api" type="submit" class="primary-button">保存配置</button><button id="clear-api" type="button" class="text-button">清除 API 配置</button><a href="#api-guide" class="text-button" id="open-guide">购买与接入指南 ↓</a></div>
+            </form>
+            <p id="storage-status" class="storage-status" role="status">未选择记住时，仅在本页内存使用。</p>
+            <div class="connection-test"><button id="test-api" type="button" class="secondary-button" disabled>测试连接</button><p>会调用一次受限模型请求，可能产生少量费用，点击后需主动确认。不搜索、不生成报告；测试通过不代表取证能力已验收。</p></div>
+            <p id="api-status" class="api-status" role="status">正在检查固定后端与模型列表。</p>
+            <p id="test-usage" class="usage-note" role="status">连接测试用量与费用：未知（尚未测试）</p>
+          </section>
+          <details id="api-guide" class="api-guide"><summary>百炼购买与接入指南 <span>公开可读 · 更新于 2026-09-24</span></summary>
+            <ol>
+              <li><strong>开通普通模型 API。</strong>使用阿里云账号按控制台提示完成服务开通、实名等要求。购买的是普通模型 API 调用能力，不是聊天会员；<a href="https://help.aliyun.com/zh/model-studio/coding-plan" target="_blank" rel="noopener noreferrer">Coding Plan 编程订阅</a>及其专用 Key 不能用于本网站。</li>
+              <li><strong>先查价格与额度。</strong>阅读<a href="https://help.aliyun.com/zh/model-studio/model-pricing" target="_blank" rel="noopener noreferrer">官方模型计费说明</a>：输入与输出 Token 分别计费，价格随模型、地域而异。按实际需要充值或购买适用额度，不保证免费或固定单次费用；平台支持时设置余额／用量提醒。网站不代充值、不补贴，也不另设助手月度金额上限。多个 Key 不代表独立余额或配额。</li>
+              <li><strong>创建专用普通 Key。</strong>参照<a href="https://help.aliyun.com/zh/model-studio/get-api-key" target="_blank" rel="noopener noreferrer">官方获取指南</a>，在<a href="https://bailian.console.aliyun.com/cn-beijing/model/settings/api-key" target="_blank" rel="noopener noreferrer">API Key 控制台</a>切换正确地域，选择所属账号／业务空间及模型权限。建议专用 Key 和最小所需权限，不建议全部权限。复制普通 API Key，勿发送到聊天、邮件、截图或公开仓库。</li>
+              <li><strong>回到配置面板。</strong>选择 Key 对应地域和站主已验收模型，粘贴到遮蔽输入框，自主选择是否记住，再保存。Key 是凭据，模型是请求选择，不是上传 AI 助手。接口地址由本站维护，不能自填。保存与恢复都不调用模型。</li>
+              <li><strong>主动测试，再开始研究。</strong>点击“测试连接”并确认费用。成功仅代表当时可调用所选模型；选 game-daily 提问“整理近期游戏发行动态”，或选 game-monitor 填写一至两款游戏，再点击“开始分析”，逐条查看来源。测试、提问、追问和重试都可能收费，停止只尽力取消，已受理调用仍可能计费。</li>
+              <li><strong>按原因排错。</strong>错 Key／已撤销：核对普通 Key；余额／额度不足：查百炼账户；无权限／地域不匹配：核对业务空间、地域、模型权限；限流：稍后手动重试；网络／中转失败：检查网络与服务状态，不关闭浏览器安全设置。错误原因未知时本站不会猜测或显示原始调试详情。</li>
+              <li><strong>清除与撤销不同。</strong>清聊天保留配置；清除 API 会停止本页任务并清除本页 Key、对话及本地保存项。泄露时到百炼控制台删除旧 Key，立即失效且不可恢复；必要时先创建替代 Key 再撤销旧 Key。只清本机不等于撤销平台凭据。</li>
+              <li><strong>了解数据边界。</strong>Key 经过本站轻量后端与百炼，仅用于本次模型鉴权，不交给公开取证来源，不落本站后端持久存储。模型与搜索服务会接收所需内容，其保留政策独立于本站。记住不是保险箱，同一 GitHub Pages 域名下其他路径项目同源可读，前缀不能隔离；共享设备不建议保存。刷新、关闭和离开页面清空对话，无跨设备历史。仅支持站主验收列表；当前中国手游稳定榜单、完整近期评论及部分搜索来源仍有缺口，没有来源就如实披露，不把模型知识当最新舆情。</li>
+            </ol>
+          </details>
+          <section id="chat-area"><div class="chat-log" id="chat-log" role="log" aria-label="当前对话" aria-live="off"></div><p class="stream-status" id="stream-status" role="status">选择能力并输入问题，所有分析都应回到来源核验。</p><div class="chat-toolbar"><button id="stop" class="secondary-button" type="button" disabled>停止</button><button id="retry" class="text-button" type="button" disabled>重试上一问题</button><button id="download" class="text-button" type="button" disabled>下载 Markdown</button><button id="clear-chat" class="text-button" type="button">清空会话</button></div></section>
+          <form id="agent-form" class="agent-form"><fieldset id="agent-fields"><legend class="sr-only">向 AI 助手提问</legend><div class="preset-questions" role="group" aria-label="预设研究问题"><span>从一个问题开始</span><button type="button" class="secondary-button" data-preset="daily">近期发行动态</button><button type="button" class="secondary-button" data-preset="marketing">运营与营销案例</button><button type="button" class="secondary-button" data-preset="compare">两款游戏对比</button></div><div class="agent-inputs"><label for="agent-skill">分析能力<select id="agent-skill"><option value="game-daily">game-daily · 行业资讯</option><option value="game-monitor">game-monitor · 游戏调查</option></select></label><label id="games-label" for="agent-games" hidden>游戏名称（可选，最多两款）<input id="agent-games" maxlength="200" placeholder="用逗号分隔，后端核验游戏实体" autocomplete="off"></label></div><label class="sr-only" for="agent-message">研究问题</label><textarea id="agent-message" rows="4" maxlength="2000" placeholder="例如：整理最近一周的游戏发行动态，注明来源和不确定性。不要输入机密或密钥。" required></textarea><div class="composer-bottom"><span>上限 2,000 字 · 最近 8 条上下文，每条最多 1,000 字</span><button type="submit" class="primary-button" id="send" disabled>开始分析 <span aria-hidden="true">↗</span></button></div></fieldset></form>
+          <p class="privacy-note">隐私提示：模型与搜索服务会接收完成请求所需内容，其数据保留政策独立于本站。请勿输入密钥、公司机密或未获授权的玩家个人数据。停止仅尽力取消，已受理的调用仍可能计费。</p></div></div>
+      </section>
+      <footer><span>GameGo <span class="footer-separator">/</span> Gaming Industry Intelligence</span><span>公开情报，审慎解读。<span class="footer-separator">·</span> 本地开发，未发布</span></footer>
+    </main>
+  </div>
+  <dialog id="coverage-dialog" aria-labelledby="coverage-title"><div class="drawer-header"><div><p class="eyebrow">SOURCE TRANSPARENCY</p><h2 id="coverage-title">数据覆盖与采集边界</h2></div><button type="button" id="close-coverage" class="icon-button" aria-label="关闭覆盖明细">×</button></div><p class="method-note">逐项区分方法、尝试和最近成功。HTTP 200、首页可见或搜索命中不等于有效数据；受阻渠道不会绕过访问限制。</p><div id="coverage-list"></div></dialog>
+  <noscript><p class="noscript">需要启用 JavaScript 才能读取公开数据及使用筛选。AI 助手需站点后端及你自己的普通百炼 API Key，模型费用由你的百炼账户承担。</p></noscript>
+</body>
+</html>

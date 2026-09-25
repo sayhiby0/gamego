@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
+  "name": "gamego-api",
+  "main": "backend/src/worker.mjs",
+  "account_id": "a0b1e5e3ed818a8bfcb5e7de0a010c5a",
+  "compatibility_date": "2026-09-24",
+  "compatibility_flags": ["enable_request_signal"],
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "SITE_ORIGIN": "https://sayhiby0.github.io",
+    "PUBLIC_DATA_URL": "https://sayhiby0.github.io/gamego/data/latest.json",
+    "CONTENT_ENABLED": "true",
+    "CONTENT_MODEL": "qwen-flash-2025-07-28",
+    "CONTENT_BASE_URL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "CONTENT_PROVIDER": "bailian",
+    "CONTENT_PROTOCOL": "openai",
+    "CONTENT_KEY_TYPE": "standard",
+    "CONTENT_PRICE_MODEL": "qwen-flash-2025-07-28",
+    "CONTENT_PRICE_VERSION": "bailian-cn-flash-20260925-under128k",
+    "CONTENT_INPUT_MICROS_PER_MILLION": "150000",
+    "CONTENT_OUTPUT_MICROS_PER_MILLION": "1500000",
+    "CONTENT_MAX_OUTPUT_TOKENS": "1200",
+    "CONTENT_ENABLE_SEARCH": "false",
+    "CONTENT_ENABLE_THINKING": "false",
+    "AGENT_ENABLED": "false",
+    "AGENT_MODELS_JSON": "[]"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "gamego-db",
+      "database_id": "3d35e6dc-27ed-4df0-a8e7-6c9f0e6ac8ed",
+      "migrations_dir": "backend/migrations"
+    }
+  ],
+  "triggers": {
+    "crons": ["17 * * * *"]
+  },
+  "observability": {
+    "enabled": false
+  }
+}

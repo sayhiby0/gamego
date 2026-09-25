@@ -1,0 +1,17 @@
+{
+  "name": "gamego",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GameGo 游戏行业情报工作台与受限研究助手",
+  "scripts": {
+    "start": "python -m http.server 8000 --bind 127.0.0.1 --directory site",
+    "dev": "node --env-file-if-exists=.dev.vars scripts/dev.mjs",
+    "collect": "python scripts/pipeline.py",
+    "check": "node scripts/check-public.mjs",
+    "test": "node --test tests/js/*.test.mjs && python -m unittest discover -s tests/python -v"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

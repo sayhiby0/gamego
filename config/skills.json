@@ -1,0 +1,32 @@
+[
+  {
+    "id": "coreyhaines31-competitor-alternatives",
+    "name": "competitor-alternatives",
+    "category": "资讯与竞品研究",
+    "description": "围绕竞品对比与替代方案组织研究材料，编写定位清晰的比较页面。原文面向通用产品营销，不是游戏行业数据源。",
+    "scenarios": "可辅助游戏发行定位、竞品差异梳理与落地页研究；游戏事实与市场结论仍须另行取证。",
+    "author": "coreyhaines31 / marketingskills",
+    "tools": "兼容 Agent / 工具元数据暂不可用，请以原文说明为准。",
+    "prerequisites": "需提供产品背景和可核验的竞品依据；使用前自行检查 Skill 依赖、许可及权限。本站只打开原文，不安装或执行。",
+    "url": "https://skills.sh/coreyhaines31/marketingskills/competitor-alternatives",
+    "checkedAt": "2026-09-22T19:59:54Z",
+    "status": "verified",
+    "curatedOrder": 1,
+    "popularity": null
+  },
+  {
+    "id": "coreyhaines31-copywriting",
+    "name": "copywriting",
+    "category": "运营与营销内容",
+    "description": "为首页、落地页、定价页等转化场景组织营销文案。可作为游戏推广文案的写作方法参考，不保证营销效果。",
+    "scenarios": "游戏发行落地页、版本介绍与活动页面初稿；上线前需核实游戏特性、价格、授权与宣传合规性。",
+    "author": "coreyhaines31 / marketingskills",
+    "tools": "兼容 Agent / 工具元数据暂不可用，请以原文说明为准。",
+    "prerequisites": "需准备真实产品卖点、受众和目标动作；使用前自行检查 Skill 依赖、许可及权限。不得把模型草稿当作已验证效果。",
+    "url": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
+    "checkedAt": "2026-09-22T19:59:54Z",
+    "status": "verified",
+    "curatedOrder": 2,
+    "popularity": null
+  }
+]

@@ -1,0 +1,40 @@
+# Local secrets and private runtime data
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+credentials*.json
+secrets*.json
+whitelist*.json
+private/
+.local/
+*.sqlite
+*.sqlite3
+*.db
+
+# Dependencies and build output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+coverage/
+dist/
+.wrangler/
+*.log
+
+# Local feasibility evidence: preserve on disk, exclude from Git by default
+/validation/*.json
+/validation/*.csv
+/validation/*.pdf
+
+# Editor and OS state
+.qoder/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

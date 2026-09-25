@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "files": {"latest": "data/latest.json", "manifest": "data/manifest.json", "archive": "data/YYYY-MM-DD.json", "runtime": "config.json"},
+  "dashboard": {"schemaVersion": 1, "dataDate": "YYYY-MM-DD", "attemptedAt": "ISO8601", "lastSuccessAt": null, "status": "unavailable", "notice": "", "news": [], "rankings": [], "movements": [], "skills": [], "coverage": []},
+  "newsItem": {"id": "stable-id", "title": "原文标题或已验证中文标题", "originalTitle": "", "publishedAt": "ISO8601", "platforms": [], "markets": [], "games": [], "categories": [], "summary": null, "insight": null, "processing": {"status": "unavailable", "reason": "未配置公共内容模型"}, "sources": [{"id": "source-id", "name": "来源", "url": "https://example.com/article"}]},
+  "ranking": {"id": "steam-popularity", "title": "榜单", "platform": "pc", "source": {"id": "steam", "name": "Steam", "url": "https://store.steampowered.com/charts/mostplayed"}, "metric": "popularity", "definition": "", "scope": "", "unit": "人", "period": "采集时刻", "methodologyVersion": "v1", "observedAt": null, "status": "unavailable", "reason": "", "items": []},
+  "rankingItem": {"gameId": "steam:570", "name": "Dota 2", "rank": 1, "value": 0, "reviewCount": null, "url": "https://store.steampowered.com/app/570/", "previousRank": null, "rankChange": null, "baselineAt": null},
+  "movement": {"id": "", "gameId": "", "name": "", "platform": "pc", "reason": "当期榜单位置入选", "observedAt": null, "positive": [], "negative": [], "events": [], "insight": null, "status": "insufficient", "limitations": [], "sources": []},
+  "evidence": {"text": "", "sourceUrl": "https://example.com"},
+  "skill": {"id": "", "name": "", "category": "资讯与竞品研究", "description": "", "scenarios": "", "author": "", "tools": "", "prerequisites": "", "url": "https://example.com", "checkedAt": null, "status": "unchecked", "curatedOrder": 0, "popularity": null},
+  "coverage": {"id": "", "name": "", "method": "rss", "url": "https://example.com", "status": "not_configured", "attemptedAt": null, "lastSuccessAt": null, "reason": "", "count": 0},
+  "manifest": {"schemaVersion": 1, "latestDate": null, "dates": [], "attemptedAt": null, "lastSuccessAt": null, "status": "unavailable"},
+  "api": {
+    "GET /api/models": {"response": {"models": [{"region": "cn-beijing", "model": "qwen-plus", "label": "仅为结构示例，不代表已验收", "verifiedAt": "ISO8601", "inputPrice": null, "outputPrice": null}]}},
+    "POST /api/test": {"authorization": "Bearer visitor Key", "request": {"region": "selected region", "model": "verified model"}, "response": {"ok": true, "region": "selected region", "model": "verified model", "usage": {"input": null, "output": null, "cost": null}}},
+    "POST /api/agent": {"authorization": "Bearer visitor Key", "request": {"region": "selected region", "model": "verified model", "skill": "game-daily or game-monitor", "message": "user question", "games": [], "history": []}, "sseEvents": ["status: {message}", "delta: {text}", "sources: {sources:[{name,url}]}", "usage: {input,output,cost}", "error: {error,message}", "done: {ok,cancelled}"]},
+    "POST /internal/content": {"authorization": "Bearer separate service credential", "X-Content-API-Key": "collector-provided ordinary API Key"}
+  },
+  "notes": ["Contract examples describe shapes, not production facts; never copy example counts into site/data.", "Only explicit test or task submission sends the visitor Key; never include it in body, history, URLs, logs or stored reports.", "Model listing prices are RMB per million tokens; usage.cost is integer micro-RMB or null when unknown, not a final bill.", "Public data never contains credentials, private prompts, usage ledger, raw player profiles or allowlist."]
+}
