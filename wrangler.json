@@ -23,8 +23,8 @@
     "CONTENT_MAX_OUTPUT_TOKENS": "1200",
     "CONTENT_ENABLE_SEARCH": "false",
     "CONTENT_ENABLE_THINKING": "false",
-    "AGENT_ENABLED": "false",
-    "AGENT_MODELS_JSON": "[]"
+    "AGENT_ENABLED": "true",
+    "AGENT_MODELS_JSON": "[{\"region\":\"cn-beijing\",\"model\":\"qwen-flash-2025-07-28\",\"label\":\"Qwen Flash 北京\",\"verifiedAt\":\"2026-09-25T07:56:19.426Z\",\"inputMicrosPerMillion\":150000,\"outputMicrosPerMillion\":1500000,\"priceVersion\":\"bailian-cn-flash-20260925-under128k\"}]"
   },
   "d1_databases": [
     {
