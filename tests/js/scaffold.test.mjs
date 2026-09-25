@@ -87,6 +87,10 @@ test('真实验收缺少配置时在网络请求前失败且只报告固定错�
     [{ ACCEPTANCE_API_KEY: `sk-${'x'.repeat(20)}\n` }, 'api-key', 'key_invalid', 'surrounding_whitespace'],
     [{ ACCEPTANCE_API_KEY: 'not-a-provider-prefix' }, 'api-key', 'key_invalid', 'unsupported_prefix'],
     [{ ACCEPTANCE_API_KEY: `"sk-${'x'.repeat(20)}"` }, 'api-key', 'key_invalid', 'quoted_value'],
+    [{ ACCEPTANCE_API_KEY: 'sk-masked-value********' }, 'api-key', 'key_invalid', 'masked_value'],
+    [{ ACCEPTANCE_API_KEY: `sk-${'x'.repeat(20)}.suffix` }, 'api-key', 'key_invalid', 'standard_bearer_characters'],
+    [{ ACCEPTANCE_API_KEY: `sk-${'x'.repeat(20)}:suffix` }, 'api-key', 'key_invalid', 'invalid_bearer_characters'],
+    [{ ACCEPTANCE_API_KEY: `sk-${'x'.repeat(20)}中` }, 'api-key', 'key_invalid', 'non_ascii_or_control'],
     [{ ACCEPTANCE_API_KEY: `sk-${'x'.repeat(20)}` }, 'service-token', 'check_failed', undefined],
   ]) {
     const result = spawnSync(process.execPath, [join(root, 'scripts/verify-live.mjs'), 'content'], { env, encoding: 'utf8', timeout: 5000 });

@@ -12,7 +12,9 @@ function keyProblem(value) {
   if (/^["']|["']$/.test(value)) return 'quoted_value';
   if (/^sk-sp-/i.test(value)) return 'coding_plan';
   if (!value.startsWith('sk-')) return 'unsupported_prefix';
-  if (/[^A-Za-z0-9_-]/.test(value)) return 'unsupported_characters';
+  if (/[*\u2022\u2026]/.test(value)) return 'masked_value';
+  if (/[^\x21-\x7e]/.test(value)) return 'non_ascii_or_control';
+  if (/[^A-Za-z0-9_-]/.test(value)) return /^[A-Za-z0-9._~+/-]+={0,2}$/.test(value) ? 'standard_bearer_characters' : 'invalid_bearer_characters';
   return 'invalid_length';
 }
 function requireCheck(condition) {
