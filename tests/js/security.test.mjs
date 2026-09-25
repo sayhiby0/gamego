@@ -128,7 +128,7 @@ test('public host list is frozen; the fourth argument may narrow but never expan
 test('public JSON fetch uses no credentials and no redirects, and cannot follow redirect responses', async () => {
   let calls = 0;
   await assert.rejects(publicJson(PUBLIC_URL, undefined, async (url, options) => {
-    calls++; assert.equal(url, PUBLIC_URL); assert.equal(options.redirect, 'error');
+    calls++; assert.equal(url, PUBLIC_URL); assert.equal(options.redirect, 'manual');
     assert.equal(options.credentials, 'omit'); assert.ok(options.signal instanceof AbortSignal);
     assert.equal(options.headers.Authorization, undefined);
     return new Response(null, {status:302, headers:{Location:'https://169.254.169.254/'}});

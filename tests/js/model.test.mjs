@@ -182,7 +182,7 @@ test('real SQL: exact remaining content budget reserves BEFORE fetch and settles
   let calls = 0;
   const result = await invokeModel(config, { db, owner: 'test', messages, fetcher: async (url, options) => {
     calls++; assert.equal(db.sqlite.prepare('SELECT SUM(charged_micros) AS n FROM usage').get().n, 20_000_000);
-    assert.equal(options.redirect, 'error'); assert.equal(options.credentials, 'omit'); assert.equal(options.headers.Authorization, `Bearer ${CONTENT_KEY}`);
+    assert.equal(options.redirect, 'manual'); assert.equal(options.credentials, 'omit'); assert.equal(options.headers.Authorization, `Bearer ${CONTENT_KEY}`);
     assert.equal(url, config.url); assert.equal(options.body.includes(CONTENT_KEY), false); return reply();
   } });
   assert.equal(calls, 1); assert.deepEqual(result.usage, { input: 50, output: 20, cost: 260 });
@@ -221,7 +221,7 @@ test('parallel BYOK requests isolate keys, hashes, bodies and usage without need
     const config = { ...agentConfig(prices, key), maxOutput: 32 };
     return invokeModel(config, { db: noDb, messages, fetcher: async (url, options) => {
       assert.equal(url, config.url); assert.equal(options.headers.Authorization, `Bearer ${key}`);
-      assert.equal(options.redirect, 'error'); assert.equal(options.credentials, 'omit');
+      assert.equal(options.redirect, 'manual'); assert.equal(options.credentials, 'omit');
       assert.equal(options.body.includes(AGENT_KEY), false); assert.equal(options.body.includes(OTHER_KEY), false);
       assert.equal(JSON.parse(options.body).max_tokens, 32); return reply();
     } });
@@ -368,6 +368,32 @@ test('upstream errors have stable sanitized codes, no retries, and balance never
   }
   await assert.rejects(invokeModel(agentConfig(), { db: noDb, messages, fetcher: async () => { throw new Error(`private ${AGENT_KEY}`); } }), failsWith('provider'));
   await assert.rejects(invokeModel(agentConfig(), { db: noDb, messages, fetcher: async () => new Response(body('Arrearage'), { status: 400 }) }), failsWith('provider'));
+});
+
+test('manual redirects never read the body or forward the credential to another URL', async () => {
+  for (const status of [301, 302, 303, 307, 308]) {
+    let calls = 0; let cancelled = false;
+    await assert.rejects(invokeModel(agentConfig(), { db: noDb, messages, fetcher: async (_url, init) => {
+      calls++; assert.equal(init.redirect, 'manual');
+      return new Response(new ReadableStream({ cancel() { cancelled = true; } }), { status, headers: { Location: 'https://elsewhere.example.test/' } });
+    } }), failsWith('provider'));
+    assert.equal(calls, 1); assert.equal(cancelled, true);
+  }
+});
+
+test('provider diagnostics expose only fixed stages, HTTP status and recognized codes', async () => {
+  for (const [code, expected] of [['InvalidParameter', 'InvalidParameter'], [`private-${AGENT_KEY}`, 'unrecognized']]) {
+    await assert.rejects(invokeModel(agentConfig(), { db: noDb, messages, fetcher: async () => Response.json({ error: { code, message: AGENT_KEY } }, { status: 400 }) }), error => {
+      assert.deepEqual(error.diagnostic, { stage: 'provider-response', status: 400, providerCode: expected });
+      assert.ok(!JSON.stringify(error).includes(AGENT_KEY));
+      return true;
+    });
+  }
+  await assert.rejects(invokeModel(agentConfig(), { db: noDb, messages, fetcher: async () => { throw new Error(AGENT_KEY); } }), error => {
+    assert.deepEqual(error.diagnostic, { stage: 'provider-request' });
+    assert.ok(!JSON.stringify(error).includes(AGENT_KEY));
+    return true;
+  });
 });
 
 test('error-body reads are bounded and cancelled; redirects, oversized and non-JSON outputs fail closed', async () => {

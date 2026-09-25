@@ -211,7 +211,7 @@ export async function fetchJsonBounded(url, init = {}, fetcher = globalThis.fetc
   return withDeadline(init.signal, timeoutMs, async signal => {
     let response;
     try {
-      const pending = Promise.resolve().then(() => fetcher(url, {...init, redirect:'error', credentials:'omit', signal}));
+      const pending = Promise.resolve().then(() => fetcher(url, {...init, redirect:'manual', credentials:'omit', signal}));
       pending.then(value => { if (signal.aborted) void value.body?.cancel().catch(() => {}); }, () => {});
       response = await abortable(pending, signal);
       if (!response.ok || response.redirected || (response.url && new URL(response.url).href !== new URL(url).href)) throw new HttpError(502, '上游响应不可用');

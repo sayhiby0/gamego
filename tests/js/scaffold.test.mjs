@@ -80,6 +80,30 @@ test('真实验收只允许主仓库主分支显式手动授权且不保存密�
   assert.match(script, /redirect: 'error'/);
 });
 
+test('真实验收仅报告白名单诊断，不反射未知上游字段', () => {
+  const key = `sk-${'x'.repeat(20)}`;
+  for (const [diagnostic, expected] of [
+    [{ stage: 'provider-response', status: 400, providerCode: 'InvalidParameter', message: key }, { stage: 'provider-response', status: 400, providerCode: 'InvalidParameter' }],
+    [{ stage: 'provider-request', status: key, providerCode: key }, { stage: 'provider-request' }],
+    [{ stage: key, status: 400 }, undefined],
+  ]) {
+    const body = { items: [{ processing: { status: 'unavailable', reason: '模型服务失败，已受理调用仍可能收费', diagnostic } }] };
+    const script = `
+      const fs = (await import('node:fs')).default;
+      const original = fs.readFileSync;
+      fs.readFileSync = (path, ...args) => String(path).endsWith('/site/data/latest.json')
+        ? JSON.stringify({news:[{id:'synthetic',originalTitle:'测试',publishedAt:new Date().toISOString(),sources:[{name:'unit',url:'https://example.test/source'}]}]}) : original(path, ...args);
+      (await import('node:module')).syncBuiltinESMExports();
+      globalThis.fetch = async () => Response.json(${JSON.stringify(body)});
+      process.argv[2] = 'content'; await import(${JSON.stringify(new URL('../../scripts/verify-live.mjs', import.meta.url).href)});`;
+    const result = spawnSync(process.execPath, ['--input-type=module', '-e', script], {
+      env: { ACCEPTANCE_API_KEY: key, CONTENT_SERVICE_TOKEN: 'a'.repeat(32) }, encoding: 'utf8', timeout: 5000,
+    });
+    assert.equal(result.status, 1); assert.equal(result.stdout, '');
+    assert.deepEqual(JSON.parse(result.stderr), { ok: false, phase: 'content', stage: 'public-content', code: 'provider', ...(expected ? { diagnostic: expected } : {}) });
+  }
+});
+
 test('真实验收缺少配置时在网络请求前失败且只报告固定错误码', () => {
   for (const [env, stage, code, keyIssue] of [
     [{}, 'api-key', 'key_invalid', 'missing'],

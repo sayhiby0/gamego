@@ -281,23 +281,28 @@ async function providerError(response, signal) {
   const codes = { 401: 'key_invalid', 402: 'balance', 429: 'rate_limit', 408: 'timeout', 504: 'timeout' };
   if (codes[response.status]) {
     response.body?.cancel().catch(() => {});
-    return new ModelError(codes[response.status]);
+    const error = new ModelError(codes[response.status]);
+    error.diagnostic = { stage: 'provider-response', status: response.status, providerCode: 'not_read' };
+    return error;
   }
   // DashScope's fixed Arrearage code is evidence; prose, quota errors and
   // substring guesses are not. Never return the body or upstream message.
-  let balance = false;
+  let balance = false; let providerCode = 'unrecognized';
   try {
     if (response.headers.get('content-type')?.split(';', 1)[0].trim().toLowerCase() === 'application/json') {
       let text = '';
       await readBody(response, signal, 4096, chunk => { text += chunk; });
       const body = JSON.parse(text);
       const code = body?.error?.code ?? body?.code;
+      if (['Arrearage', 'InvalidApiKey', 'InvalidParameter', 'InvalidParameterValue', 'ModelNotExist', 'AccessDenied', 'DataInspectionFailed'].includes(code)) providerCode = code;
       balance = code === 'Arrearage' && (body?.code === undefined || body.code === code);
     } else response.body?.cancel().catch(() => {});
   } catch {
     if (signal.aborted) throw new ModelError('aborted');
   }
-  return new ModelError(balance ? 'balance' : response.status === 403 ? 'permission' : 'provider');
+  const error = new ModelError(balance ? 'balance' : response.status === 403 ? 'permission' : 'provider');
+  error.diagnostic = { stage: 'provider-response', status: response.status, providerCode };
+  return error;
 }
 
 // Only public content reserves/settles the shared ledger. BYOK never touches db.
@@ -317,21 +322,23 @@ export async function invokeModel(config, { db, owner, messages, signal, fetcher
   const controller = new AbortController();
   const combined = AbortSignal.any([signal ?? new AbortController().signal, controller.signal]);
   const timer = setTimeout(() => controller.abort(), 60_000);
-  let actualMicros; let completed = false;
+  let actualMicros; let completed = false; let stage = 'provider-request';
   try {
     combined.throwIfAborted();
     const pending = Promise.resolve().then(() => {
       if (combined.aborted) throw new ModelError('aborted');
       return fetcher(config.url, {
-        method: 'POST', redirect: 'error', credentials: 'omit', signal: combined,
+        method: 'POST', redirect: 'manual', credentials: 'omit', signal: combined,
         headers: { 'Content-Type': 'application/json', Accept: onText ? 'text/event-stream' : 'application/json', Authorization: `Bearer ${config.key}` }, body: bounds.body,
       });
     });
     // Also cancel a response arriving after a disconnect, before a reader exists.
     pending.then(response => { if (combined.aborted) response.body?.cancel().catch(() => {}); }, () => {});
     const response = await abortable(pending, combined);
-    if (response.redirected || (response.url && response.url !== config.url)) { response.body?.cancel().catch(() => {}); throw new ModelError('provider'); }
+    // Workers do not implement redirect:error; manual redirects must never be followed.
+    if ((response.status >= 300 && response.status < 400) || response.redirected || (response.url && response.url !== config.url)) { response.body?.cancel().catch(() => {}); throw new ModelError('provider'); }
     if (!response.ok) throw await providerError(response, combined);
+    stage = 'provider-body';
     let text = ''; let usage; let uncertain = false;
     if (onText) ({ usage, uncertain } = await readSSE(response, combined, config, chunk => { text += chunk; return onText(chunk); }));
     else {
@@ -345,6 +352,7 @@ export async function invokeModel(config, { db, owner, messages, signal, fetcher
       if (encoder.encode(text).byteLength > config.maxOutput * 16) throw new ModelError('output');
       usage = result.usage;
     }
+    stage = 'provider-usage';
     let reportUsage;
     if (content) {
       actualMicros = verifiedUsage(usage, bounds, config);
@@ -355,7 +363,9 @@ export async function invokeModel(config, { db, owner, messages, signal, fetcher
     return { text, requestId: id, usage: reportUsage };
   } catch (error) {
     if (combined.aborted) throw new ModelError(signal?.aborted ? 'aborted' : 'timeout');
-    throw error instanceof ModelError ? error : new ModelError('provider');
+    const failure = error instanceof ModelError ? error : new ModelError('provider');
+    failure.diagnostic ??= { stage };
+    throw failure;
   } finally {
     clearTimeout(timer); controller.abort();
     if (content) {

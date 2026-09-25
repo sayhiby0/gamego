@@ -59,8 +59,8 @@ function contentItems(body, secrets) {
     return { id, title, publishedAt: item.publishedAt, sources, evidence };
   });
 }
-function unavailable(item, reason) {
-  return { id: item.id, title: item.title, summary: null, insight: null, categories: [], platforms: [], markets: [], games: [], processing: { status: 'unavailable', reason } };
+function unavailable(item, reason, diagnostic) {
+  return { id: item.id, title: item.title, summary: null, insight: null, categories: [], platforms: [], markets: [], games: [], processing: { status: 'unavailable', reason, ...(diagnostic ? { diagnostic } : {}) } };
 }
 async function cachedContent(db, cacheId, validate, generate) {
   const readCached = async () => {
@@ -239,7 +239,7 @@ export async function contentService(request, env, ctx = {}) {
         const { citations, ...fields } = value;
         output.push({ id: item.id, ...fields, processing: { status: 'processed', reason: hit ? '已复用相同原文与模型价格配置的验证缓存' : '摘要与 AI 推论已通过结构和来源引用校验', cached: hit, citations: Object.fromEntries(Object.entries(citations).map(([key, ids]) => [key, ids.map(id => item.sources.find(s => s.id === id).url)])) } });
       } catch (error) {
-        output.push(unavailable(item, error instanceof ModelError ? error.message : '处理失败，未发布未经验证的模型内容'));
+        output.push(unavailable(item, error instanceof ModelError ? error.message : '处理失败，未发布未经验证的模型内容', error instanceof ModelError ? error.diagnostic : undefined));
       }
     }
     return responseJson({ items: output });

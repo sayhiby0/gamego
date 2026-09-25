@@ -254,6 +254,7 @@ class ContentTests(unittest.TestCase):
             item = self.item()
             row = valid_response(item)
             row['processing'] = {'status': 'unavailable', 'code': code,
+                                 'diagnostic': {'stage': 'provider-response', 'status': 400, 'providerCode': ENV['CONTENT_API_KEY']},
                                  'reason': 'upstream-trace ' + ENV['CONTENT_API_KEY'] + ENV['CONTENT_SERVICE_TOKEN']}
             with patch.dict('os.environ', ENV), patch('content_processing.service_post', return_value={'items': [row]}) as post:
                 process_news([item], [], post=post)

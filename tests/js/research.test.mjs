@@ -17,7 +17,7 @@ test('daily reads configured snapshot first, filters game alias and theme with r
   ] };
   const calls = [];
   const result = await research(task('game-daily', ['刀塔'], '运营活动'), { PUBLIC_DATA_URL: 'https://public.example.test/data/latest.json' }, { fetcher: async (url, options) => {
-    calls.push(url); assert.equal(options.redirect, 'error'); assert.equal(options.headers.Authorization, undefined);
+    calls.push(url); assert.equal(options.redirect, 'manual'); assert.equal(options.headers.Authorization, undefined);
     return Response.json(data);
   } });
   assert.deepEqual(calls, ['https://public.example.test/data/latest.json']);
@@ -102,7 +102,7 @@ test('SSRF and user URLs never become fetch tools; unsafe configured endpoints r
 
 test('snapshot redirects are not followed and evidence size remains bounded for comparisons', async () => {
   const result = await research(task('game-daily'), { PUBLIC_DATA_URL: 'https://public.example.test/latest' }, { fetcher: async (_url, options) => {
-    assert.equal(options.redirect, 'error'); return new Response('', { status: 302, headers: { location: 'https://127.0.0.1/' } });
+    assert.equal(options.redirect, 'manual'); return new Response('', { status: 302, headers: { location: 'https://127.0.0.1/' } });
   } });
   assert.equal(result.evidence.length, 0);
   const data = { ...base(), entities: [{ gameId: 'official:a', name: 'A', verified: true }, { gameId: 'official:b', name: 'B', verified: true }],

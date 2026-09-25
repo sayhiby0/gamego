@@ -5,6 +5,7 @@ import { readSSE } from '../site/assets/core.mjs';
 const read = path => JSON.parse(readFileSync(new URL(`../${path}`, import.meta.url), 'utf8'));
 const phase = process.argv[2];
 let stage = 'configuration';
+let diagnostic;
 const safeCodes = ['disabled', 'configuration', 'price', 'budget', 'key_invalid', 'key_type', 'permission', 'balance', 'rate_limit', 'input', 'provider', 'usage', 'output', 'aborted', 'timeout'];
 function keyProblem(value) {
   if (!value) return 'missing';
@@ -70,6 +71,12 @@ try {
     requireCheck(body.items?.length === 1);
     const result = body.items[0];
     if (result.processing?.status !== 'processed') {
+      const value = result.processing?.diagnostic;
+      if (value && ['provider-request', 'provider-response', 'provider-body', 'provider-usage'].includes(value.stage)) {
+        diagnostic = { stage: value.stage };
+        if (Number.isInteger(value.status) && value.status >= 100 && value.status <= 599) diagnostic.status = value.status;
+        if (['not_read', 'unrecognized', 'Arrearage', 'InvalidApiKey', 'InvalidParameter', 'InvalidParameterValue', 'ModelNotExist', 'AccessDenied', 'DataInspectionFailed'].includes(value.providerCode)) diagnostic.providerCode = value.providerCode;
+      }
       const code = safeCodes.find(code => new ModelError(code).message === result.processing?.reason);
       if (code) throw new ModelError(code);
     }
@@ -130,6 +137,6 @@ try {
 } catch (error) {
   const code = error instanceof ModelError && safeCodes.includes(error.code) ? error.code : 'check_failed';
   const detail = stage === 'api-key' ? { keyIssue: keyProblem(process.env.ACCEPTANCE_API_KEY) } : {};
-  console.error(JSON.stringify({ ok: false, phase: ['content', 'agent', 'stop'].includes(phase) ? phase : 'invalid', stage, code, ...detail }));
+  console.error(JSON.stringify({ ok: false, phase: ['content', 'agent', 'stop'].includes(phase) ? phase : 'invalid', stage, code, ...detail, ...(diagnostic ? { diagnostic } : {}) }));
   process.exitCode = 1;
 }

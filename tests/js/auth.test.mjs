@@ -47,7 +47,7 @@ function fixture(t) {
   const f = {sqlite, db, env, statements, calls, tasks};
   f.ctx = {waitUntil:promise => tasks.push(promise), fetcher:async (url, init) => {
     calls.push({url:String(url), init});
-    assert.equal(init.redirect, 'error'); assert.equal(init.credentials, 'omit');
+    assert.equal(init.redirect, 'manual'); assert.equal(init.credentials, 'omit');
     if (f.upstream) return f.upstream(String(url), init);
     assert.fail(`Unexpected mock fetch: ${new URL(url).origin}`);
   }};

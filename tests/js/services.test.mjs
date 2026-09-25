@@ -373,6 +373,19 @@ test('content refuses invented references, unsafe fields, secret echoes and miss
   assert.equal(DB.sqlite.prepare('SELECT count(*) AS n FROM content_cache').get().n, 0);
 });
 
+test('internal content failures report safe provider diagnostics without caching them', async t => {
+  const DB = database(t);
+  const response = await contentService(request({ items: [item] }), { DB, ...envConfig() }, {
+    fetcher: async () => Response.json({ error: { code: 'InvalidParameter', message: CONTENT_KEY } }, { status: 400 }),
+  });
+  const body = await response.json();
+  assert.deepEqual(body.items[0].processing.diagnostic, { stage: 'provider-response', status: 400, providerCode: 'InvalidParameter' });
+  assert.ok(!JSON.stringify(body).includes(CONTENT_KEY));
+  assert.equal(DB.sqlite.prepare('SELECT count(*) AS n FROM content_cache').get().n, 0);
+  const charge = DB.sqlite.prepare('SELECT status, charged_micros, upper_micros FROM usage').get();
+  assert.equal(charge.status, 'unknown'); assert.equal(charge.charged_micros, charge.upper_micros);
+});
+
 test('content enforces 30 items, dates, input size and source safety before calling provider', async t => {
   const DB = database(t);
   for (const items of [Array.from({ length: 31 }, (_, id) => ({ ...item, id: String(id) })), [item, item],
