@@ -1,240 +1,117 @@
 {
   "schemaVersion": 1,
-  "dataDate": "2026-10-10",
-  "attemptedAt": "2026-10-10T06:32:47.430097Z",
-  "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
+  "dataDate": "2026-10-11",
+  "attemptedAt": "2026-10-11T06:38:14.586125Z",
+  "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
   "status": "partial",
   "notice": "本次有限本地公开采集；未做生产持续验收。手游三维度缺失；AI未成功的条目只保留标题和来源。",
   "news": [
     {
-      "id": "054a7c02e2a64700907301b8",
-      "title": "Pokémon Go Zorua Community Day event guide",
-      "originalTitle": "Pokémon Go Zorua Community Day event guide",
-      "publishedAt": "2026-10-10T03:13:52Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
-      },
-      "sources": [
-        {
-          "id": "polygon",
-          "name": "Polygon",
-          "url": "https://www.polygon.com/pokemon-go-zorua-community-day-event-shiny-zoroark-moveset/"
-        }
-      ]
-    },
-    {
-      "id": "8ec7c5e36d629fd4eb4e8a9e",
-      "title": "北京核聚变，来HitAcademy试玩多款学生游戏！",
-      "originalTitle": "北京核聚变，来HitAcademy试玩多款学生游戏！",
-      "publishedAt": "2026-10-10T02:00:00Z",
-      "platforms": [
-        "pc",
-        "mobile"
-      ],
-      "markets": [
-        "cn"
-      ],
-      "games": [
-        "玩个Gui2：天脊之下"
-      ],
-      "categories": [
-        "产品与版本",
-        "运营活动",
-        "营销与联动"
-      ],
-      "summary": "2026年10月24日至25日，北京核聚变游戏嘉年华将在首钢国际会展中心举行，HitAcademy将携15款学生原创游戏亮相，其中包括《玩个Gui2：天脊之下》等作品，玩家可现场试玩并体验策略、解谜与平台跳跃类游戏的创意设计。活动期间还将举办GGG游戏节奏联欢夜等夜间演出。",
-      "insight": "AI 推论：学生游戏在大型展会中获得集中展示机会，表明行业正加强对青年开发者创作生态的支持，可能推动更多非商业导向的创新实验性项目进入公众视野，依赖事件事实为HitAcademy在核聚变嘉年华中展出15款学生游戏。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "ba251be6d05de832107ee0e299170faf83518303f0cb3f1f2b139f7cf8f3a9c7"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/220700"
-        }
-      ]
-    },
-    {
-      "id": "5e289d44c821ec8501f0c8eb",
-      "title": "「吉考斯工业 × 影之刃零」联名展示空间视觉公开",
-      "originalTitle": "「吉考斯工业 × 影之刃零」联名展示空间视觉公开",
-      "publishedAt": "2026-10-10T02:00:00Z",
+      "id": "a62831699f733aacc40b03b7",
+      "title": "13 Years Later, Little Finger's Best 'Game of Thrones' Quote is Still a All-Time Great HBO Line",
+      "originalTitle": "13 Years Later, Little Finger's Best 'Game of Thrones' Quote is Still a All-Time Great HBO Line",
+      "publishedAt": "2026-10-11T03:00:16Z",
       "platforms": [
         "pc",
         "mobile",
         "console"
       ],
       "markets": [
-        "cn"
-      ],
-      "games": [
-        "影之刃零"
-      ],
-      "categories": [
-        "营销与联动",
-        "产品与版本"
-      ],
-      "summary": "吉考斯工业将在核聚变嘉年华北京站打造「吉考斯工业 × 影之刃零」联名展示空间，展出游戏开发过程中实际使用的兵刃、面具及舞狮BOSS「烈焰」狮头等实物道具，并展示全系列联名服饰，供玩家试穿与打卡互动。空间设计以红黑色为主调，融入象征命运纠葛的红线元素，呈现暗黑武侠与潮流服饰的融合美学。",
-      "insight": "AI 推论：联名展示空间通过陈列游戏原型道具与服饰，强化玩家对IP世界观的沉浸体验，可能提升线下活动参与度与周边商品转化率，依赖事件事实为联名服饰超前首发及游戏正式发售的时间节点临近。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "e18a59ab36c9903341b0587d68d346367e83f65533606ee1aa000a5f58f750f1"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/220687"
-        }
-      ]
-    },
-    {
-      "id": "25d3ab867776be0710721e47",
-      "title": "Epic喜加二：《愿景之城》《虎视眈眈》免费领",
-      "originalTitle": "Epic喜加二：《愿景之城》《虎视眈眈》免费领",
-      "publishedAt": "2026-10-10T01:35:00Z",
-      "platforms": [
-        "pc"
-      ],
-      "markets": [
         "global"
       ],
       "games": [
-        "愿景之城",
-        "虎视眈眈"
+        "Game of Thrones"
       ],
       "categories": [
-        "运营活动",
-        "发行与渠道"
+        "玩家口碑"
       ],
-      "summary": "Epic游戏商城于2026年10月10日至10月15日晚间11时推出喜加一活动，玩家可免费领取《愿景之城》和《虎视眈眈》两款游戏，合计价值106元。《愿景之城》为中世纪城市建造解谜游戏，支持单人与多人模式，包含随机地图生成与每周任务；《虎视眈眈》则是一款融合第一人称与第二人称视角的氛围恐怖游戏，以沉浸式配音营造惊悚体验。",
-      "insight": "AI 推论：Epic通过免费发放高价值游戏组合（总价106元）吸引用户活跃度，可能旨在提升平台用户留存率并增强对独立游戏的推广力度，尤其在《愿景之城》与《虎视眈眈》分别代表建造解谜与恐怖叙事两类小众但具话题性的品类背景下，此举或意在扩大其在细分市场的影响力。该推论依赖于活动时间跨度短（5天）、免费游戏定价较高且类型差异显著的事实。",
+      "summary": "《权力的游戏》拥有众多经典台词，但小指头最令人难忘的这句独白依然被视为HBO史上最佳对白之一。",
+      "insight": "AI 推论：尽管距离该剧首播已逾十三年，小指头的这句台词仍被持续提及并视为经典，反映出该角色在观众心中的长期影响力，可能与剧情中其复杂权谋形象及演员表演深度相关。此推论依赖于原文中指出该台词被评价为‘epic one-liner’且‘still a all-time great HBO line’的事实。",
       "processing": {
         "status": "success",
         "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "8900b0f25375652f525a3d682110cf2c9eb378af8a0404790106025ef666d0c3"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/220647"
-        }
-      ]
-    },
-    {
-      "id": "fc6bc7c0b8f2357ea3343843",
-      "title": "Pokémon Winds and Waves' Water Starter Breaks a Series Curse",
-      "originalTitle": "Pokémon Winds and Waves' Water Starter Breaks a Series Curse",
-      "publishedAt": "2026-10-10T01:20:15Z",
-      "platforms": [
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Pokémon Winds and Waves"
-      ],
-      "categories": [
-        "产品与版本"
-      ],
-      "summary": "Nintendo和Game Freak推出的《宝可梦》第十世代新作《Winds and Waves》中，水系宝可梦Gecqua作为主打角色，打破了系列长期以来水系宝可梦不受欢迎的诅咒。",
-      "insight": "AI 推论：Gecqua作为水系宝可梦在《Winds and Waves》中成为焦点，可能反映开发方有意扭转玩家对水系宝可梦偏见的策略，这一设计选择或与提升游戏初期吸引力及市场期待有关，依赖于Gecqua作为水系代表被重点宣传的事实。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "e7f6ee54613b5d0a4fd2090cdbd4066052dd79b833e393d9d63970b7aebb3f3d"
+        "contentHash": "35c6f941fb7c2fd124ad908ae7c287e7a48ebfbb8f9e427defa864e3d89be449"
       },
       "sources": [
         {
           "id": "polygon",
           "name": "Polygon",
-          "url": "https://www.polygon.com/pokemon-winds-waves-water-starter-series-curse/"
+          "url": "https://www.polygon.com/game-of-thrones-best-littlefinger-quote/"
         }
       ]
     },
     {
-      "id": "d949ace5494d425c0c5377bc",
-      "title": "更流畅：微软宣布全新Xbox PC客户端",
-      "originalTitle": "更流畅：微软宣布全新Xbox PC客户端",
-      "publishedAt": "2026-10-10T01:05:00Z",
+      "id": "e7807f25319fd866e64ac0a5",
+      "title": "Gargantuan cop immersive sim Militsioner now has an acrophobia-inducing demo, and yes, I did somehow manage to fail the tutorial",
+      "originalTitle": "Gargantuan cop immersive sim Militsioner now has an acrophobia-inducing demo, and yes, I did somehow manage to fail the tutorial",
+      "publishedAt": "2026-10-10T21:55:00Z",
       "platforms": [
         "pc"
       ],
       "markets": [
         "global"
       ],
-      "games": [],
-      "categories": [
-        "产品与版本"
-      ],
-      "summary": "微软宣布测试代号为Garrison的全新Xbox PC客户端即将推出，主打速度与性能提升。新版本在加载包含1400多款游戏的资源库时页面响应更快，界面整合商店与游戏详情页，并支持鼠标、键盘与手柄操作。该客户端预计未来数周内向Xbox Insider测试人员开放，可能于年内正式上线。在Windows 11的“游戏模式”下可设为默认主界面，且手柄缩放功能优化以适配Xbox Ally等掌机设备。",
-      "insight": "AI 推论：微软通过提升Xbox PC客户端的加载速度与界面整合度，旨在增强PC端游戏体验的流畅性与易用性，这可能反映其在竞争中针对Steam社区功能短板的策略调整，即优先强化基础性能而非快速引入社交或开发者工具功能，依赖现有技术合作（如RTX Spark）和用户黏性项目（Xbox XP）来巩固生态。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "d6e793be30422d8ec4e157a7a49395ad0094d55ca05cf87a55ca97e357da5408"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/220709"
-        }
-      ]
-    },
-    {
-      "id": "c92c91ea0ff29c3e0e30109b",
-      "title": "It’s Officially the Dawn of a New Era for 'Magic the Gathering' Universes Beyond",
-      "originalTitle": "It’s Officially the Dawn of a New Era for 'Magic the Gathering' Universes Beyond",
-      "publishedAt": "2026-10-10T00:30:16Z",
-      "platforms": [
-        "pc",
-        "mobile"
-      ],
-      "markets": [
-        "global"
-      ],
       "games": [
-        "Magic the Gathering",
-        "Darkhold Destiny"
+        "Militsioner"
       ],
       "categories": [
         "产品与版本",
-        "营销与联动"
+        "运营活动"
       ],
-      "summary": "Magic the Gathering 的首席设计师向 Polygon 表示，其新的漫威联动卡牌系列《Darkhold Destiny》是迄今为止最雄心勃勃且“复杂”的跨界作品。",
-      "insight": "AI 推论：基于《Darkhold Destiny》被描述为最雄心勃勃和复杂的跨界作品，可推断 Magic: The Gathering 正在深化与漫威宇宙的联动策略，可能通过更复杂的叙事结构和跨媒体内容增强玩家沉浸感，这或反映其在跨IP合作中寻求更高市场差异化。",
+      "summary": "Militsioner 的新演示版现已上线，玩家在教程中因拒绝配合一名巨大警察的指令而失败。该警察角色被称为 HE，通过破坏阳台窗户迫使玩家留在城镇。",
+      "insight": "AI 推论：基于演示中玩家因拒绝配合而失败的设定，可推断游戏可能采用非线性叙事与高自由度互动机制，以强化沉浸感；但失败机制的设计或反映开发团队对玩家行为的预设控制逻辑，暗示其核心玩法依赖于特定情境下的服从性测试。此推论依赖于 s1 中描述的教程失败事件。",
       "processing": {
         "status": "success",
         "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "2efff73d377d9c136dbeb3c1e98fe1784b127ce9f966f6759836f428ba3bc6ce"
+        "contentHash": "70b8eace1d36e6282fb1f377331ddbb4790a09679e9913f82e0b644b837da13a"
       },
       "sources": [
         {
-          "id": "polygon",
-          "name": "Polygon",
-          "url": "https://www.polygon.com/mtg-darkhold-destinies-spoilers-marvel-universes-beyond/"
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/gargantuan-cop-immersive-sim-militsioner-now-has-an-acrophobia-inducing-demo-and-yes-i-did-somehow-manage-to-fail-the-tutorial"
         }
       ]
     },
     {
-      "id": "90df87ffe8a901242a83df97",
-      "title": "Marvel Darkhold Destiny Is Magic: The Gathering’s First Universes Beyond Set Of 2027",
-      "originalTitle": "Marvel Darkhold Destiny Is Magic: The Gathering’s First Universes Beyond Set Of 2027",
-      "publishedAt": "2026-10-10T00:30:00Z",
+      "id": "5086915226eb8042ef14d7e8",
+      "title": "Arc Raiders' 2.0 Update and 'Spider-Man' Grappling Hook Drive Player Count to Reach 7-Month High",
+      "originalTitle": "Arc Raiders' 2.0 Update and 'Spider-Man' Grappling Hook Drive Player Count to Reach 7-Month High",
+      "publishedAt": "2026-10-10T21:07:54Z",
+      "platforms": [
+        "pc"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "Arc Raiders"
+      ],
+      "categories": [
+        "产品与版本",
+        "运营活动",
+        "营销与联动"
+      ],
+      "summary": "Arc Raiders 的 2.0 更新因加入‘蜘蛛侠’抓钩、新地图及免费周末活动，使其 Steam 平台同时在线玩家数达到七个月以来最高点。",
+      "insight": "AI 推论：玩家数量回升与‘蜘蛛侠’主题联动内容直接相关，表明跨IP联动道具能有效吸引新用户并激活老用户，尤其在免费活动配合下提升短期活跃度。此现象依赖于‘蜘蛛侠’抓钩作为核心吸引力事件，且需结合免费周末等运营手段才能实现显著增长。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "20f16e031148c9015c18112ec3676d7486d69167a75c2c0dd775f96f40f54421"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+        }
+      ]
+    },
+    {
+      "id": "ecf2b5a34dd56bc187d53346",
+      "title": "Oh lord, now those GTA 6 leakers are saying if enough of you give them money they'll leak a playable build of the game",
+      "originalTitle": "Oh lord, now those GTA 6 leakers are saying if enough of you give them money they'll leak a playable build of the game",
+      "publishedAt": "2026-10-10T20:24:35Z",
       "platforms": [],
       "markets": [],
       "games": [],
@@ -247,81 +124,50 @@
       },
       "sources": [
         {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/marvel-darkhold-destiny-is-magic-the-gatherings-first-universes-beyond-set-of-2027/"
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/oh-lord-now-those-gta-6-leakers-are-saying-if-enough-of-you-give-them-money-theyll-leak-a-playable-build-of-the-game"
         }
       ]
     },
     {
-      "id": "4bb790f430f709f13ae087e4",
-      "title": "GTA 6 粉丝称因礼貌请求获 Rockstar 寄送海报",
-      "originalTitle": "GTA 6 Fan Says Rockstar Sent Them a Poster Just Because They Asked Nicely",
-      "publishedAt": "2026-10-09T23:56:23Z",
-      "platforms": [],
+      "id": "5e9944b93bd9a81ddda15f40",
+      "title": "GTA 6 leaker CyberLeek is now reportedly threatening to release a full, playable build of the game",
+      "originalTitle": "GTA 6 leaker CyberLeek is now reportedly threatening to release a full, playable build of the game",
+      "publishedAt": "2026-10-10T19:42:21Z",
+      "platforms": [
+        "pc",
+        "console"
+      ],
       "markets": [
-        "overseas"
+        "global"
       ],
       "games": [
         "GTA 6"
       ],
       "categories": [
-        "营销与联动"
+        "行业与公司"
       ],
-      "summary": "一名来自巴西的《GTA 6》粉丝表示，他们礼貌地向 Rockstar Games 团队请求寄送一张海报，结果真的收到了。",
-      "insight": "AI 推论：Rockstar Games 可能正在通过非正式互动方式增强玩家情感连接，这种行为暗示其在正式宣传前已开始进行轻量级品牌渗透，但该推论依赖于粉丝单方面陈述且无官方证实。",
+      "summary": "据Eurogamer报道，GTA 6的泄密者CyberLeek reportedly 威胁将发布一个完整且可玩的游戏版本。",
+      "insight": "AI 推论：该事件基于CyberLeek威胁泄露完整可玩版GTA 6的传闻，可能反映游戏开发保密机制面临挑战，但未证实其实际能力或动机。此推论依赖于s1中关于泄密者威胁行为的报道。",
       "processing": {
         "status": "success",
         "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "0a5e7f6dfb4e548ebc44602333d344211fa0ff4d4ad118cd8b492de2045e9797"
+        "contentHash": "d8106823d9c28f576430eea3ca38d1d88c35c096a3c430920b31d17774b3dcf1"
       },
       "sources": [
         {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/gta-6-fan-says-rockstar-sent-them-a-poster-just-because-they-asked-nicely"
+          "id": "eurogamer",
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/gta-6-leaker-cyberleek-threatens-playable-build-leak"
         }
       ]
     },
     {
-      "id": "70b7590b94c4c3ea4cf142ac",
-      "title": "Let’s All Be Happy This AAA Minesweeper Game Isn’t Real",
-      "originalTitle": "Let’s All Be Happy This AAA Minesweeper Game Isn’t Real",
-      "publishedAt": "2026-10-09T23:23:44Z",
-      "platforms": [
-        "pc"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Minesweeper",
-        "Triple-A Minesweeper"
-      ],
-      "categories": [
-        "产品与版本",
-        "营销与联动"
-      ],
-      "summary": "由程序员兼作家迈克·拉彻创作的《Triple-A Minesweeper》是一款可在其网站上运行的浏览器游戏，以讽刺方式呈现了对经典游戏《Minesweeper》进行豪华化更新的荒诞场景，包含虚假的引擎与技术宣传。",
-      "insight": "AI 推论：该作品通过虚构的AAA级开发元素（如Unreal Engine、Nvidia、Bink Video、Wwise）对《Minesweeper》进行夸张 parody，暗示当前游戏行业存在过度包装与营销噱头的现象，尤其在小型或怀旧题材项目中，可能引发玩家对真实开发投入的质疑。此推论依赖于原文中对虚假技术标签的描述及作品作为讽刺性创作的定位。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "810865b0530d33229ed5ee3bd887e34eb9f95cdc5889f9f89983a56489780252"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/lets-all-be-happy-this-aaa-minesweeper-game-isnt-real/"
-        }
-      ]
-    },
-    {
-      "id": "906b9917facdc31c8e78bf2a",
-      "title": "These Are Easily The Most Unique Fortnite Skins",
-      "originalTitle": "These Are Easily The Most Unique Fortnite Skins",
-      "publishedAt": "2026-10-09T23:03:06Z",
+      "id": "30feb302d2e6828ed99357f5",
+      "title": "Strange Scaffold announces Gods With Badges, a tactics game where you decide when to switch off your bodycam",
+      "originalTitle": "Strange Scaffold announces Gods With Badges, a tactics game where you decide when to switch off your bodycam",
+      "publishedAt": "2026-10-10T19:09:19Z",
       "platforms": [
         "pc",
         "mobile",
@@ -331,31 +177,331 @@
         "global"
       ],
       "games": [
-        "Fortnite"
+        "Gods With Badges",
+        "I Am Your Beast",
+        "El Paso, Elsewhere"
+      ],
+      "categories": [
+        "产品与版本",
+        "行业与公司"
+      ],
+      "summary": "Strange Scaffold宣布新作《Gods With Badges》，这是一款叙事策略游戏，探讨警察在生死掌控中的权力。游戏由曾开发《I Am Your Beast》和《El Paso, Elsewhere》的团队打造。",
+      "insight": "AI 推论：基于Strange Scaffold此前作品对社会议题的关注，本作可能延续其对执法权力与道德困境的探讨，但具体设计细节未在来源中说明。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "d5d5dceb981b00d3abfcc77a65483ff94f2ddd6c01b5d83dc277fc28e5c3cef5"
+      },
+      "sources": [
+        {
+          "id": "eurogamer",
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/gods-with-badges-strange-scaffold-narrative-tactics-police-game"
+        }
+      ]
+    },
+    {
+      "id": "42cdf8c1ec6e99405d661bdf",
+      "title": "Nivalis Nights might not have any combat, \"but that doesn't mean it's a cosy game,\" so says its lead writer",
+      "originalTitle": "Nivalis Nights might not have any combat, \"but that doesn't mean it's a cosy game,\" so says its lead writer",
+      "publishedAt": "2026-10-10T17:53:51Z",
+      "platforms": [],
+      "markets": [],
+      "games": [
+        "Nivalis Nights"
       ],
       "categories": [
         "产品与版本"
       ],
-      "summary": "《堡垒之夜》中存在一些真正独特的皮肤，例如仅有一款皮肤在击杀后会用其手部头部弹响手指，这一特征在其他皮肤中无法复现。",
-      "insight": "AI 推论：该皮肤的独特性源于其非传统的视觉设计（以手代头）及特定动作反馈（击杀后弹指），这表明游戏在皮肤设计上正通过差异化机制强化玩家辨识度，可能反映对个性化内容的重视。此推论依赖于原文中‘只有这一款皮肤具备该特征’的事实。",
+      "summary": "《Nivalis Nights》虽无战斗系统，但其主创作家托马斯·威尔什表示，这并不意味着游戏是轻松惬意的，玩家仍需付出努力才能体验其中的舒适感。",
+      "insight": "AI 推论：尽管《Nivalis Nights》被描述为缺乏战斗机制，但其设计意图并非营造纯粹的放松氛围，而是通过引入一定挑战性来平衡舒适元素，暗示开发者有意避免‘治愈系’标签，可能反映当前独立游戏对情感复杂性的追求。此推论基于来源 s1 中主创作家对游戏氛围的说明。",
       "processing": {
         "status": "success",
         "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "3ab80bd097ab7f789386c58aaa29d59374ec871a4cc1abf7cf69ee9910fd7349"
+        "contentHash": "10171bfe75e6e4333d4aa9ac3d6fcfa37c3b4a42275fc17dfff697717385907c"
+      },
+      "sources": [
+        {
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/nivalis-nights-might-not-have-any-combat-but-that-doesnt-mean-its-a-cosy-game-so-says-its-lead-writer"
+        }
+      ]
+    },
+    {
+      "id": "c220425869d4b1323f5a59ff",
+      "title": "A Crimson Desert exec thinks critic review scores were lower because they didn't have enough time to play it, and boy oh boy I wonder whose fault that is",
+      "originalTitle": "A Crimson Desert exec thinks critic review scores were lower because they didn't have enough time to play it, and boy oh boy I wonder whose fault that is",
+      "publishedAt": "2026-10-10T17:02:49Z",
+      "platforms": [
+        "pc",
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "Crimson Desert"
+      ],
+      "categories": [
+        "行业与公司"
+      ],
+      "summary": "Pearl Abyss欧洲区CEOLybee Park表示，Crimson Desert的批评者评分较低是因为他们没有足够时间游玩游戏。该观点基于对游戏预告片和同行评论的观察，多数行业人士认为游戏表现尚可。",
+      "insight": "AI 推论：批评者评分偏低可能与评测时间不足有关，但此推论依赖于开发者对评测环境的主观解释，未提供具体证据支持评测时长与评分之间的因果关系。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "6c9bf79d6fd8555641db2fb058e43bcc945e4638a137d584e93a29114e160134"
+      },
+      "sources": [
+        {
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/a-crimson-desert-exec-thinks-critic-review-scores-were-lower-because-they-didnt-have-enough-time-to-play-it-and-boy-oh-boy-i-wonder-whose-fault-that-is"
+        }
+      ]
+    },
+    {
+      "id": "098f9c0c5e797f3602caeb5b",
+      "title": "GTA 6 Leaker Threatens to Release Build With Full Story Mode Played to the End, Ties Lucia's Clothing to Crypto Scheme",
+      "originalTitle": "GTA 6 Leaker Threatens to Release Build With Full Story Mode Played to the End, Ties Lucia's Clothing to Crypto Scheme",
+      "publishedAt": "2026-10-10T16:23:47Z",
+      "platforms": [],
+      "markets": [],
+      "games": [
+        "GTA 6"
+      ],
+      "categories": [
+        "产品与版本",
+        "营销与联动",
+        "行业与公司"
+      ],
+      "summary": "一名GTA 6泄露者威胁将发布已完整通关故事模式的游戏版本，此举与其备受批评的加密货币计划有关。",
+      "insight": "AI 推论：该泄露者将游戏完整故事模式的构建版本作为筹码，与加密货币计划挂钩，暗示其可能利用未公开内容进行非法获利或施压，但具体实施方式和影响尚无证实信息。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "a97e221d411aa5f65bcf4241e3434384da350a06ee90c010b5997ba6ea3bdf95"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme"
+        }
+      ]
+    },
+    {
+      "id": "9c1f53089056223a1e5145f1",
+      "title": "Resident Evil inspired, cannibal dungeon crawler Medium Rare has a delightful art style trick up its sleeve: stock photos",
+      "originalTitle": "Resident Evil inspired, cannibal dungeon crawler Medium Rare has a delightful art style trick up its sleeve: stock photos",
+      "publishedAt": "2026-10-10T16:07:07Z",
+      "platforms": [
+        "pc"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "Medium Rare"
+      ],
+      "categories": [
+        "产品与版本"
+      ],
+      "summary": "《Medium Rare》是一款受《生化危机》启发的食人魔地下城爬行角色扮演游戏，讲述玩家为拯救妻子而对抗人类肉工厂的故事。其独特的艺术风格源自拼贴的网络图片。",
+      "insight": "AI 推论：游戏通过使用网络图片拼贴构建独特视觉风格，可能旨在以低成本实现高辨识度的美术表现，这反映了独立游戏在创意表达与资源限制间的平衡策略。该推论依赖于《Medium Rare》采用非传统美术来源的事实。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "dcfbfd6d2ac23f79c9c641e1b012df70ad217ea8c394d4cf9b671e72df3dcacd"
+      },
+      "sources": [
+        {
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/resident-evil-inspired-cannibal-dungeon-crawler-medium-rare-has-a-delightful-art-style-trick-up-its-sleeve-stock-photos"
+        }
+      ]
+    },
+    {
+      "id": "731646a13da007963f19cc63",
+      "title": "Star Citizen Single-Player Spinoff Squadron 42 Reemerges With Flashy New Trailer, Steam Wishlists, and Cast Confirmation",
+      "originalTitle": "Star Citizen Single-Player Spinoff Squadron 42 Reemerges With Flashy New Trailer, Steam Wishlists, and Cast Confirmation",
+      "publishedAt": "2026-10-10T15:00:00Z",
+      "platforms": [
+        "pc"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "Squadron 42"
+      ],
+      "categories": [
+        "产品与版本",
+        "营销与联动"
+      ],
+      "summary": "Cloud Imperium Games发布了单人衍生作品《Squadron 42》的新宣传片，启动了Steam愿望单，并公布了完整演员阵容。",
+      "insight": "AI 推论：基于《Squadron 42》重新发布新宣传片、开启Steam愿望单及公布演员阵容的事件，表明开发商可能正为该作进行新一轮市场预热或正式发售准备，以提升玩家关注度和潜在购买意愿。此推论依赖于s1中提及的宣传动作。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "07396b7b0d640e78c8d5195d9a57a10bece5e55a8765172bbdc905e4ea3eb0cb"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/star-citizen-single-player-spinoff-squadron-42-reemerges-with-flashy-new-trailer-steam-wishlists-and-cast-confirmation"
+        }
+      ]
+    },
+    {
+      "id": "9f82ce8394daa9e2ffe5c92b",
+      "title": "There’s Never Been a Better Time To Play Fire Emblem: Awakening",
+      "originalTitle": "There’s Never Been a Better Time To Play Fire Emblem: Awakening",
+      "publishedAt": "2026-10-10T15:00:00Z",
+      "platforms": [
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "Fire Emblem: Awakening"
+      ],
+      "categories": [
+        "产品与版本"
+      ],
+      "summary": "对于认为《火焰之纹章：觉醒》过度偏向《女神异闻录》风格的玩家而言，现在可能是回归任天堂3DS经典作品的好时机。",
+      "insight": "AI 推论：基于《火焰之纹章：觉醒》被描述为具有‘Persona-ification’特征，且当前语境暗示其风格变化可能引发玩家对原版游戏的重新兴趣，因此推测该作在近年风格演变后，促使部分玩家回溯至原始版本以寻求更传统的体验。此推论依赖于原文中对风格转变的提及（s1）。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "b88dfaf365e3669d0f8a827bbef78c92e4c13fc749121225e15004ddd2c85883"
       },
       "sources": [
         {
           "id": "gamespot",
           "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/these-are-easily-the-most-unique-fortnite-skins/"
+          "url": "https://www.gamespot.com/videos/theres-never-been-a-better-time-to-play-fire-emblem-awakening/"
         }
       ]
     },
     {
-      "id": "4231a0377afb54dcf04aafc7",
-      "title": "Final Fantasy 7 Revelation: I Played a New Slice from the Early Game With a Boss Fight | IGN Preview",
-      "originalTitle": "Final Fantasy 7 Revelation: I Played a New Slice from the Early Game With a Boss Fight | IGN Preview",
-      "publishedAt": "2026-10-09T22:58:43Z",
+      "id": "1188bbb4e094aeaa9fda0192",
+      "title": "捷报频传，核周报10.10",
+      "originalTitle": "捷报频传，核周报10.10",
+      "publishedAt": "2026-10-10T15:00:00Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "战争机器：事变日",
+        "皇牌空战 8：希孚之翼",
+        "星球大战：银河赛车手",
+        "极限竞速：地平线6",
+        "生化危机 9：安魂曲"
+      ],
+      "categories": [
+        "产品与版本",
+        "运营活动",
+        "发行与渠道",
+        "行业与公司"
+      ],
+      "summary": "「3i计划」第四季游戏线上发布会公布多款新作消息；《战争机器：事变日》、《皇牌空战 8：希孚之翼》、《星球大战：银河赛车手》等多款新作获得好评发售；《极限竞速：地平线6》PS5 版延期；草蜢工作室与网易终止合作并恢复独立；Falcom 上调全年业绩预期；Dusk Golem 爆料《生化危机 9：安魂曲》将推出大型 DLC。",
+      "insight": "AI 推论：草蜢工作室与网易“和平分手”后恢复独立，可能反映中国发行商对海外开发团队控制力减弱，或预示未来更多工作室寻求自主权。同时，Falcom 上调业绩预期及多款作品获好评，显示其在主机与跨平台市场持续具备竞争力。此外，《生化危机 9：安魂曲》大型 DLC 爆料或暗示卡普空延长IP生命周期策略，以维持系列热度。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "55ac34d1ef446ff1486f6bbc70c21ad8a587022a0f2e6e3de74df1f37e23840a"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/radios/220607"
+        }
+      ]
+    },
+    {
+      "id": "af46e0cf7fbfbba5787fc589",
+      "title": "让名画拥有记忆与生命：TGS2026《失落美术馆》制作人采访",
+      "originalTitle": "让名画拥有记忆与生命：TGS2026《失落美术馆》制作人采访",
+      "publishedAt": "2026-10-10T14:00:00Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "global",
+        "overseas"
+      ],
+      "games": [
+        "失落美术馆 -绘灵拾遗录-"
+      ],
+      "categories": [
+        "产品与版本",
+        "运营活动"
+      ],
+      "summary": "《失落美术馆 -绘灵拾遗录-》由Happynet发行，是一款以美术馆与名画为主题的冒险游戏。玩家扮演主人公文斯，在TGS2026试玩序章时发现，游戏中的绘灵角色不仅外形源自梵高《向日葵》、达·芬奇《蒙娜丽莎》、葛饰北斋《神奈川冲浪里》等名画，其性格、经历与故事亦融合了原作的色彩、创作背景及艺术家轶事。游戏通过调查物品、对话解谜推进剧情，核心在于修复绘灵失去的记忆。",
+      "insight": "AI 推论：《失落美术馆》通过将名画拟人化并赋予其基于原作历史与艺术家轶事的深层叙事，试图超越单纯的视觉卖点，构建情感共鸣。这一设计依赖于游戏在TGS2026展示的序章内容中对绘灵角色记忆修复机制的呈现，以及其对艺术作品背景的深度整合，暗示开发团队意图以文化叙事增强沉浸感。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "228bb0d1457bfa2424e3df907d6f3687fedd64fc4064b9122b0a7ea57b47f604"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/220673"
+        }
+      ]
+    },
+    {
+      "id": "1e5375ec99fbf388b8e60b71",
+      "title": "BlazBlue: Central Fiction coming to PS5",
+      "originalTitle": "BlazBlue: Central Fiction coming to PS5",
+      "publishedAt": "2026-10-10T12:00:09Z",
+      "platforms": [
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "BlazBlue: Central Fiction"
+      ],
+      "categories": [
+        "产品与版本"
+      ],
+      "summary": "Arc System Works 将为 PlayStation 5 平台发布2015年发行的格斗游戏《BlazBlue: Central Fiction》。",
+      "insight": "AI 推论：基于《BlazBlue: Central Fiction》原版于2015年发布且现将登陆PS5，表明开发商可能在进行经典作品的次世代移植以吸引新老玩家，但该推论依赖于来源s1中提及的移植计划。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "bb43a781377779062c67fafaa5edd4bb75c22abccaeb70285696615ce1170601"
+      },
+      "sources": [
+        {
+          "id": "gematsu",
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/10/blazblue-central-fiction-coming-to-ps5"
+        }
+      ]
+    },
+    {
+      "id": "3570aa699f8a8d5384672b72",
+      "title": "Silent Hill, Gravity Rush director's Bokeh Game Studio is reportedly casting for a new horror game",
+      "originalTitle": "Silent Hill, Gravity Rush director's Bokeh Game Studio is reportedly casting for a new horror game",
+      "publishedAt": "2026-10-10T11:44:06Z",
       "platforms": [],
       "markets": [],
       "games": [],
@@ -368,17 +514,74 @@
       },
       "sources": [
         {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/final-fantasy-7-revelation-i-played-a-new-slice-from-the-early-game-with-a-boss-fight-ign-preview"
+          "id": "eurogamer",
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/bokeh-game-studio-toyama-new-horror-game-casting"
         }
       ]
     },
     {
-      "id": "8779be162a396d18ae9d7586",
-      "title": "Konami Planning 'Second and Third Waves' of New Silent Hill Games",
-      "originalTitle": "Konami Planning 'Second and Third Waves' of New Silent Hill Games",
-      "publishedAt": "2026-10-09T22:47:30Z",
+      "id": "24d68d89db263eda6b18741f",
+      "title": "Arc Raiders could eventually be split into PvE and PvP, says executive producer",
+      "originalTitle": "Arc Raiders could eventually be split into PvE and PvP, says executive producer",
+      "publishedAt": "2026-10-10T11:21:05Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "Arc Raiders"
+      ],
+      "categories": [
+        "产品与版本"
+      ],
+      "summary": "《Arc Raiders》可能未来会被拆分为PvE和PvP两种模式，据执行制作人透露。",
+      "insight": "AI 推论：基于执行制作人提及《Arc Raiders》未来可能拆分为PvE和PvP模式的表态，推测该游戏或正考虑通过分线运营来满足不同玩家群体的需求，但该计划尚未确认。此推论依赖于来源s1中执行制作人的声明。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "3464f09dd3999613a1a01ebd112bc5d39eced683feb88adb5d49da79eda494c9"
+      },
+      "sources": [
+        {
+          "id": "eurogamer",
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+        }
+      ]
+    },
+    {
+      "id": "cb13984cb075fb67946f9e3d",
+      "title": "在“热闹”与“无厘头”中找到竞速的乐趣：《索尼克赛车 交叉世界》第二赛季试玩小结",
+      "originalTitle": "在“热闹”与“无厘头”中找到竞速的乐趣：《索尼克赛车 交叉世界》第二赛季试玩小结",
+      "publishedAt": "2026-10-10T11:00:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/220708"
+        }
+      ]
+    },
+    {
+      "id": "522787dc90c11e04d2ebd013",
+      "title": "Konami is already thinking about the next wave of Silent Hill games",
+      "originalTitle": "Konami is already thinking about the next wave of Silent Hill games",
+      "publishedAt": "2026-10-10T10:38:48Z",
       "platforms": [
         "pc",
         "mobile",
@@ -393,515 +596,316 @@
       "categories": [
         "产品与版本"
       ],
-      "summary": "Konami正在规划《寂静岭》系列的第二波和第三波新作，这一消息由制作人冈本元昭透露。",
-      "insight": "AI 推论：基于Konami宣布将推出《寂静岭》系列的第二波和第三波新游戏，表明公司正持续投入该IP的长期开发计划，可能意在巩固其在恐怖游戏领域的品牌影响力。此推论依赖于来源s1中提到的制作人冈本元昭关于多阶段发布计划的声明。",
+      "summary": "Konami正在考虑在首波新《寂静岭》游戏发布后推出更多相关项目，制作人冈本元表示公司已着手规划多项计划。",
+      "insight": "AI 推论：基于Konami制作人冈本元提及公司已开始规划“多项项目”，可推断其正为《寂静岭》系列的后续开发布局，但具体方向与内容尚不明确。此推论依赖于来源s1中冈本元关于“多项项目”的表述。",
       "processing": {
         "status": "success",
         "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "6372a64de8f367fd71b8dbcc64558f842a0e1399865ec431e993b32aa4b7ba92"
+        "contentHash": "b99effb387302949f9fd357d60fcf397c9b716f2a793f179b53760fd736762dd"
       },
       "sources": [
         {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/konami-planning-second-and-third-waves-of-new-silent-hill-games"
+          "id": "eurogamer",
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/konami-silent-hill-next-wave-new-games-okamoto"
         }
       ]
     },
     {
-      "id": "7709076d8578e0fd7f94bb0a",
-      "title": "Blumhouse Partners With MatPat to Make Amanda the Adventurer Movie, Confirms More Indie Horror Game Adaptations Are Coming | NYCC 2026",
-      "originalTitle": "Blumhouse Partners With MatPat to Make Amanda the Adventurer Movie, Confirms More Indie Horror Game Adaptations Are Coming | NYCC 2026",
-      "publishedAt": "2026-10-09T22:45:02Z",
-      "platforms": [
-        "pc",
-        "mobile"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Amanda the Adventurer"
-      ],
-      "categories": [
-        "产品与版本",
-        "营销与联动",
-        "行业与公司"
-      ],
-      "summary": "Blumhouse Productions已与YouTube创作者Matthew 'MatPat' Patrick合作，将推出基于热门独立恐怖游戏的电影系列，首部作品为《Amanda the Adventurer》。",
-      "insight": "AI 推论：基于Blumhouse与MatPat的合作关系及对《Amanda the Adventurer》的影视化确认，可推断该合作可能旨在利用MatPat在游戏内容领域的影响力，增强独立恐怖游戏改编作品的观众认知度；此动向表明影视公司正积极拓展游戏IP的跨媒体开发路径，尤其聚焦于具有网络病毒传播潜力的独立游戏。该推论依赖于来源s1中提及的Blumhouse与MatPat的合作及《Amanda the Adventurer》的电影化计划。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "33a872703936b4f170268965f2497bf294a89c46f0fd3eee3649754be120e138"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/blumhouse-partners-with-matpat-to-make-amanda-the-adventurer-movie-confirms-more-indie-horror-game-adaptations-are-coming-nycc-2026"
-        }
-      ]
-    },
-    {
-      "id": "cafc6bb72e2b11ff0c3fbf7e",
-      "title": "Marathon Is the Scariest Horror Game of 2026",
-      "originalTitle": "Marathon Is the Scariest Horror Game of 2026",
-      "publishedAt": "2026-10-09T22:40:48Z",
+      "id": "9fb1e0258d5991031affde51",
+      "title": "Senxin Aleste coming to PS5, PS4, and Switch on March 18, 2027 in Japan",
+      "originalTitle": "Senxin Aleste coming to PS5, PS4, and Switch on March 18, 2027 in Japan",
+      "publishedAt": "2026-10-10T10:35:28Z",
       "platforms": [
         "pc",
         "mobile",
         "console"
       ],
       "markets": [
-        "global"
+        "cn",
+        "global",
+        "overseas"
       ],
       "games": [
-        "Marathon"
+        "Senxin Aleste"
       ],
       "categories": [
         "产品与版本"
       ],
-      "summary": "《Marathon》因其玩家遭遇伏击、强大的NPC敌方机器人以及失去战利品的恐惧感，被评价为2026年最恐怖的恐怖游戏。",
-      "insight": "AI 推论：根据玩家遭遇伏击、强大敌方机器人及战利品丢失机制，可推断《Marathon》通过高风险资源管理与不可预测的敌人行为强化心理压迫，从而提升恐怖体验。此推论依赖于来源s1中对游戏机制的描述。",
+      "summary": "M2 将于 2027 年 3 月 18 日在日本推出垂直卷轴射击游戏《Senxin Aleste》，登陆 PlayStation 5、PlayStation 4 和 Switch 平台。",
+      "insight": "AI 推论：基于《Senxin Aleste》将登陆 PS5、PS4 和 Switch 的消息，可推断 M2 正在扩展其经典游戏重制系列的平台覆盖范围，以吸引跨世代主机玩家。该发布计划表明日本市场仍是其重点区域，且对复古类型游戏的持续支持可能反映当前主机平台对独立与怀旧题材内容的需求上升。此推论依赖于《Senxin Aleste》将在日本多平台发布的事实。",
       "processing": {
         "status": "success",
         "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "ab932b2e085dd0f547bdc8eea41525cd60a15eb8a22c3d0edc7c0d6defebcd3d"
-      },
-      "sources": [
-        {
-          "id": "polygon",
-          "name": "Polygon",
-          "url": "https://www.polygon.com/marathon-scariest-horror-game/"
-        }
-      ]
-    },
-    {
-      "id": "33ee1605ada55e3d468acdcd",
-      "title": "GTA 6's Nudity Sure Sounds Hopelessly Outdated",
-      "originalTitle": "GTA 6's Nudity Sure Sounds Hopelessly Outdated",
-      "publishedAt": "2026-10-09T22:19:54Z",
-      "platforms": [
-        "pc",
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "GTA 6"
-      ],
-      "categories": [
-        "产品与版本"
-      ],
-      "summary": "GTA 6的裸露内容泄露引发争议，Polygon指出Rockstar未能以成熟和现实主义的态度对待这款犯罪游戏。",
-      "insight": "AI 推论：基于GTA 6裸露内容泄露与Polygon评论的关联，可推断玩家对游戏在成人内容处理上的期待与实际呈现之间存在落差，可能影响其叙事严肃性形象。此推论依赖于s1中对Rockstar未体现承诺成熟度的批评。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "5afdebdd7adabdf1f457fb77bee0bf9e44379ad03af13bdd4b373552a99bba7a"
-      },
-      "sources": [
-        {
-          "id": "polygon",
-          "name": "Polygon",
-          "url": "https://www.polygon.com/gta-6-nudity-jason-lucia-sounds-hopelessly-outdated/"
-        }
-      ]
-    },
-    {
-      "id": "94a7cdeed1d6fa0a45127423",
-      "title": "Magic: The Gathering Darkhold Destiny Panel – Everything Announced",
-      "originalTitle": "Magic: The Gathering Darkhold Destiny Panel – Everything Announced",
-      "publishedAt": "2026-10-09T22:16:00Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/magic-the-gathering-at-nycc-everything-announced"
-        }
-      ]
-    },
-    {
-      "id": "3f1a0b1cb6a3fd16b93e719b",
-      "title": "Gears of War: E-Day Estimated Sales Reach Just 230,000 in First Week, Analyst Says",
-      "originalTitle": "Gears of War: E-Day Estimated Sales Reach Just 230,000 in First Week, Analyst Says",
-      "publishedAt": "2026-10-09T21:49:35Z",
-      "platforms": [
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Gears of War: E-Day"
-      ],
-      "categories": [
-        "产品与版本"
-      ],
-      "summary": "据分析师称，Xbox独占游戏《战争机器：E-Day》在首周销量估计仅为23万份。",
-      "insight": "AI 推论：根据来源 s1 的报道，《战争机器：E-Day》首周销量仅达23万份，表明其市场表现可能未达预期，这可能与Xbox平台用户基数有限或同期竞争作品吸引力较强有关。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "edd774ac32cc5432ea6e1eb20e827348995b85ee354a1e5e1bdf9dcf77fd5555"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/gears-of-war-e-day-estimated-sales-reach-just-230000-in-first-week-analyst-says"
-        }
-      ]
-    },
-    {
-      "id": "cb5d5424b6ac77a8244365b9",
-      "title": "Sonic Racing: CrossWorlds Year Two updates and DLC announced",
-      "originalTitle": "Sonic Racing: CrossWorlds Year Two updates and DLC announced",
-      "publishedAt": "2026-10-09T21:00:06Z",
-      "platforms": [
-        "pc",
-        "mobile",
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Sonic Racing: CrossWorlds"
-      ],
-      "categories": [
-        "产品与版本",
-        "运营活动"
-      ],
-      "summary": "SEGA宣布《Sonic Racing: CrossWorlds》将在第二年推出新更新和下载内容。",
-      "insight": "AI 推论：基于SEGA宣布《Sonic Racing: CrossWorlds》将推出年度更新与DLC，可推断该游戏在发布后持续获得运营支持，表明SEGA对跨世界赛车题材的长期投入意愿。此推论依赖于来源s1中提及的SEGA官方公告。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "5ed4f65b94d546bd7eec30f582d716bda2df3e04a9f07fc7503dfbb85f53e13c"
+        "contentHash": "d564433b41a91bbfe8909874ef714df0f506e9b0c33ff0c4d963f775dcd6b7e0"
       },
       "sources": [
         {
           "id": "gematsu",
           "name": "Gematsu",
-          "url": "https://www.gematsu.com/2026/10/sonic-racing-crossworlds-year-two-updates-and-dlc-announced"
+          "url": "https://www.gematsu.com/2026/10/senxin-aleste-coming-to-ps5-ps4-and-switch-on-march-18-2027-in-japan"
         }
       ]
     },
     {
-      "id": "4018f8232883932e6d98484e",
-      "title": "The Street Fighter 2 Bonus Stage Car Is Real and You Can Win It",
-      "originalTitle": "The Street Fighter 2 Bonus Stage Car Is Real and You Can Win It",
-      "publishedAt": "2026-10-09T20:47:37Z",
-      "platforms": [],
+      "id": "9222fa46bb9f383c71ae1fe6",
+      "title": "你能看图猜出这是哪年的核聚变吗？ | 核吃海塞 特别篇SP",
+      "originalTitle": "你能看图猜出这是哪年的核聚变吗？ | 核吃海塞 特别篇SP",
+      "publishedAt": "2026-10-10T10:17:46Z",
+      "platforms": [
+        "pc",
+        "mobile"
+      ],
       "markets": [
-        "global"
+        "cn"
       ],
-      "games": [
-        "Street Fighter II"
-      ],
+      "games": [],
       "categories": [
+        "运营活动",
         "营销与联动"
       ],
-      "summary": "IGN 报道称，General 与卡普空合作，将《街头霸王II》中的可破坏汽车实体化，并提供机会赢得该车及超过25,000美元的汽油费。",
-      "insight": "AI 推论：基于 General 与卡普空合作将《街头霸王II》游戏内元素实体化并设置奖励活动的事实，可推断该联动可能旨在通过高价值实物奖品提升品牌曝光与玩家参与度，尤其在跨媒体营销中强化经典IP的吸引力。此推论依赖于来源 s1 中提及的合作与奖励机制。",
+      "summary": "机核发布特别篇视频，通过处理往届核聚变现场照片设置彩蛋，邀请观众与嘉宾西蒙一同猜测年份和举办城市。同时宣布【核聚变2026·北京站】将于2026年10月24日至25日在北京石景山首钢国际会展中心举行，票务平台为哔哩哔哩会员购，并推出联票活动。",
+      "insight": "AI 推论：基于视频内容提及的【核聚变2026·北京站】及具体时间地点信息，可推断该活动为未来举办的线下游戏展会，且已进入宣传阶段；结合彩蛋设计形式，表明主办方正通过互动内容增强玩家参与感，可能意在预热品牌声量并提升票务转化率。此推论依赖于s1中关于活动时间、地点及票务信息的明确陈述。",
       "processing": {
         "status": "success",
         "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "761e836cd23f33264bae1bf000a56dab8f75cbe7949f3f8f7b185d70e94cf55f"
+        "contentHash": "c8081260bf559770e4988c1a17d69d629c49976e321aef0818da6c2462fb37e6"
       },
       "sources": [
         {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/the-street-fighter-2-bonus-stage-car-is-real-and-you-can-win-it"
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/videos/220744"
         }
       ]
     },
     {
-      "id": "acd3e45811bada0adbc70943",
-      "title": "After modders removed Skate's live service bits, devs draw the line with tools that \"bypass our systems to unlock paid cosmetics\"",
-      "originalTitle": "After modders removed Skate's live service bits, devs draw the line with tools that \"bypass our systems to unlock paid cosmetics\"",
-      "publishedAt": "2026-10-09T20:17:03Z",
+      "id": "503890b5824a8d9c3243d708",
+      "title": "M2 announces Devil Blade Reboot Consumer Edition for consoles",
+      "originalTitle": "M2 announces Devil Blade Reboot Consumer Edition for consoles",
+      "publishedAt": "2026-10-10T10:00:37Z",
       "platforms": [
-        "pc",
         "console"
       ],
       "markets": [
         "global"
       ],
       "games": [
-        "skate."
+        "Devil Blade Reboot"
+      ],
+      "categories": [
+        "产品与版本"
+      ],
+      "summary": "M2宣布推出《恶魔之刃》重启版消费者版，为暂定标题的主机版本射击游戏。",
+      "insight": "AI 推论：基于M2宣布《恶魔之刃》重启版消费者版的消息，可推断该公司正扩展其经典IP在主机平台的布局，可能旨在吸引怀旧玩家并强化其在主机市场的存在感。该推论依赖于M2发布新版本游戏的公开声明（s1）。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "46f464b801238685e9b9f3fa03a297f991e85e2348f7e2018edc9deb42d1b618"
+      },
+      "sources": [
+        {
+          "id": "gematsu",
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/10/m2-announces-devil-blade-reboot-consumer-edition-for-consoles"
+        }
+      ]
+    },
+    {
+      "id": "47a96db3be9666e7e0407dd4",
+      "title": "触乐本周行业大事：《王者荣耀》中国队名古屋亚运会卫冕，《三角洲行动》官宣日活破5800万",
+      "originalTitle": "触乐本周行业大事：《王者荣耀》中国队名古屋亚运会卫冕，《三角洲行动》官宣日活破5800万",
+      "publishedAt": "2026-10-10T09:18:01Z",
+      "platforms": [
+        "mobile"
+      ],
+      "markets": [
+        "cn"
+      ],
+      "games": [
+        "王者荣耀",
+        "三角洲行动",
+        "极限战场"
+      ],
+      "categories": [
+        "产品与版本",
+        "运营活动",
+        "营销与联动",
+        "发行与渠道"
+      ],
+      "summary": "在2026年9月28日的爱知·名古屋亚运会电子竞技《王者荣耀》项目决赛中，中国队以4比0战胜马来西亚队，成功卫冕金牌，一诺（徐必成）成为历史上首位获得双金牌的选手。同月，腾讯天美工作室群旗下《三角洲行动》宣布上线两周年之际，国服日活跃用户数突破5800万，继去年9月达3000万、今年3月达5000万后再次刷新纪录。此外，网易游戏于10月9日首次曝光自研极限运动竞技射击新游《极限战场》，主打战术竞技与极限运动结合的玩法。",
+      "insight": "AI 推论：《三角洲行动》日活突破5800万表明其已具备持续运营能力并进入长青游戏行列，结合其两年内多次刷新DAU记录，可能反映腾讯在战术竞技品类中的用户留存策略有效；同时，网易推出《极限战场》或意在切入竞争激烈的战术竞技市场，通过差异化玩法寻求突破，但尚无数据支持其市场表现。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "f22a87375b051fb9d3790167414d4e5245d9e8025b3c767b7a5d0b2450060cb2"
+      },
+      "sources": [
+        {
+          "id": "chuapp",
+          "name": "触乐",
+          "url": "https://www.chuapp.com/article/291683.html"
+        }
+      ]
+    },
+    {
+      "id": "66c315c529bfa5383d5c2872",
+      "title": "游戏主机价格飙升打击美国市场，分析师警告行业面临80年代初以来最大危机",
+      "originalTitle": "游戏主机价格飙升打击美国市场，分析师警告行业面临80年代初以来最大危机",
+      "publishedAt": "2026-10-10T09:11:05Z",
+      "platforms": [
+        "console"
+      ],
+      "markets": [
+        "cn",
+        "global",
+        "overseas"
+      ],
+      "games": [
+        "侠盗猎车手6"
+      ],
+      "categories": [
+        "发行与渠道",
+        "行业与公司"
+      ],
+      "summary": "根据机核报道，美国游戏机硬件市场正面临自20世纪80年代初以来最严峻的危机。截至2026年8月，Xbox硬件销量同比下降33%，PlayStation销量下降25%，均创历史新低。价格上涨是主因，今年前8个月，Xbox平均售价达529美元，同比上涨26%；PlayStation平均售价为597美元，同比上涨20%，均创历史新高。内存芯片短缺导致成本上升，影响主机生产与供应。",
+      "insight": "AI 推论：由于人工智能数据中心对内存组件的大量需求，导致游戏主机关键零部件供应紧张，进而推高主机售价并抑制销量。若内存芯片持续被AI领域占用，微软和索尼将难以扩大主机产能，即便《侠盗猎车手6》等大作发售，也可能因供应不足而无法有效提振市场。此现象反映消费电子产业链受AI技术扩张的结构性冲击。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "7a47263b49d7d5d001d0ab4f74b06031597154b6a546c801df3dd379c25dae18"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/220740"
+        }
+      ]
+    },
+    {
+      "id": "5cd668e3022c6bf0d7ee8ad3",
+      "title": "M2 announces Armed Police Batrider re-release",
+      "originalTitle": "M2 announces Armed Police Batrider re-release",
+      "publishedAt": "2026-10-10T07:15:51Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "Armed Police Batrider"
+      ],
+      "categories": [
+        "产品与版本"
+      ],
+      "summary": "M2宣布将重新发行垂直卷轴射击游戏《武装警察巴特里德》。",
+      "insight": "AI 推论：基于M2宣布重新发行《武装警察巴特里德》这一事件，可推断该公司可能正尝试通过重制经典作品来吸引怀旧玩家群体，但具体发行计划和市场策略仍需进一步信息确认。该推论依赖于来源s1中提及的M2宣布重发消息。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "863b23a802113ea69addd63346f89be242135491c4228e4fdf2906d14e46d7bf"
+      },
+      "sources": [
+        {
+          "id": "gematsu",
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/10/m2-announces-armed-police-batrider-re-release"
+        }
+      ]
+    },
+    {
+      "id": "5f8860d9a6324d1ac9c5da56",
+      "title": "玩个游戏而已，至于给自己找这么多事吗？【视频播客音频版】",
+      "originalTitle": "玩个游戏而已，至于给自己找这么多事吗？【视频播客音频版】",
+      "publishedAt": "2026-10-10T07:02:30Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "cn"
+      ],
+      "games": [],
+      "categories": [
+        "玩家口碑"
+      ],
+      "summary": "本期为机核视频播客节目音频版，主播Nadya、西蒙和Ryoma讨论了玩家在玩游戏前常做的“仪式感”行为。",
+      "insight": "AI 推论：玩家在游戏前进行仪式感行为可能与心理准备或沉浸感需求有关，这类行为在播客内容中被作为话题探讨，反映出玩家对游戏体验的重视程度。该推论基于机核节目对游戏前仪式行为的讨论，来源为s1。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "03b318d20bcc86cc8ef0dc99acad98e7eafd89048a3cdc7806dbfd0214e7c912"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/radios/220733"
+        }
+      ]
+    },
+    {
+      "id": "e7386f1a4af94e23dc96b429",
+      "title": "What we've been playing - \"It's pure video game popcorn movie stuff\"",
+      "originalTitle": "What we've been playing - \"It's pure video game popcorn movie stuff\"",
+      "publishedAt": "2026-10-10T07:00:00Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "Gears of War",
+        "The Blood of Dawnwalker"
       ],
       "categories": [
         "产品与版本",
         "运营活动"
       ],
-      "summary": "EA 和 Full Circle 表示支持玩家的创意和模组，但反对使用工具绕过系统以解锁付费外观和未发布内容的模组。",
-      "insight": "AI 推论：开发者明确区分了对玩家创作的支持与对破坏商业机制行为的抵制，表明其在早期访问游戏中对付费内容保护的重视，依赖于模组移除游戏内服务组件后引发的边界争议。【s1】",
+      "summary": "Eurogamer 的编辑 Dom 重新体验了《Gears of War》，而 Bertie 则在《The Blood of Dawnwalker》中竭尽全力为拯救家人而战。",
+      "insight": "AI 推论：根据 Eurogamer 编辑对两款游戏的描述，可推测《Gears of War》可能因强调动作与叙事张力被视作“纯电子游戏爆米花电影”类型，而《The Blood of Dawnwalker》则可能以情感驱动的剧情为核心，吸引玩家投入角色动机。此推论依赖于原文中提及的游戏名称及编辑评价。",
       "processing": {
         "status": "success",
         "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "3ab41fa02ba6ea3bd3b4f1d604eb84344492e65b402494c00de09dabcc91490e"
+        "contentHash": "2067daf40adb9f38ded8689feaa3a04d76f7f5ef50b587058f35d65267f49c15"
       },
       "sources": [
         {
           "id": "eurogamer",
           "name": "Eurogamer",
-          "url": "https://www.eurogamer.net/skate-mods-live-service-ea-unlock-paid-cosmetics"
+          "url": "https://www.eurogamer.net/what-weve-been-playing-its-pure-video-game-popcorn-movie-stuff"
         }
       ]
     },
     {
-      "id": "31590149471ca9d12e788bb8",
-      "title": "Dragon’s Dogma 2: Dark Arisen Is Great, But At a Cost",
-      "originalTitle": "Dragon’s Dogma 2: Dark Arisen Is Great, But At a Cost",
-      "publishedAt": "2026-10-09T20:13:21Z",
-      "platforms": [
-        "pc",
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Dragon's Dogma 2"
-      ],
-      "categories": [
-        "产品与版本"
-      ],
-      "summary": "《Dragon's Dogma 2: Dark Arisen》延续了前作同名扩展的命名传统，主题相关且对老玩家具有明确指引意义，暗示新内容将聚焦于重制的战利品系统与大量地城探索。与前作不同的是，本次扩展不再以诅咒岛屿为背景，而是转向新的冒险场景。",
-      "insight": "AI 推论：尽管《Dragon's Dogma 2: Dark Arisen》沿用前作扩展名称，但其背景设定已发生转变，表明开发商在保持品牌连贯性的同时，正通过调整核心玩法环境来区分新旧内容，这可能反映其在维持粉丝期待与创新之间的策略权衡。此推论依赖于原文中提及的‘与前作不同’及‘不再以诅咒岛屿为背景’的事实。",
+      "id": "c184f36955a1fb6f02a53c3a",
+      "title": "What are we all playing this weekend?",
+      "originalTitle": "What are we all playing this weekend?",
+      "publishedAt": "2026-10-10T07:00:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": "本周秋意渐浓，作者在床铺上加了额外的毯子以应对天气变化，但尚未更换为冬季被褥，预计至少到十二月才会进行更换。",
+      "insight": "AI 推论：秋季气候转凉促使玩家调整居家舒适度，可能间接影响游戏时长或偏好室内活动，但无直接证据表明此行为与游戏选择相关。该推论依赖于来源 s1 中关于季节性生活变化的描述。",
       "processing": {
         "status": "success",
         "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "761cc7792a35717ee3cbe64f84a3b3f579f2feb20e456b901832b3f6a99545d9"
+        "contentHash": "b3dec8105accbedc06c7382abe32f56f22c0c8ed1568ec8561e5d61b52dcde71"
       },
       "sources": [
         {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/reviews/dragons-dogma-2-dark-arisen-is-great-but-at-a-cost/"
-        }
-      ]
-    },
-    {
-      "id": "0da1e7991dbf1a60b3f58062",
-      "title": "Lucasfilm Games Producer Responds After Galactic Racer Character Biddy Blas Goes Viral",
-      "originalTitle": "Lucasfilm Games Producer Responds After Galactic Racer Character Biddy Blas Goes Viral",
-      "publishedAt": "2026-10-09T20:00:58Z",
-      "platforms": [
-        "mobile"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Star Wars: Galactic Racer"
-      ],
-      "categories": [
-        "营销与联动"
-      ],
-      "summary": "Star Wars: Galactic Racer 中角色 Biddy Blas 因一段玩家互动视频在游戏社交平台引发热议，Lucasfilm Games 制作人对此作出回应。",
-      "insight": "AI 推论：Biddy Blas 角色因玩家生成内容在社交平台传播而走红，可能推动 Lucasfilm Games 加强对社区内容的监测与互动策略，以应对未来潜在的病毒式传播事件。此推论依赖于 s1 中提及的视频在游戏社交平台传播及制作人回应的事实。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "f80dece03fc97ef9ad8d2203078551195f9ac312741febce4aa0cbb9aed0d714"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/lucasfilm-games-producer-responds-after-galactic-racer-character-biddy-blas-goes-viral"
-        }
-      ]
-    },
-    {
-      "id": "c024c9a9f9c993199c775271",
-      "title": "The Gorgeous 27\" Acer Nitro QD-OLED Gaming Monitor With 240Hz Refresh Rate Drops to $269 at Walmart",
-      "originalTitle": "The Gorgeous 27\" Acer Nitro QD-OLED Gaming Monitor With 240Hz Refresh Rate Drops to $269 at Walmart",
-      "publishedAt": "2026-10-09T19:45:00Z",
-      "platforms": [
-        "pc"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [],
-      "categories": [
-        "产品与版本"
-      ],
-      "summary": "Acer Nitro QD-OLED 27英寸游戏显示器在沃尔玛降价至269美元，具备240Hz刷新率。",
-      "insight": "AI 推论：该显示器降价至269美元，且被描述为优于Prime Day的优惠，表明零售商可能在特定时间点通过价格策略提升销量，但具体促销周期未明确。此推论依赖于来源s1中提及的“Better than Prime Day”这一对比性描述。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "a4b78c851e3ac6260aa356ae200c18498b9026f5d519ca31d51cd21e11118f1d"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/acer-nitro-qd-oled-gaming-monitor-deal-october-2026"
-        }
-      ]
-    },
-    {
-      "id": "fdd07c4aab3a5c5f0193b607",
-      "title": "Get a Preowned Asus Xbox Ally X Ryzen Z2 Extreme Handheld Gaming PC for as Low as $790 at Best Buy",
-      "originalTitle": "Get a Preowned Asus Xbox Ally X Ryzen Z2 Extreme Handheld Gaming PC for as Low as $790 at Best Buy",
-      "publishedAt": "2026-10-09T19:25:00Z",
-      "platforms": [
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [],
-      "categories": [
-        "产品与版本",
-        "发行与渠道"
-      ],
-      "summary": "在 Best Buy，二手版 Asu ROG Xbox Ally X 搭载 Ryzen Z2 Extreme 处理器的游戏掌机售价低至 790 美元，是市场上性能最强的掌上游戏设备之一，价格远低于同类产品。",
-      "insight": "AI 推论：由于该设备为二手且定价显著低于市场同类产品，可能反映厂商或零售商对旧款高性能掌机进行清仓处理，以释放库存并应对新机型上市压力。此现象表明当前掌机市场竞争加剧，消费者对高性价比设备的需求上升，促使渠道商通过降价策略吸引用户。",
-      "processing": {
-        "status": "success",
-        "reason": "原文与本地加工配置哈希一致，复用通过结构校验的历史结果；未独立核验后端配置",
-        "contentHash": "c164a348f8846b45fa6ea86e5d0a2d153cbd410ec22c0ccb2204296b9cd2fc07"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/asus-rog-xbox-ally-x-handheld-gaming-pc-deal-october-2026"
-        }
-      ]
-    },
-    {
-      "id": "c024af920a9a9e56c65c1dfa",
-      "title": "Call Of Duty: MW4 Early Access Also Includes DMZ, Here’s How To Get In",
-      "originalTitle": "Call Of Duty: MW4 Early Access Also Includes DMZ, Here’s How To Get In",
-      "publishedAt": "2026-10-09T19:17:24Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "内容服务连接/鉴权/预算失败或响应结构不合格；不重试计费请求，公开采集继续"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/call-of-duty-mw4-early-access-also-includes-dmz-heres-how-to-get-in/"
-        }
-      ]
-    },
-    {
-      "id": "fc5975f64e914d4adc858960",
-      "title": "As Xbox and PlayStation sales reach new lows, analyst says the \"US hardware market has not been in a more precarious position since the early 80s\"",
-      "originalTitle": "As Xbox and PlayStation sales reach new lows, analyst says the \"US hardware market has not been in a more precarious position since the early 80s\"",
-      "publishedAt": "2026-10-09T18:51:26Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "内容服务连接/鉴权/预算失败或响应结构不合格；不重试计费请求，公开采集继续"
-      },
-      "sources": [
-        {
-          "id": "eurogamer",
-          "name": "Eurogamer",
-          "url": "https://www.eurogamer.net/xbox-playstation-sales-new-lows-hardware-market"
-        }
-      ]
-    },
-    {
-      "id": "05a7b873bdf32c90d5735aaa",
-      "title": "Gears Of War: E-Day–How’s It Selling? Let’s Unpack Things",
-      "originalTitle": "Gears Of War: E-Day–How’s It Selling? Let’s Unpack Things",
-      "publishedAt": "2026-10-09T18:41:40Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "内容服务连接/鉴权/预算失败或响应结构不合格；不重试计费请求，公开采集继续"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/gears-of-war-e-day-hows-it-selling-lets-unpack-things/"
-        }
-      ]
-    },
-    {
-      "id": "f923ceff766d5a516c083ab2",
-      "title": "Gears of War: E-Day reportedly courts over 1.7m Xbox Game Pass players and makes over $37m since launch",
-      "originalTitle": "Gears of War: E-Day reportedly courts over 1.7m Xbox Game Pass players and makes over $37m since launch",
-      "publishedAt": "2026-10-09T18:03:42Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "内容服务连接/鉴权/预算失败或响应结构不合格；不重试计费请求，公开采集继续"
-      },
-      "sources": [
-        {
-          "id": "eurogamer",
-          "name": "Eurogamer",
-          "url": "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
-        }
-      ]
-    },
-    {
-      "id": "7e593d60065d766a313c8362",
-      "title": "World of Warcraft: Forever – “Your Adventure Begins” Trailer",
-      "originalTitle": "World of Warcraft: Forever – “Your Adventure Begins” Trailer",
-      "publishedAt": "2026-10-09T17:31:59Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "内容服务连接/鉴权/预算失败或响应结构不合格；不重试计费请求，公开采集继续"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/videos/world-of-warcraft-forever-your-adventure-begins-trailer/"
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-403"
         }
       ]
     }
@@ -922,7 +926,7 @@
       "unit": "人（同时在线）",
       "period": "采集时刻",
       "methodologyVersion": "steam-html-popularity-v1",
-      "observedAt": "2026-10-10T06:32:47.430097Z",
+      "observedAt": "2026-10-11T06:38:14.586125Z",
       "status": "ok",
       "reason": "本次本机解析有效app行；最多20项，不表示持续生产可用",
       "items": [
@@ -930,218 +934,218 @@
           "gameId": "steam:730",
           "name": "Counter-Strike 2",
           "rank": 1,
-          "value": 560914,
+          "value": 731545,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/730/",
           "previousRank": 1,
           "rankChange": 0,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:570",
           "name": "Dota 2",
           "rank": 2,
-          "value": 543116,
+          "value": 628172,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/570/",
           "previousRank": 2,
           "rankChange": 0,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:578080",
           "name": "PUBG: BATTLEGROUNDS",
           "rank": 3,
-          "value": 285815,
+          "value": 397597,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/578080/",
           "previousRank": 3,
           "rankChange": 0,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:3393110",
           "name": "AION 2",
           "rank": 4,
-          "value": 228023,
+          "value": 232663,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/3393110/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
+          "previousRank": 4,
+          "rankChange": 0,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:3419430",
           "name": "Bongo Cat",
           "rank": 5,
-          "value": 137884,
+          "value": 158714,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/3419430/",
-          "previousRank": 4,
-          "rankChange": -1,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:1422450",
-          "name": "Deadlock",
-          "rank": 6,
-          "value": 124956,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1422450/",
           "previousRank": 5,
-          "rankChange": -1,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "rankChange": 0,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:1172470",
           "name": "Apex Legends™",
-          "rank": 7,
-          "value": 100036,
+          "rank": 6,
+          "value": 143459,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/1172470/",
+          "previousRank": 7,
+          "rankChange": 1,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:1422450",
+          "name": "Deadlock",
+          "rank": 7,
+          "value": 126780,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1422450/",
           "previousRank": 6,
           "rankChange": -1,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:1867240",
           "name": "WARDOGS",
           "rank": 8,
-          "value": 99121,
+          "value": 110336,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/1867240/",
           "previousRank": 8,
           "rankChange": 0,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:2676230",
-          "name": "FiveM",
-          "rank": 9,
-          "value": 85382,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2676230/",
-          "previousRank": 9,
-          "rankChange": 0,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:1808500",
-          "name": "ARC Raiders",
-          "rank": 10,
-          "value": 75540,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1808500/",
-          "previousRank": 14,
-          "rankChange": 4,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:892970",
-          "name": "Valheim",
-          "rank": 11,
-          "value": 73081,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/892970/",
-          "previousRank": 15,
-          "rankChange": 4,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:431960",
-          "name": "Wallpaper Engine",
-          "rank": 12,
-          "value": 71971,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/431960/",
-          "previousRank": 10,
-          "rankChange": -2,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:440",
-          "name": "Team Fortress 2",
-          "rank": 13,
-          "value": 70468,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/440/",
-          "previousRank": 7,
-          "rankChange": -6,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:2507950",
           "name": "Delta Force",
-          "rank": 14,
-          "value": 68725,
+          "rank": 9,
+          "value": 97688,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/2507950/",
-          "previousRank": 11,
-          "rankChange": -3,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "previousRank": 14,
+          "rankChange": 5,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
-          "gameId": "steam:252490",
-          "name": "Rust",
-          "rank": 15,
-          "value": 67968,
+          "gameId": "steam:2676230",
+          "name": "FiveM",
+          "rank": 10,
+          "value": 91407,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/252490/",
-          "previousRank": 13,
-          "rankChange": -2,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "url": "https://store.steampowered.com/app/2676230/",
+          "previousRank": 9,
+          "rankChange": -1,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
-          "gameId": "steam:2357570",
-          "name": "Overwatch®",
-          "rank": 16,
-          "value": 60490,
+          "gameId": "steam:431960",
+          "name": "Wallpaper Engine",
+          "rank": 11,
+          "value": 90811,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2357570/",
-          "previousRank": 19,
-          "rankChange": 3,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:3678970",
-          "name": "TBH: Task Bar Hero",
-          "rank": 17,
-          "value": 60489,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/3678970/",
+          "url": "https://store.steampowered.com/app/431960/",
           "previousRank": 12,
-          "rankChange": -5,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "rankChange": 1,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
-          "gameId": "steam:2767030",
-          "name": "Marvel Rivals",
-          "rank": 18,
-          "value": 58771,
+          "gameId": "steam:1808500",
+          "name": "ARC Raiders",
+          "rank": 12,
+          "value": 85600,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2767030/",
+          "url": "https://store.steampowered.com/app/1808500/",
+          "previousRank": 10,
+          "rankChange": -2,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:892970",
+          "name": "Valheim",
+          "rank": 13,
+          "value": 83130,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/892970/",
+          "previousRank": 11,
+          "rankChange": -2,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:440",
+          "name": "Team Fortress 2",
+          "rank": 14,
+          "value": 71843,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/440/",
+          "previousRank": 13,
+          "rankChange": -1,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:2868840",
+          "name": "Slay the Spire 2",
+          "rank": 15,
+          "value": 70020,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2868840/",
+          "previousRank": 19,
+          "rankChange": 4,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:413150",
+          "name": "Stardew Valley",
+          "rank": 16,
+          "value": 69127,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/413150/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
         },
         {
-          "gameId": "steam:2868840",
-          "name": "Slay the Spire 2",
-          "rank": 19,
-          "value": 56089,
+          "gameId": "steam:252490",
+          "name": "Rust",
+          "rank": 17,
+          "value": 66478,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2868840/",
-          "previousRank": 17,
+          "url": "https://store.steampowered.com/app/252490/",
+          "previousRank": 15,
           "rankChange": -2,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
-          "gameId": "steam:438100",
-          "name": "VRChat",
-          "rank": 20,
-          "value": 51811,
+          "gameId": "steam:2357570",
+          "name": "Overwatch®",
+          "rank": 18,
+          "value": 63385,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/438100/",
+          "url": "https://store.steampowered.com/app/2357570/",
+          "previousRank": 16,
+          "rankChange": -2,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:3678970",
+          "name": "TBH: Task Bar Hero",
+          "rank": 19,
+          "value": 61239,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3678970/",
+          "previousRank": 17,
+          "rankChange": -2,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:292030",
+          "name": "The Witcher 3: Wild Hunt — Remastered",
+          "rank": 20,
+          "value": 59760,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/292030/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1164,7 +1168,7 @@
       "unit": "名次（金额/份数未披露）",
       "period": "平台实时收入排名，精确计算窗口未确认",
       "methodologyVersion": "steam-html-commercial-v1",
-      "observedAt": "2026-10-10T06:32:47.430097Z",
+      "observedAt": "2026-10-11T06:38:14.586125Z",
       "status": "ok",
       "reason": "本次本机解析有效app行；最多20项，不表示持续生产可用",
       "items": [
@@ -1177,7 +1181,7 @@
           "url": "https://store.steampowered.com/app/570/",
           "previousRank": 1,
           "rankChange": 0,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:3393110",
@@ -1186,9 +1190,9 @@
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/3393110/",
-          "previousRank": 4,
-          "rankChange": 2,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "previousRank": 2,
+          "rankChange": 0,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:730",
@@ -1197,9 +1201,9 @@
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/730/",
-          "previousRank": 5,
-          "rankChange": 2,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "previousRank": 3,
+          "rankChange": 0,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:4078430",
@@ -1208,64 +1212,64 @@
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/4078430/",
-          "previousRank": 9,
-          "rankChange": 5,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:632360",
-          "name": "Risk of Rain 2",
-          "rank": 5,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/632360/",
-          "previousRank": 2,
-          "rankChange": -3,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "previousRank": 4,
+          "rankChange": 0,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:4080220",
           "name": "EA SPORTS FC™ 27",
-          "rank": 6,
+          "rank": 5,
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/4080220/",
-          "previousRank": 14,
-          "rankChange": 8,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "previousRank": 6,
+          "rankChange": 1,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
-          "gameId": "steam:3055670",
-          "name": "Risk of Rain 2: Hallowed Concepts",
-          "rank": 7,
+          "gameId": "steam:632360",
+          "name": "Risk of Rain 2",
+          "rank": 6,
           "value": null,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/3055670/",
-          "previousRank": 3,
-          "rankChange": -4,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:2054970",
-          "name": "Dragon's Dogma 2",
-          "rank": 8,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2054970/",
-          "previousRank": 7,
+          "url": "https://store.steampowered.com/app/632360/",
+          "previousRank": 5,
           "rankChange": -1,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:3010850",
           "name": "Gears of War: E-Day",
-          "rank": 9,
+          "rank": 7,
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/3010850/",
-          "previousRank": 12,
-          "rankChange": 3,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "previousRank": 9,
+          "rankChange": 2,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:1867240",
+          "name": "WARDOGS",
+          "rank": 8,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1867240/",
+          "previousRank": 15,
+          "rankChange": 7,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:1808500",
+          "name": "ARC Raiders",
+          "rank": 9,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1808500/",
+          "previousRank": 14,
+          "rankChange": 5,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:1551980",
@@ -1274,105 +1278,72 @@
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/1551980/",
-          "previousRank": 8,
-          "rankChange": -2,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "previousRank": 10,
+          "rankChange": 0,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
-          "gameId": "steam:2767030",
-          "name": "Marvel Rivals",
+          "gameId": "steam:2054970",
+          "name": "Dragon's Dogma 2",
           "rank": 11,
           "value": null,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2767030/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
+          "url": "https://store.steampowered.com/app/2054970/",
+          "previousRank": 8,
+          "rankChange": -3,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
-          "gameId": "steam:2593290",
-          "name": "Dragon's Dogma 2: Dark Arisen Expansion",
+          "gameId": "steam:3055670",
+          "name": "Risk of Rain 2: Hallowed Concepts",
           "rank": 12,
           "value": null,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2593290/",
-          "previousRank": 10,
-          "rankChange": -2,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:2357570",
-          "name": "Overwatch®",
-          "rank": 13,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2357570/",
-          "previousRank": 20,
-          "rankChange": 7,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:1808500",
-          "name": "ARC Raiders",
-          "rank": 14,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1808500/",
-          "previousRank": 6,
-          "rankChange": -8,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:1867240",
-          "name": "WARDOGS",
-          "rank": 15,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1867240/",
-          "previousRank": 17,
-          "rankChange": 2,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "url": "https://store.steampowered.com/app/3055670/",
+          "previousRank": 7,
+          "rankChange": -5,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:1172470",
           "name": "Apex Legends™",
-          "rank": 16,
+          "rank": 13,
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/1172470/",
-          "previousRank": 19,
+          "previousRank": 16,
           "rankChange": 3,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
-        },
-        {
-          "gameId": "steam:2288340",
-          "name": "ACE COMBAT 8: WINGS OF THEVE",
-          "rank": 17,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2288340/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
           "gameId": "steam:4435490",
           "name": "Call of Duty®: Modern Warfare® 4",
-          "rank": 18,
+          "rank": 14,
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/4435490/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
+          "previousRank": 18,
+          "rankChange": 4,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         },
         {
-          "gameId": "steam:2254990",
-          "name": "Permafrost",
-          "rank": 19,
+          "gameId": "steam:2288340",
+          "name": "ACE COMBAT 8: WINGS OF THEVE",
+          "rank": 15,
           "value": null,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2254990/",
+          "url": "https://store.steampowered.com/app/2288340/",
+          "previousRank": 17,
+          "rankChange": 2,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:4115450",
+          "name": "Phantom Blade Zero",
+          "rank": 16,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4115450/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1380,13 +1351,46 @@
         {
           "gameId": "steam:578080",
           "name": "PUBG: BATTLEGROUNDS",
-          "rank": 20,
+          "rank": 17,
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/578080/",
-          "previousRank": 18,
-          "rankChange": -2,
-          "baselineAt": "2026-10-09T06:59:01.659843Z"
+          "previousRank": 20,
+          "rankChange": 3,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:2593290",
+          "name": "Dragon's Dogma 2: Dark Arisen Expansion",
+          "rank": 18,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2593290/",
+          "previousRank": 12,
+          "rankChange": -6,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:2357570",
+          "name": "Overwatch®",
+          "rank": 19,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2357570/",
+          "previousRank": 13,
+          "rankChange": -6,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
+        },
+        {
+          "gameId": "steam:2767030",
+          "name": "Marvel Rivals",
+          "rank": 20,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2767030/",
+          "previousRank": 11,
+          "rankChange": -9,
+          "baselineAt": "2026-10-10T06:32:47.430097Z"
         }
       ],
       "dataType": "platform_rank"
@@ -1406,16 +1410,27 @@
       "unit": "%（本查询汇总好评率）",
       "period": "本查询服务端汇总，精确时间窗口未核实；非近30天",
       "methodologyVersion": "steam-explicit-query-v1",
-      "observedAt": "2026-10-10T06:32:47.430097Z",
+      "observedAt": "2026-10-11T06:38:14.586125Z",
       "status": "ok",
-      "reason": "仅当期榜单候选并集；31款汇总有效，0款失败；不足100评价不入榜",
+      "reason": "仅当期榜单候选并集；32款汇总有效，0款失败；不足100评价不入榜",
       "items": [
+        {
+          "gameId": "steam:413150",
+          "name": "Stardew Valley",
+          "rank": 1,
+          "value": 98.48,
+          "reviewCount": 1044155,
+          "url": "https://store.steampowered.com/app/413150/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
         {
           "gameId": "steam:431960",
           "name": "Wallpaper Engine",
-          "rank": 1,
+          "rank": 2,
           "value": 97.55,
-          "reviewCount": 1021482,
+          "reviewCount": 1021757,
           "url": "https://store.steampowered.com/app/431960/",
           "previousRank": null,
           "rankChange": null,
@@ -1424,10 +1439,21 @@
         {
           "gameId": "steam:3419430",
           "name": "Bongo Cat",
-          "rank": 2,
+          "rank": 3,
           "value": 96.56,
-          "reviewCount": 112220,
+          "reviewCount": 112312,
           "url": "https://store.steampowered.com/app/3419430/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:292030",
+          "name": "The Witcher 3: Wild Hunt — Remastered",
+          "rank": 4,
+          "value": 96.39,
+          "reviewCount": 903068,
+          "url": "https://store.steampowered.com/app/292030/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1435,9 +1461,9 @@
         {
           "gameId": "steam:1551980",
           "name": "Clive Barker's Hellraiser: Revival",
-          "rank": 3,
-          "value": 95.62,
-          "reviewCount": 2055,
+          "rank": 5,
+          "value": 95.03,
+          "reviewCount": 3120,
           "url": "https://store.steampowered.com/app/1551980/",
           "previousRank": null,
           "rankChange": null,
@@ -1446,9 +1472,9 @@
         {
           "gameId": "steam:632360",
           "name": "Risk of Rain 2",
-          "rank": 4,
+          "rank": 6,
           "value": 93.85,
-          "reviewCount": 354096,
+          "reviewCount": 354292,
           "url": "https://store.steampowered.com/app/632360/",
           "previousRank": null,
           "rankChange": null,
@@ -1457,9 +1483,9 @@
         {
           "gameId": "steam:892970",
           "name": "Valheim",
-          "rank": 5,
-          "value": 93.59,
-          "reviewCount": 558811,
+          "rank": 7,
+          "value": 93.58,
+          "reviewCount": 559119,
           "url": "https://store.steampowered.com/app/892970/",
           "previousRank": null,
           "rankChange": null,
@@ -1468,7 +1494,7 @@
         {
           "gameId": "steam:2676230",
           "name": "FiveM",
-          "rank": 6,
+          "rank": 8,
           "value": 91.67,
           "reviewCount": 372,
           "url": "https://store.steampowered.com/app/2676230/",
@@ -1479,9 +1505,9 @@
         {
           "gameId": "steam:440",
           "name": "Team Fortress 2",
-          "rank": 7,
+          "rank": 9,
           "value": 91.06,
-          "reviewCount": 1253784,
+          "reviewCount": 1253917,
           "url": "https://store.steampowered.com/app/440/",
           "previousRank": null,
           "rankChange": null,
@@ -1490,9 +1516,9 @@
         {
           "gameId": "steam:252490",
           "name": "Rust",
-          "rank": 8,
-          "value": 86.69,
-          "reviewCount": 1406011,
+          "rank": 10,
+          "value": 86.68,
+          "reviewCount": 1406270,
           "url": "https://store.steampowered.com/app/252490/",
           "previousRank": null,
           "rankChange": null,
@@ -1501,9 +1527,9 @@
         {
           "gameId": "steam:2593290",
           "name": "Dragon's Dogma 2: Dark Arisen Expansion",
-          "rank": 9,
-          "value": 86.13,
-          "reviewCount": 411,
+          "rank": 11,
+          "value": 85.88,
+          "reviewCount": 595,
           "url": "https://store.steampowered.com/app/2593290/",
           "previousRank": null,
           "rankChange": null,
@@ -1512,21 +1538,10 @@
         {
           "gameId": "steam:730",
           "name": "Counter-Strike 2",
-          "rank": 10,
-          "value": 85.81,
-          "reviewCount": 9912346,
+          "rank": 12,
+          "value": 85.8,
+          "reviewCount": 9914724,
           "url": "https://store.steampowered.com/app/730/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
-        },
-        {
-          "gameId": "steam:3055670",
-          "name": "Risk of Rain 2: Hallowed Concepts",
-          "rank": 11,
-          "value": 85.36,
-          "reviewCount": 608,
-          "url": "https://store.steampowered.com/app/3055670/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1534,21 +1549,21 @@
         {
           "gameId": "steam:4078430",
           "name": "STAR WARS: Galactic Racer™",
-          "rank": 12,
-          "value": 83.92,
-          "reviewCount": 3892,
+          "rank": 13,
+          "value": 84.9,
+          "reviewCount": 4624,
           "url": "https://store.steampowered.com/app/4078430/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
         },
         {
-          "gameId": "steam:1808500",
-          "name": "ARC Raiders",
-          "rank": 13,
-          "value": 81.67,
-          "reviewCount": 420462,
-          "url": "https://store.steampowered.com/app/1808500/",
+          "gameId": "steam:3055670",
+          "name": "Risk of Rain 2: Hallowed Concepts",
+          "rank": 14,
+          "value": 82.41,
+          "reviewCount": 779,
+          "url": "https://store.steampowered.com/app/3055670/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1556,10 +1571,21 @@
         {
           "gameId": "steam:2288340",
           "name": "ACE COMBAT 8: WINGS OF THEVE",
-          "rank": 14,
-          "value": 81.62,
-          "reviewCount": 17146,
+          "rank": 15,
+          "value": 82.1,
+          "reviewCount": 17915,
           "url": "https://store.steampowered.com/app/2288340/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:1808500",
+          "name": "ARC Raiders",
+          "rank": 16,
+          "value": 81.64,
+          "reviewCount": 421534,
+          "url": "https://store.steampowered.com/app/1808500/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1567,21 +1593,10 @@
         {
           "gameId": "steam:570",
           "name": "Dota 2",
-          "rank": 15,
+          "rank": 17,
           "value": 80.44,
-          "reviewCount": 2794667,
+          "reviewCount": 2795414,
           "url": "https://store.steampowered.com/app/570/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
-        },
-        {
-          "gameId": "steam:2254990",
-          "name": "Permafrost",
-          "rank": 16,
-          "value": 78.33,
-          "reviewCount": 360,
-          "url": "https://store.steampowered.com/app/2254990/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1589,21 +1604,10 @@
         {
           "gameId": "steam:2767030",
           "name": "Marvel Rivals",
-          "rank": 17,
-          "value": 75.28,
-          "reviewCount": 421300,
-          "url": "https://store.steampowered.com/app/2767030/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
-        },
-        {
-          "gameId": "steam:438100",
-          "name": "VRChat",
           "rank": 18,
-          "value": 75.14,
-          "reviewCount": 269706,
-          "url": "https://store.steampowered.com/app/438100/",
+          "value": 75.27,
+          "reviewCount": 421524,
+          "url": "https://store.steampowered.com/app/2767030/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1612,8 +1616,8 @@
           "gameId": "steam:3010850",
           "name": "Gears of War: E-Day",
           "rank": 19,
-          "value": 74.63,
-          "reviewCount": 7013,
+          "value": 74.24,
+          "reviewCount": 7701,
           "url": "https://store.steampowered.com/app/3010850/",
           "previousRank": null,
           "rankChange": null,
@@ -1623,8 +1627,8 @@
           "gameId": "steam:1867240",
           "name": "WARDOGS",
           "rank": 20,
-          "value": 74.12,
-          "reviewCount": 111698,
+          "value": 74.09,
+          "reviewCount": 113057,
           "url": "https://store.steampowered.com/app/1867240/",
           "previousRank": null,
           "rankChange": null,
@@ -1651,7 +1655,6 @@
           "steam:1808500",
           "steam:1867240",
           "steam:2054970",
-          "steam:2254990",
           "steam:2288340",
           "steam:2357570",
           "steam:2507950",
@@ -1660,6 +1663,7 @@
           "steam:2676230",
           "steam:2767030",
           "steam:2868840",
+          "steam:292030",
           "steam:3010850",
           "steam:3055670",
           "steam:3393110",
@@ -1667,8 +1671,9 @@
           "steam:3678970",
           "steam:4078430",
           "steam:4080220",
+          "steam:4115450",
+          "steam:413150",
           "steam:431960",
-          "steam:438100",
           "steam:440",
           "steam:4435490",
           "steam:570",
@@ -1684,7 +1689,6 @@
           "steam:1808500",
           "steam:1867240",
           "steam:2054970",
-          "steam:2254990",
           "steam:2288340",
           "steam:2357570",
           "steam:2507950",
@@ -1693,6 +1697,7 @@
           "steam:2676230",
           "steam:2767030",
           "steam:2868840",
+          "steam:292030",
           "steam:3010850",
           "steam:3055670",
           "steam:3393110",
@@ -1700,8 +1705,9 @@
           "steam:3678970",
           "steam:4078430",
           "steam:4080220",
+          "steam:4115450",
+          "steam:413150",
           "steam:431960",
-          "steam:438100",
           "steam:440",
           "steam:4435490",
           "steam:570",
@@ -1775,30 +1781,30 @@
   ],
   "movements": [
     {
-      "id": "01e19a6be6a02585c3ec756e",
-      "gameId": "steam:4080220",
-      "name": "EA SPORTS FC™ 27",
+      "id": "d61ac15672ff4aedb01146cb",
+      "gameId": "steam:1867240",
+      "name": "WARDOGS",
       "platform": "pc",
-      "reason": "对比上次同来源同口径快照 2026-10-09T06:59:01.659843Z，Steam 全球畅销（收入排名）上升8名；不是日涨幅",
-      "observedAt": "2026-10-10T06:32:47.430097Z",
+      "reason": "对比上次同来源同口径快照 2026-10-10T06:32:47.430097Z，Steam 全球畅销（收入排名）上升7名；不是日涨幅",
+      "observedAt": "2026-10-11T06:38:14.586125Z",
       "positive": [
         {
-          "text": "2026-10-10T05:12:28Z · [e1] AI 整理：玩家认为本作是过去5至10年最佳的FIFA游戏，整体体验流畅，防守手感出色，尽管存在球权丢失后进攻端表现波动较大的问题，但整体评价积极。",
-          "sourceUrl": "https://store.steampowered.com/appreviews/4080220?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "text": "2026-10-11T06:04:51Z · [e1] AI 整理：玩家期待提升直升机收益，认为其若更盈利将极大改善体验",
+          "sourceUrl": "https://store.steampowered.com/appreviews/1867240?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         },
         {
-          "text": "2026-10-10T04:43:25Z · [e2] AI 整理：有玩家表示本作相比去年提升了十倍，明显优于前作，显示出显著的进步。",
-          "sourceUrl": "https://store.steampowered.com/appreviews/4080220?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "text": "2026-10-11T06:04:33Z · [e2] AI 整理：游戏提供多样玩法，机制满足感强，支持不同风格的玩家策略",
+          "sourceUrl": "https://store.steampowered.com/appreviews/1867240?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         }
       ],
       "negative": [
         {
-          "text": "2026-10-10T06:19:28Z · [e3] 依据原文：匿名原文节选（非总体结论）：狗食游戏",
-          "sourceUrl": "https://store.steampowered.com/appreviews/4080220?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "text": "2026-10-11T06:05:42Z · [e3] 依据原文：匿名原文节选（非总体结论）：really good game with a lot of different playstyle. addicting game but has 1 flaw. and it's the same as EFT. more and more cheater. and even if they get found out they don't get pe",
+          "sourceUrl": "https://store.steampowered.com/appreviews/1867240?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         },
         {
-          "text": "2026-10-10T05:55:09Z · [e4] 依据原文：匿名原文节选（非总体结论）：кал",
-          "sourceUrl": "https://store.steampowered.com/appreviews/4080220?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "text": "2026-10-11T06:00:07Z · [e4] 依据原文：匿名原文节选（非总体结论）：Played for less then an hour, died to my parachute just not activating, getting shot by people that even when the game zooms in on them, they are still virtually impossible to see,",
+          "sourceUrl": "https://store.steampowered.com/appreviews/1867240?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         }
       ],
       "events": [],
@@ -1820,35 +1826,35 @@
         {
           "id": "steam-reviews",
           "name": "Steam 最近排序评价（本页匿名样本）",
-          "url": "https://store.steampowered.com/appreviews/4080220?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "url": "https://store.steampowered.com/appreviews/1867240?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         }
       ]
     },
     {
-      "id": "b7458a87de4b0dbd953bca3a",
-      "gameId": "steam:2357570",
-      "name": "Overwatch®",
+      "id": "61286c7ba8cd2a324a0aafc6",
+      "gameId": "steam:1808500",
+      "name": "ARC Raiders",
       "platform": "pc",
-      "reason": "对比上次同来源同口径快照 2026-10-09T06:59:01.659843Z，Steam 全球畅销（收入排名）上升7名；不是日涨幅",
-      "observedAt": "2026-10-10T06:32:47.430097Z",
+      "reason": "对比上次同来源同口径快照 2026-10-10T06:32:47.430097Z，Steam 全球畅销（收入排名）上升5名；不是日涨幅",
+      "observedAt": "2026-10-11T06:38:14.586125Z",
       "positive": [
         {
-          "text": "2026-10-10T06:10:05Z · [e1] AI 整理：玩家提及游戏体验中有积极元素，如对角色或玩法的肯定（匿名原文节选：aura）",
-          "sourceUrl": "https://store.steampowered.com/appreviews/2357570?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "text": "2026-10-11T06:10:46Z · 匿名原文节选（非总体结论）：Uf",
+          "sourceUrl": "https://store.steampowered.com/appreviews/1808500?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         },
         {
-          "text": "2026-10-10T05:59:49Z · [e2] AI 整理：部分玩家表达对游戏的正面感受，使用积极词汇（匿名原文节选：jogo lixo，虽为葡萄牙语但语境显示为情绪化认可）",
-          "sourceUrl": "https://store.steampowered.com/appreviews/2357570?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "text": "2026-10-11T06:07:46Z · 匿名原文节选（非总体结论）：СЕКАС полный",
+          "sourceUrl": "https://store.steampowered.com/appreviews/1808500?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         }
       ],
       "negative": [
         {
-          "text": "2026-10-10T06:11:07Z · [e3] 依据原文：匿名原文节选（非总体结论）：時不時就進不了遊戲，重載也一樣，也沒有官方公告，",
-          "sourceUrl": "https://store.steampowered.com/appreviews/2357570?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "text": "2026-10-11T06:14:53Z · 匿名原文节选（非总体结论）：The pvp is horrible, the worst i played, looting is mid, but i like the pve part and maps. but the pvp gameplay sucks so i prefer play ther extraction shooters than this.",
+          "sourceUrl": "https://store.steampowered.com/appreviews/1808500?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         },
         {
-          "text": "2026-10-10T05:53:59Z · [e4] 依据原文：匿名原文节选（非总体结论）：New map is awful, hero changes are terrible. Hog is still a pick to win. There is no point in playing this season.",
-          "sourceUrl": "https://store.steampowered.com/appreviews/2357570?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "text": "2026-10-11T06:08:14Z · 匿名原文节选（非总体结论）：asco de juego no me gusta nada la verdad }",
+          "sourceUrl": "https://store.steampowered.com/appreviews/1808500?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         }
       ],
       "events": [],
@@ -1858,8 +1864,7 @@
         "filter=recent只表示排序；本次最多取一页100条，按timestamp_created严格筛近7天，匿名有效样本100条；非完整近7天评价。",
         "评价查询 language=all、purchase_type=all、review_type=all、day_range=365，三项过滤均=1；汇总好评率与本页样本分开。",
         "有20条以上匿名样本也不自动推断代表性、因果或全体玩家态度。",
-        "已通过公共内容预算入口整理；AI 中文转述不代表全体玩家，来源与原始证据日期保持独立。",
-        "证据不足以形成有用行业推论；本次未生成 AI 推论。"
+        "玩家动向加工被拒绝或输出/引用校验失败；保留原始证据，不发布模型文本"
       ],
       "sources": [
         {
@@ -1870,7 +1875,7 @@
         {
           "id": "steam-reviews",
           "name": "Steam 最近排序评价（本页匿名样本）",
-          "url": "https://store.steampowered.com/appreviews/2357570?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
+          "url": "https://store.steampowered.com/appreviews/1808500?json=1&language=all&review_type=all&purchase_type=all&filter=recent&day_range=365&filter_offtopic_activity=1&filter_offensive=1&filter_review_below_threshold=1&num_per_page=100"
         }
       ]
     }
@@ -1914,9 +1919,9 @@
       "method": "rss",
       "url": "https://feeds.ign.com/ign/all",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内20条（主题筛选前）",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内15条（主题筛选前）",
       "count": 20
     },
     {
@@ -1936,9 +1941,9 @@
       "method": "rss",
       "url": "https://www.gamespot.com/feeds/mashup/",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；15条有效日期订阅，24小时内13条（主题筛选前）",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；15条有效日期订阅，24小时内1条（主题筛选前）",
       "count": 15
     },
     {
@@ -1947,8 +1952,8 @@
       "method": "rss",
       "url": "https://www.polygon.com/rss/index.xml",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
       "reason": "本次本机取得有效字段；不代表持续生产可用；10条有效日期订阅，24小时内10条（主题筛选前）",
       "count": 10
     },
@@ -1958,9 +1963,9 @@
       "method": "rss",
       "url": "https://eurogamer.net/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内11条（主题筛选前）",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内6条（主题筛选前）",
       "count": 100
     },
     {
@@ -1969,9 +1974,9 @@
       "method": "rss",
       "url": "https://www.rockpapershotgun.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内8条（主题筛选前）",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内6条（主题筛选前）",
       "count": 100
     },
     {
@@ -1980,8 +1985,8 @@
       "method": "rss",
       "url": "https://vg247.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
       "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内0条（主题筛选前）",
       "count": 100
     },
@@ -1991,9 +1996,9 @@
       "method": "rss",
       "url": "https://gematsu.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内5条（主题筛选前）",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内4条（主题筛选前）",
       "count": 20
     },
     {
@@ -2002,9 +2007,9 @@
       "method": "rss",
       "url": "https://blog.playstation.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；10条有效日期订阅，24小时内2条（主题筛选前）",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；10条有效日期订阅，24小时内0条（主题筛选前）",
       "count": 10
     },
     {
@@ -2013,9 +2018,9 @@
       "method": "rss",
       "url": "https://www.gcores.com/rss",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内9条（主题筛选前）",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内8条（主题筛选前）",
       "count": 20
     },
     {
@@ -2024,9 +2029,9 @@
       "method": "rss",
       "url": "https://www.chuapp.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；30条有效日期订阅，24小时内2条（主题筛选前）",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；30条有效日期订阅，24小时内1条（主题筛选前）",
       "count": 30
     },
     {
@@ -2376,8 +2381,8 @@
       "method": "web",
       "url": "https://store.steampowered.com/charts/mostplayed",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
       "reason": "本次本机取得有效字段；不代表持续生产可用",
       "count": 20
     },
@@ -2387,8 +2392,8 @@
       "method": "web",
       "url": "https://store.steampowered.com/charts/topselling/global",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
       "reason": "本次本机取得有效字段；不代表持续生产可用",
       "count": 20
     },
@@ -2398,10 +2403,10 @@
       "method": "web",
       "url": "https://store.steampowered.com/appreviews/570?json=1&language=all&filter=recent&num_per_page=1",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
-      "reason": "当期候选并集31款，明确查询参数汇总成功31款、失败0款；100条门槛通过29款；服务端汇总时间窗口未核实，不称近30天/完整历史；无已验证同口径fallback",
-      "count": 31
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
+      "reason": "当期候选并集32款，明确查询参数汇总成功32款、失败0款；100条门槛通过29款；服务端汇总时间窗口未核实，不称近30天/完整历史；无已验证同口径fallback",
+      "count": 32
     },
     {
       "id": "web-16cbcc41702e",
@@ -2838,8 +2843,8 @@
       "method": "web",
       "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2?appid=570&count=1&maxlength=200",
       "status": "ok",
-      "attemptedAt": "2026-10-10T06:32:47.430097Z",
-      "lastSuccessAt": "2026-10-10T06:32:47.430097Z",
+      "attemptedAt": "2026-10-11T06:38:14.586125Z",
+      "lastSuccessAt": "2026-10-11T06:38:14.586125Z",
       "reason": "仅入选游戏按需请求2次，2次JSON有效；另逐条核对appid/官方feed/发布时间，外部媒体不称公告",
       "count": 2
     },
