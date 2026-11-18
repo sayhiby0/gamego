@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
-  "latestDate": "2026-11-17",
+  "latestDate": "2026-11-18",
   "dates": [
+    "2026-11-18",
     "2026-11-17",
     "2026-11-16",
     "2026-11-15",
@@ -25,8 +26,8 @@
     "2026-10-21",
     "2026-10-20"
   ],
-  "attemptedAt": "2026-11-17T08:40:50.734675Z",
-  "lastSuccessAt": "2026-11-17T08:40:50.734675Z",
+  "attemptedAt": "2026-11-18T08:04:22.972337Z",
+  "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
   "status": "partial",
   "failureReason": null,
   "failedAt": null

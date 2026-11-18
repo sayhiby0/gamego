@@ -1,0 +1,2975 @@
+{
+  "schemaVersion": 1,
+  "dataDate": "2026-11-18",
+  "attemptedAt": "2026-11-18T08:04:22.972337Z",
+  "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+  "status": "partial",
+  "notice": "本次有限本地公开采集；未做生产持续验收。手游三维度缺失；AI未成功的条目只保留标题和来源。",
+  "news": [
+    {
+      "id": "151407b1bbf8a893a60342fb",
+      "title": "《黎明行者之血》新游戏+模式现已开放",
+      "originalTitle": "《黎明行者之血》新游戏+模式现已开放",
+      "publishedAt": "2026-11-18T07:54:41Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222489"
+        }
+      ]
+    },
+    {
+      "id": "c246766370692282abc55083",
+      "title": "《索尼克赛车 交叉世界》免费更新“索尼克（迈凯伦车队）”正式上线",
+      "originalTitle": "《索尼克赛车 交叉世界》免费更新“索尼克（迈凯伦车队）”正式上线",
+      "publishedAt": "2026-11-18T05:00:58Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "索尼克赛车 交叉世界"
+      ],
+      "categories": [
+        "营销与联动",
+        "运营活动"
+      ],
+      "summary": "世嘉宣布，《索尼克赛车 交叉世界》的免费更新“索尼克（迈凯伦车队）”已于2026年11月18日上线，新增赛车手“索尼克（迈凯伦车队）”及原创赛车“McLaren Racing Car”。联动活动“迈凯伦车队活动”将于11月20日开启，玩家可通过参与团队竞速获取活动点数，兑换限定游戏内道具。",
+      "insight": "AI 推论：本次更新通过引入迈凯伦车队的IP元素，强化了游戏与知名体育品牌的跨界联动，可能旨在提升玩家在特定时间段内的活跃度与留存率。该策略依赖于限时活动机制和限定道具奖励，其效果取决于玩家对迈凯伦品牌及索尼克IP的双重认知度，且需确保游戏版本同步以避免体验断层。此推论基于s1中提及的免费更新、联动活动时间及道具奖励机制。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "3ac7b93dcf4c0b7f87bbddd53bfedaded0d576ccfac5fd693b61dadba3b10909"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222484"
+        }
+      ]
+    },
+    {
+      "id": "680ceb1c161fd872477f545e",
+      "title": "Magic: The Gathering’s 10 Best Uncommon Star Trek Cards, Ranked",
+      "originalTitle": "Magic: The Gathering’s 10 Best Uncommon Star Trek Cards, Ranked",
+      "publishedAt": "2026-11-18T05:00:18Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "global",
+        "overseas"
+      ],
+      "games": [
+        "Magic: The Gathering"
+      ],
+      "categories": [
+        "产品与版本",
+        "营销与联动"
+      ],
+      "summary": "Polygon 列出了《魔法风云会》星战主题系列中最具价值的10张稀有度为普通（Uncommon）的卡片，强调这些卡片虽未被广泛认可，但值得收藏。",
+      "insight": "AI 推论：基于 Polygon 对《魔法风云会》星战系列中普通卡牌的排名内容，可推测该系列可能通过联动IP提升非核心玩家的收藏兴趣，但具体市场表现与玩家反馈未在资料中体现。此推论依赖于 s1 中对卡片价值的评价。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "138d59c686e6791372b9297d40b1535d36388b394fb8a69729378463b908d642"
+      },
+      "sources": [
+        {
+          "id": "polygon",
+          "name": "Polygon",
+          "url": "https://www.polygon.com/mtg-best-star-trek-uncommon-magic-the-gathering-cards/"
+        }
+      ]
+    },
+    {
+      "id": "b3e0b8b3243635b834641bbe",
+      "title": "Hakoniwa Electric launches November 30",
+      "originalTitle": "Hakoniwa Electric launches November 30",
+      "publishedAt": "2026-11-18T02:07:42Z",
+      "platforms": [
+        "pc"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "Hakoniwa Electric"
+      ],
+      "categories": [
+        "产品与版本"
+      ],
+      "summary": "《Hakoniwa Electric》是一款关于修复电气问题的温馨解谜探索游戏，将于11月30日登陆PC平台。",
+      "insight": "AI 推论：基于《Hakoniwa Electric》定于11月30日上线PC平台的信息，可推测该游戏可能瞄准注重沉浸式体验与轻度玩法的玩家群体，且其发布时机或与年末休闲类游戏市场热度相关，但具体发行策略未在来源中说明。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "31eb33d6c0574aac3bcc23d717af399162eacfbe12bbada3e971007ae303a567"
+      },
+      "sources": [
+        {
+          "id": "gematsu",
+          "name": "Gematsu",
+          "url": "https://www.gematsu.com/2026/11/hakoniwa-electric-launches-november-30"
+        }
+      ]
+    },
+    {
+      "id": "5ffc381ec0a9c5a9f732b6b4",
+      "title": "《文明》《幽浮》开发工作室Firaxis Games裁员三分之一",
+      "originalTitle": "《文明》《幽浮》开发工作室Firaxis Games裁员三分之一",
+      "publishedAt": "2026-11-18T01:10:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222466"
+        }
+      ]
+    },
+    {
+      "id": "8a657d0c9bbbf30c94590320",
+      "title": "独立游戏工作室Bravarda宣布关闭，《无敌水豚》表现不及预期",
+      "originalTitle": "独立游戏工作室Bravarda宣布关闭，《无敌水豚》表现不及预期",
+      "publishedAt": "2026-11-18T01:05:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222455"
+        }
+      ]
+    },
+    {
+      "id": "ecee579cff00b06029a36402",
+      "title": "Steam周销量排行榜:《欧洲卡车模拟2》登顶|2026年11月第2周",
+      "originalTitle": "Steam周销量排行榜:《欧洲卡车模拟2》登顶|2026年11月第2周",
+      "publishedAt": "2026-11-18T00:55:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222459"
+        }
+      ]
+    },
+    {
+      "id": "f7885ee2fa6e0a59d0a66283",
+      "title": "'It's Been a Sh*tshow' — Esports Casters Call for Change After Embark Studios Replaces Talent for The Finals' Grand Major Qualifier Highlight Reel With Game's AI Commentators",
+      "originalTitle": "'It's Been a Sh*tshow' — Esports Casters Call for Change After Embark Studios Replaces Talent for The Finals' Grand Major Qualifier Highlight Reel With Game's AI Commentators",
+      "publishedAt": "2026-11-18T00:32:54Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/its-been-a-shtshow-esports-casters-call-for-change-after-embark-studios-replaces-talent-for-the-finals-grand-major-qualifier-highlight-reel-with-games-ai-commentators"
+        }
+      ]
+    },
+    {
+      "id": "bf099fc150f622bb6eb3aebb",
+      "title": "5 Big Takeaways From the 2026 Game Awards Nominations",
+      "originalTitle": "5 Big Takeaways From the 2026 Game Awards Nominations",
+      "publishedAt": "2026-11-18T00:00:16Z",
+      "platforms": [
+        "pc",
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "GTA 6",
+        "Control",
+        "Crimson Desert"
+      ],
+      "categories": [
+        "产品与版本",
+        "行业与公司"
+      ],
+      "summary": "2026年游戏大奖提名名单涵盖《GTA 6》《Control》和《Crimson Desert》等作品，标志着年度最佳游戏竞争格局的初步形成。",
+      "insight": "AI 推论：基于《GTA 6》《Control》与《Crimson Desert》被纳入提名，可推断这些作品在2026年被视为行业关键产品，可能反映发行商对奖项影响力的策略性布局。该推论依赖于提名名单中三款游戏均属高关注度项目这一事实。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "d421b6c6964cca20e674fd660a846c27abd34f67317cdd5f59c7aae759a563c5"
+      },
+      "sources": [
+        {
+          "id": "polygon",
+          "name": "Polygon",
+          "url": "https://www.polygon.com/2026-game-awards-nominations-goty-gta-analysis/"
+        }
+      ]
+    },
+    {
+      "id": "b3ca789103d346b9c0eff66d",
+      "title": "GTA 6 Vice City NBA Court Revealed by Miami Heat",
+      "originalTitle": "GTA 6 Vice City NBA Court Revealed by Miami Heat",
+      "publishedAt": "2026-11-17T23:51:09Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "GTA 6"
+      ],
+      "categories": [
+        "营销与联动"
+      ],
+      "summary": "迈阿密热火队在对阵密尔沃基雄鹿队的主场比赛中，首次公开了为《GTA 6》虚构城市vice city设计的特别球场，该球场仅在一场赛事中使用。",
+      "insight": "AI 推论：根据迈阿密热火队与《GTA 6》虚构城市Vice City联动推出专属球场的事件，可推断该游戏在发布前已进入高曝光阶段，且开发商Rockstar Games可能正通过现实世界合作强化玩家期待。此联动或为游戏发行前的营销预热策略之一。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "9889ac670323de057babb27e45d20fbcf6d3d4a73d6cad81c8c9ca7687e92476"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/gta-6-vice-city-nba-court-revealed-by-miami-heat"
+        }
+      ]
+    },
+    {
+      "id": "3c897b8d3d3040b5e864d824",
+      "title": "GTA 6 Fans Baffled After Jason's Actor Gets Left Out of Game Awards Nominations",
+      "originalTitle": "GTA 6 Fans Baffled After Jason's Actor Gets Left Out of Game Awards Nominations",
+      "publishedAt": "2026-11-17T23:49:55Z",
+      "platforms": [
+        "pc",
+        "mobile",
+        "console"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [
+        "GTA 6"
+      ],
+      "categories": [
+        "玩家口碑"
+      ],
+      "summary": "GTA 6 粉丝对扮演杰森的演员未获《游戏大奖》提名感到意外。",
+      "insight": "AI 推论：由于玩家对角色演员的关注度较高，该演员未获提名可能引发关于奖项评选标准的讨论，但此推论依赖于粉丝反应这一事实，无法确认其对奖项公正性的影响。",
+      "processing": {
+        "status": "success",
+        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
+        "contentHash": "9a6fcac610e14d4a8fe4e3b302095211207bad51bbcb32a621da0f6bd316ea61"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/gta-6-fans-baffled-after-jasons-actor-gets-left-out-of-game-awards-nominations"
+        }
+      ]
+    },
+    {
+      "id": "5200a15df50f39ba2133082f",
+      "title": "BioWare Is Dead, But Mass Effect’s Spiritual Successor Exodus Just Gave Us A Glimpse of A Spicy Romance",
+      "originalTitle": "BioWare Is Dead, But Mass Effect’s Spiritual Successor Exodus Just Gave Us A Glimpse of A Spicy Romance",
+      "publishedAt": "2026-11-17T23:46:24Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "gamespot",
+          "name": "GameSpot",
+          "url": "https://www.gamespot.com/articles/bioware-is-dead-but-mass-effects-spiritual-successor-exodus-just-gave-us-a-glimpse-of-a-spicy-romance/"
+        }
+      ]
+    },
+    {
+      "id": "09d3924359f0c38f531712ad",
+      "title": "The Baseus 20,000mAh 45W Power Bank With Dual USB-C Cables Drops to $21 After Coupon",
+      "originalTitle": "The Baseus 20,000mAh 45W Power Bank With Dual USB-C Cables Drops to $21 After Coupon",
+      "publishedAt": "2026-11-17T23:15:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/baseus-20000mah-45w-power-bank-deal-november-2026"
+        }
+      ]
+    },
+    {
+      "id": "1417ede676b158e3f4ddb263",
+      "title": "Resident Evil Requiem’s Game Awards Nominee Is Ready for Resident Evil 10",
+      "originalTitle": "Resident Evil Requiem’s Game Awards Nominee Is Ready for Resident Evil 10",
+      "publishedAt": "2026-11-17T23:00:17Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "polygon",
+          "name": "Polygon",
+          "url": "https://www.polygon.com/resident-evil-requiem-grace-angela-santalbano-actor-game-awards-nomination-2026/"
+        }
+      ]
+    },
+    {
+      "id": "980181fad059592097cfb36b",
+      "title": "Infinity Nikki Players Baffled After Elon Musk's Mom Appears in Game's Update Trailers",
+      "originalTitle": "Infinity Nikki Players Baffled After Elon Musk's Mom Appears in Game's Update Trailers",
+      "publishedAt": "2026-11-17T22:56:11Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/infinity-nikki-players-baffled-after-elon-musks-mom-appears-in-games-update-trailers"
+        }
+      ]
+    },
+    {
+      "id": "f492887518f24916033e1b53",
+      "title": "Slow down a bit and help a cow find a friend in the lush-looking, hand-drawn, milk deliver-em-up Milki Delivery, which is out now",
+      "originalTitle": "Slow down a bit and help a cow find a friend in the lush-looking, hand-drawn, milk deliver-em-up Milki Delivery, which is out now",
+      "publishedAt": "2026-11-17T22:54:10Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/slow-down-a-bit-and-help-a-cow-find-a-friend-in-the-lush-looking-hand-drawn-milk-deliver-em-up-milki-delivery-which-is-out-now"
+        }
+      ]
+    },
+    {
+      "id": "e8bcd037c93d98d3ea6b3e27",
+      "title": "This Cozy New MMO Is A Delight, But Time-Gating During GTA 6 Week Is A Tough Ask",
+      "originalTitle": "This Cozy New MMO Is A Delight, But Time-Gating During GTA 6 Week Is A Tough Ask",
+      "publishedAt": "2026-11-17T22:00:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "gamespot",
+          "name": "GameSpot",
+          "url": "https://www.gamespot.com/articles/this-cozy-new-mmo-is-a-delight-but-time-gating-during-gta-6-week-is-a-tough-ask/"
+        }
+      ]
+    },
+    {
+      "id": "f29b59318548a552fb2197ef",
+      "title": "The GTA 6 Uninstallation Graveyard: Everything We Deleted To Make Room",
+      "originalTitle": "The GTA 6 Uninstallation Graveyard: Everything We Deleted To Make Room",
+      "publishedAt": "2026-11-17T21:36:23Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "gamespot",
+          "name": "GameSpot",
+          "url": "https://www.gamespot.com/articles/the-gta-6-uninstallation-graveyard-everything-we-deleted-to-make-room/"
+        }
+      ]
+    },
+    {
+      "id": "70afe53c2bbfd101104d4a61",
+      "title": "The siren call of user-generated content has caught Dead by Daylight in its snare, as Behaviour Interactive outline a big revamp update slated for next year",
+      "originalTitle": "The siren call of user-generated content has caught Dead by Daylight in its snare, as Behaviour Interactive outline a big revamp update slated for next year",
+      "publishedAt": "2026-11-17T21:33:50Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/the-siren-call-of-user-generated-content-has-caught-dead-by-daylight-in-its-snare-as-behaviour-interactive-outline-a-big-revamp-update-slated-for-next-year"
+        }
+      ]
+    },
+    {
+      "id": "b2ed13ca47fc0ebdf1c40bb1",
+      "title": "When Are The Game Awards 2026: Date, Time, and How to Watch",
+      "originalTitle": "When Are The Game Awards 2026: Date, Time, and How to Watch",
+      "publishedAt": "2026-11-17T21:20:01Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "polygon",
+          "name": "Polygon",
+          "url": "https://www.polygon.com/game-awards-2026-how-to-watch-when-date-time/"
+        }
+      ]
+    },
+    {
+      "id": "cea8eaf53d5f71cadfd33d2f",
+      "title": "Magic: The Gathering Boss Reveals the Next Marvel Set’s Surprising Origin Story",
+      "originalTitle": "Magic: The Gathering Boss Reveals the Next Marvel Set’s Surprising Origin Story",
+      "publishedAt": "2026-11-17T21:00:17Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "polygon",
+          "name": "Polygon",
+          "url": "https://www.polygon.com/mtg-marvels-darkhold-destiny-story-interview/"
+        }
+      ]
+    },
+    {
+      "id": "76ea8d4c567afa97e82f4aa3",
+      "title": "Save 40% Off the PlayStation Pulse Explore Planar Magnetic Gaming Earbuds for Black Friday",
+      "originalTitle": "Save 40% Off the PlayStation Pulse Explore Planar Magnetic Gaming Earbuds for Black Friday",
+      "publishedAt": "2026-11-17T21:00:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/sony-pulse-playstation-gaming-earbuds-deal-november-2026"
+        }
+      ]
+    },
+    {
+      "id": "3c342d1eda5db88c0d4461c0",
+      "title": "This Fighting Game Is Nominated For A TGA Despite Development Shutting Down",
+      "originalTitle": "This Fighting Game Is Nominated For A TGA Despite Development Shutting Down",
+      "publishedAt": "2026-11-17T20:59:17Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "gamespot",
+          "name": "GameSpot",
+          "url": "https://www.gamespot.com/articles/this-fighting-game-is-nominated-for-a-tga-despite-development-shutting-down/"
+        }
+      ]
+    },
+    {
+      "id": "b375df80c0ab7d5176bb6a97",
+      "title": "The Alienware Aurora RTX 5080 Gaming PC Drops to $2,800 at Amazon for Black Friday",
+      "originalTitle": "The Alienware Aurora RTX 5080 Gaming PC Drops to $2,800 at Amazon for Black Friday",
+      "publishedAt": "2026-11-17T20:55:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/the-alienware-aurora-rtx-5080-gaming-pc-drops-to-2800-at-amazon-for-black-friday"
+        }
+      ]
+    },
+    {
+      "id": "9bcd08f34cba7df4a0d7c0ed",
+      "title": "GTA 6's Game Awards Nominations Are Exactly What Everyone Predicted",
+      "originalTitle": "GTA 6's Game Awards Nominations Are Exactly What Everyone Predicted",
+      "publishedAt": "2026-11-17T20:52:32Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "polygon",
+          "name": "Polygon",
+          "url": "https://www.polygon.com/gta-6-game-awards-nominations-expectations/"
+        }
+      ]
+    },
+    {
+      "id": "90e0ba01b650026ebc04f281",
+      "title": "The Hunger Games: What You Need to Know Before Sunrise on the Reaping",
+      "originalTitle": "The Hunger Games: What You Need to Know Before Sunrise on the Reaping",
+      "publishedAt": "2026-11-17T20:39:33Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/the-hunger-games-what-you-need-to-know-before-sunrise-on-the-reaping"
+        }
+      ]
+    },
+    {
+      "id": "357cb6c1ead19b490a391889",
+      "title": "Xbox Announces Official Black Friday Sale on Digital Games and Accessories — But No Consoles",
+      "originalTitle": "Xbox Announces Official Black Friday Sale on Digital Games and Accessories — But No Consoles",
+      "publishedAt": "2026-11-17T20:11:23Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/xbox-announces-black-friday-sale-for-2026"
+        }
+      ]
+    },
+    {
+      "id": "1a07b24c65cf51121c66d2ed",
+      "title": "The CyberPowerPC RTX 5070 Gaming PC With 32GB of RAM and 2TB SSD Drops Below $2,000 for Black Friday",
+      "originalTitle": "The CyberPowerPC RTX 5070 Gaming PC With 32GB of RAM and 2TB SSD Drops Below $2,000 for Black Friday",
+      "publishedAt": "2026-11-17T20:10:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/cyberpowerpc-rtx-5070-gaming-pc-deal-november-2026"
+        }
+      ]
+    },
+    {
+      "id": "70abd0e0920670ce0d6dc7fd",
+      "title": "Civilization Dev Lays Off 1/3 Of Staff, New XCOM Game Facing “Development Struggles” – Report",
+      "originalTitle": "Civilization Dev Lays Off 1/3 Of Staff, New XCOM Game Facing “Development Struggles” – Report",
+      "publishedAt": "2026-11-17T20:05:42Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "gamespot",
+          "name": "GameSpot",
+          "url": "https://www.gamespot.com/articles/civilization-dev-lays-off-1-3-of-staff-new-xcom-game-facing-development-struggles-report/"
+        }
+      ]
+    },
+    {
+      "id": "0c43de7dbfc452ebb74be78c",
+      "title": "Mondrayn is a putrid, crunchy pixel art RPG about escaping from limbo where \"dying doesn't mean the end of your suffering\"",
+      "originalTitle": "Mondrayn is a putrid, crunchy pixel art RPG about escaping from limbo where \"dying doesn't mean the end of your suffering\"",
+      "publishedAt": "2026-11-17T19:57:20Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+      },
+      "sources": [
+        {
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/mondrayn-is-a-putrid-crunchy-pixel-art-rpg-about-escaping-from-limbo-where-dying-doesnt-mean-the-end-of-your-suffering"
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "steam-popularity",
+      "title": "Steam 采集时在线人数",
+      "platform": "pc",
+      "source": {
+        "id": "steam",
+        "name": "Steam",
+        "url": "https://store.steampowered.com/charts/mostplayed"
+      },
+      "metric": "popularity",
+      "definition": "Steam Current Players：采集时同时在线人数，不是DAU；Peak Today日界线未核实，不计算日峰值涨幅。",
+      "scope": "Steam 全球",
+      "unit": "人（同时在线）",
+      "period": "采集时刻",
+      "methodologyVersion": "steam-html-popularity-v1",
+      "observedAt": "2026-11-18T08:04:22.972337Z",
+      "status": "ok",
+      "reason": "本次本机解析有效app行；最多20项，不表示持续生产可用",
+      "items": [
+        {
+          "gameId": "steam:730",
+          "name": "Counter-Strike 2",
+          "rank": 1,
+          "value": 571102,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/730/",
+          "previousRank": 1,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:570",
+          "name": "Dota 2",
+          "rank": 2,
+          "value": 416375,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/570/",
+          "previousRank": 2,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank": 3,
+          "value": 316871,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/578080/",
+          "previousRank": 3,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:4262460",
+          "name": "ROB RUN",
+          "rank": 4,
+          "value": 207982,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4262460/",
+          "previousRank": 4,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:3419430",
+          "name": "Bongo Cat",
+          "rank": 5,
+          "value": 164202,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3419430/",
+          "previousRank": 5,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:1422450",
+          "name": "Deadlock",
+          "rank": 6,
+          "value": 98955,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1422450/",
+          "previousRank": 9,
+          "rankChange": 3,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:4115450",
+          "name": "Phantom Blade Zero",
+          "rank": 7,
+          "value": 96445,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4115450/",
+          "previousRank": 7,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:440",
+          "name": "Team Fortress 2",
+          "rank": 8,
+          "value": 91260,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/440/",
+          "previousRank": 8,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:2868840",
+          "name": "Slay the Spire 2",
+          "rank": 9,
+          "value": 84037,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2868840/",
+          "previousRank": 10,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:1172470",
+          "name": "Apex Legends™",
+          "rank": 10,
+          "value": 83496,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1172470/",
+          "previousRank": 11,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:431960",
+          "name": "Wallpaper Engine",
+          "rank": 11,
+          "value": 74560,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/431960/",
+          "previousRank": 12,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:1938090",
+          "name": "Call of Duty®",
+          "rank": 12,
+          "value": 70550,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1938090/",
+          "previousRank": 13,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank": 13,
+          "value": 64519,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4348910/",
+          "previousRank": 14,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:3678970",
+          "name": "TBH: Task Bar Hero",
+          "rank": 14,
+          "value": 55832,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3678970/",
+          "previousRank": 16,
+          "rankChange": 2,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:2507950",
+          "name": "Delta Force",
+          "rank": 15,
+          "value": 52148,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2507950/",
+          "previousRank": 17,
+          "rankChange": 2,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:252490",
+          "name": "Rust",
+          "rank": 16,
+          "value": 51081,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/252490/",
+          "previousRank": 15,
+          "rankChange": -1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:1091500",
+          "name": "Cyberpunk 2077",
+          "rank": 17,
+          "value": 46094,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1091500/",
+          "previousRank": 18,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:238960",
+          "name": "Path of Exile",
+          "rank": 18,
+          "value": 41308,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/238960/",
+          "previousRank": 19,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:230410",
+          "name": "Warframe",
+          "rank": 19,
+          "value": 40994,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/230410/",
+          "previousRank": 20,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:1973530",
+          "name": "Limbus Company",
+          "rank": 20,
+          "value": 40523,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1973530/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        }
+      ],
+      "dataType": "platform_rank"
+    },
+    {
+      "id": "steam-commercial",
+      "title": "Steam 全球畅销（收入排名）",
+      "platform": "pc",
+      "source": {
+        "id": "steam",
+        "name": "Steam",
+        "url": "https://store.steampowered.com/charts/topselling/global"
+      },
+      "metric": "commercial",
+      "definition": "Steam Global Top Sellers，页面明示按revenue排序；精确窗口、收入构成未核实。无金额/份数，非净收入/销量榜；页面自带变化不用作本项目涨幅。",
+      "scope": "Steam 全球",
+      "unit": "名次（金额/份数未披露）",
+      "period": "平台实时收入排名，精确计算窗口未确认",
+      "methodologyVersion": "steam-html-commercial-v1",
+      "observedAt": "2026-11-18T08:04:22.972337Z",
+      "status": "ok",
+      "reason": "本次本机解析有效app行；最多20项，不表示持续生产可用",
+      "items": [
+        {
+          "gameId": "steam:730",
+          "name": "Counter-Strike 2",
+          "rank": 1,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/730/",
+          "previousRank": 1,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:2406770",
+          "name": "Bodycam",
+          "rank": 2,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2406770/",
+          "previousRank": 2,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:3218350",
+          "name": "Melvor Idle 2: A RuneScape Adventure",
+          "rank": 3,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3218350/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:570",
+          "name": "Dota 2",
+          "rank": 4,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/570/",
+          "previousRank": 3,
+          "rankChange": -1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:1172470",
+          "name": "Apex Legends™",
+          "rank": 5,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1172470/",
+          "previousRank": 5,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "rank": 6,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1771300/",
+          "previousRank": 7,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:1158310",
+          "name": "Crusader Kings III",
+          "rank": 7,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1158310/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank": 8,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4435490/",
+          "previousRank": 8,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:4262460",
+          "name": "ROB RUN",
+          "rank": 9,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4262460/",
+          "previousRank": 10,
+          "rankChange": 1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:3393110",
+          "name": "AION 2",
+          "rank": 10,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3393110/",
+          "previousRank": 6,
+          "rankChange": -4,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:4115450",
+          "name": "Phantom Blade Zero",
+          "rank": 11,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4115450/",
+          "previousRank": 11,
+          "rankChange": 0,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:3321460",
+          "name": "Crimson Desert Enhanced",
+          "rank": 12,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3321460/",
+          "previousRank": 4,
+          "rankChange": -8,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:227300",
+          "name": "Euro Truck Simulator 2",
+          "rank": 13,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/227300/",
+          "previousRank": 9,
+          "rankChange": -4,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:230410",
+          "name": "Warframe",
+          "rank": 14,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/230410/",
+          "previousRank": 12,
+          "rankChange": -2,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:4232910",
+          "name": "Crusader Kings III: Silk & Silver",
+          "rank": 15,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4232910/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:3188660",
+          "name": "Motocross The Game",
+          "rank": 16,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3188660/",
+          "previousRank": 13,
+          "rankChange": -3,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:4080220",
+          "name": "EA SPORTS FC™ 27",
+          "rank": 17,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4080220/",
+          "previousRank": 16,
+          "rankChange": -1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank": 18,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/578080/",
+          "previousRank": 14,
+          "rankChange": -4,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:5185890",
+          "name": "Zombies Aren't Real",
+          "rank": 19,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/5185890/",
+          "previousRank": 18,
+          "rankChange": -1,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        },
+        {
+          "gameId": "steam:2767030",
+          "name": "Marvel Rivals",
+          "rank": 20,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2767030/",
+          "previousRank": 15,
+          "rankChange": -5,
+          "baselineAt": "2026-11-17T08:40:50.734675Z"
+        }
+      ],
+      "dataType": "platform_rank"
+    },
+    {
+      "id": "steam-reputation",
+      "title": "Steam 当期候选口碑（本查询汇总）",
+      "platform": "pc",
+      "source": {
+        "id": "steam",
+        "name": "Steam",
+        "url": "https://store.steampowered.com/appreviews/570?json=1&language=all&filter=recent&num_per_page=1"
+      },
+      "metric": "reputation",
+      "definition": "本查询服务端汇总好评率；language=all、review_type=all、purchase_type=all、filter=all、day_range=365、filter_offtopic_activity=1、filter_offensive=1、filter_review_below_threshold=1；汇总统计精确时间窗口未核实，不能称近30天或完整全历史；口碑只比较当期榜单候选并集，至少100条评价。",
+      "scope": "Steam 全球",
+      "unit": "%（本查询汇总好评率）",
+      "period": "本查询服务端汇总，精确时间窗口未核实；非近30天",
+      "methodologyVersion": "steam-explicit-query-v1",
+      "observedAt": "2026-10-22T05:36:56.750121Z",
+      "status": "stale",
+      "reason": "本次未取得该榜有效数据，保留原采集时间的旧快照；没有当期有效候选或候选评价全部失败；无同口径fallback，不以历史候选冒充当期口碑",
+      "items": [
+        {
+          "gameId": "steam:431960",
+          "name": "Wallpaper Engine",
+          "rank": 1,
+          "value": 97.55,
+          "reviewCount": 1023913,
+          "url": "https://store.steampowered.com/app/431960/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:3419430",
+          "name": "Bongo Cat",
+          "rank": 2,
+          "value": 96.55,
+          "reviewCount": 113077,
+          "url": "https://store.steampowered.com/app/3419430/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:2676230",
+          "name": "FiveM",
+          "rank": 3,
+          "value": 92.06,
+          "reviewCount": 378,
+          "url": "https://store.steampowered.com/app/2676230/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank": 4,
+          "value": 91.43,
+          "reviewCount": 6151,
+          "url": "https://store.steampowered.com/app/4435490/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:440",
+          "name": "Team Fortress 2",
+          "rank": 5,
+          "value": 91.07,
+          "reviewCount": 1255123,
+          "url": "https://store.steampowered.com/app/440/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:2138330",
+          "name": "Cyberpunk 2077: Phantom Liberty",
+          "rank": 6,
+          "value": 89.95,
+          "reviewCount": 24093,
+          "url": "https://store.steampowered.com/app/2138330/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:1973530",
+          "name": "Limbus Company",
+          "rank": 7,
+          "value": 88.12,
+          "reviewCount": 122619,
+          "url": "https://store.steampowered.com/app/1973530/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:230410",
+          "name": "Warframe",
+          "rank": 8,
+          "value": 87.82,
+          "reviewCount": 680697,
+          "url": "https://store.steampowered.com/app/230410/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:4162040",
+          "name": "Zenless Zone Zero",
+          "rank": 9,
+          "value": 87.77,
+          "reviewCount": 18279,
+          "url": "https://store.steampowered.com/app/4162040/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:3513350",
+          "name": "Wuthering Waves",
+          "rank": 10,
+          "value": 87.35,
+          "reviewCount": 57493,
+          "url": "https://store.steampowered.com/app/3513350/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:1091500",
+          "name": "Cyberpunk 2077",
+          "rank": 11,
+          "value": 87.01,
+          "reviewCount": 990092,
+          "url": "https://store.steampowered.com/app/1091500/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:1203620",
+          "name": "Enshrouded",
+          "rank": 12,
+          "value": 85.87,
+          "reviewCount": 109710,
+          "url": "https://store.steampowered.com/app/1203620/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:730",
+          "name": "Counter-Strike 2",
+          "rank": 13,
+          "value": 85.78,
+          "reviewCount": 9936370,
+          "url": "https://store.steampowered.com/app/730/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:1808500",
+          "name": "ARC Raiders",
+          "rank": 14,
+          "value": 81.67,
+          "reviewCount": 429225,
+          "url": "https://store.steampowered.com/app/1808500/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:570",
+          "name": "Dota 2",
+          "rank": 15,
+          "value": 80.42,
+          "reviewCount": 2801771,
+          "url": "https://store.steampowered.com/app/570/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:2139460",
+          "name": "Once Human",
+          "rank": 16,
+          "value": 79.15,
+          "reviewCount": 191715,
+          "url": "https://store.steampowered.com/app/2139460/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:381210",
+          "name": "Dead by Daylight",
+          "rank": 17,
+          "value": 78.25,
+          "reviewCount": 941022,
+          "url": "https://store.steampowered.com/app/381210/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:438100",
+          "name": "VRChat",
+          "rank": 18,
+          "value": 75.13,
+          "reviewCount": 270175,
+          "url": "https://store.steampowered.com/app/438100/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:553850",
+          "name": "HELLDIVERS™ 2",
+          "rank": 19,
+          "value": 75.0,
+          "reviewCount": 1173965,
+          "url": "https://store.steampowered.com/app/553850/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:1867240",
+          "name": "WARDOGS",
+          "rank": 20,
+          "value": 70.18,
+          "reviewCount": 130595,
+          "url": "https://store.steampowered.com/app/1867240/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        }
+      ],
+      "dataType": "query_summary",
+      "minimumSample": 100,
+      "queryParameters": {
+        "json": "1",
+        "language": "all",
+        "review_type": "all",
+        "purchase_type": "all",
+        "filter": "all",
+        "day_range": "365",
+        "filter_offtopic_activity": "1",
+        "filter_offensive": "1",
+        "filter_review_below_threshold": "1",
+        "num_per_page": "100",
+        "candidateIds": [
+          "steam:1091500",
+          "steam:1172470",
+          "steam:1203620",
+          "steam:1422450",
+          "steam:1808500",
+          "steam:1867240",
+          "steam:1938090",
+          "steam:1973530",
+          "steam:2138330",
+          "steam:2139460",
+          "steam:216150",
+          "steam:230410",
+          "steam:2357570",
+          "steam:2507950",
+          "steam:2676230",
+          "steam:2868840",
+          "steam:3259780",
+          "steam:3393110",
+          "steam:3419430",
+          "steam:3513350",
+          "steam:3678970",
+          "steam:381210",
+          "steam:4080220",
+          "steam:4115450",
+          "steam:4162040",
+          "steam:431960",
+          "steam:438100",
+          "steam:440",
+          "steam:4435490",
+          "steam:553850",
+          "steam:570",
+          "steam:578080",
+          "steam:730"
+        ],
+        "evaluatedIds": [
+          "steam:1091500",
+          "steam:1172470",
+          "steam:1203620",
+          "steam:1422450",
+          "steam:1808500",
+          "steam:1867240",
+          "steam:1938090",
+          "steam:1973530",
+          "steam:2138330",
+          "steam:2139460",
+          "steam:216150",
+          "steam:230410",
+          "steam:2357570",
+          "steam:2507950",
+          "steam:2676230",
+          "steam:2868840",
+          "steam:3259780",
+          "steam:3393110",
+          "steam:3419430",
+          "steam:3513350",
+          "steam:3678970",
+          "steam:381210",
+          "steam:4080220",
+          "steam:4115450",
+          "steam:4162040",
+          "steam:431960",
+          "steam:438100",
+          "steam:440",
+          "steam:4435490",
+          "steam:553850",
+          "steam:570",
+          "steam:578080",
+          "steam:730"
+        ]
+      }
+    },
+    {
+      "id": "mobile-popularity",
+      "title": "手游人气",
+      "platform": "mobile",
+      "source": {
+        "id": "taptap",
+        "name": "TapTap（未接入）",
+        "url": "https://www.taptap.cn/top"
+      },
+      "metric": "popularity",
+      "definition": "TapTap 榜单未取得稳定合规的有效字段；不启用错配/未知游戏ID，不以全应用免费榜替代",
+      "scope": "中国手游；来源覆盖缺失",
+      "unit": "未核验",
+      "period": "未核验",
+      "methodologyVersion": "mobile-unavailable-v1",
+      "observedAt": null,
+      "status": "unavailable",
+      "reason": "TapTap 榜单未取得稳定合规的有效字段；不启用错配/未知游戏ID，不以全应用免费榜替代",
+      "items": []
+    },
+    {
+      "id": "mobile-reputation",
+      "title": "手游口碑",
+      "platform": "mobile",
+      "source": {
+        "id": "taptap",
+        "name": "TapTap（未接入）",
+        "url": "https://www.taptap.cn/top"
+      },
+      "metric": "reputation",
+      "definition": "手游评分量纲、评价数及近期评论未打通；不从评分总值推测近期情绪",
+      "scope": "中国手游；来源覆盖缺失",
+      "unit": "未核验",
+      "period": "未核验",
+      "methodologyVersion": "mobile-unavailable-v1",
+      "observedAt": null,
+      "status": "unavailable",
+      "reason": "手游评分量纲、评价数及近期评论未打通；不从评分总值推测近期情绪",
+      "items": []
+    },
+    {
+      "id": "mobile-commercial",
+      "title": "手游商业表现",
+      "platform": "mobile",
+      "source": {
+        "id": "mobile-commercial-unavailable",
+        "name": "中国手游商业数据（未接入）",
+        "url": "https://www.taptap.cn/top"
+      },
+      "metric": "commercial",
+      "definition": "中国手游收入/畅销来源未核验；Apple免费/付费应用榜不是收入或销售份数榜",
+      "scope": "中国手游；来源覆盖缺失",
+      "unit": "未核验",
+      "period": "未核验",
+      "methodologyVersion": "mobile-unavailable-v1",
+      "observedAt": null,
+      "status": "unavailable",
+      "reason": "中国手游收入/畅销来源未核验；Apple免费/付费应用榜不是收入或销售份数榜",
+      "items": []
+    }
+  ],
+  "movements": [
+    {
+      "id": "6b3077777cdec6f5b8f61b5e",
+      "gameId": "steam:1422450",
+      "name": "Deadlock",
+      "platform": "pc",
+      "reason": "对比上次同来源同口径快照 2026-11-17T08:40:50.734675Z，Steam 采集时在线人数上升3名；不是日涨幅",
+      "observedAt": "2026-11-18T08:04:22.972337Z",
+      "positive": [],
+      "negative": [],
+      "events": [],
+      "insight": null,
+      "status": "insufficient",
+      "limitations": [
+        "评价样本：该主机本次已拒绝访问或限流，不继续请求；无已验证同口径fallback",
+        "filter=recent只表示排序；本次最多取一页100条，按timestamp_created严格筛近7天，匿名有效样本0条；非完整近7天评价。",
+        "评价查询 language=all、purchase_type=all、review_type=all、day_range=365，三项过滤均=1；汇总好评率与本页样本分开。",
+        "近期匿名有效样本不足20条，不输出情绪变化强结论。",
+        "最近7天未取得可核验匿名评价或官方公告，保留证据不足提示卡。",
+        "公共内容加工总时限已达；未追加玩家动向调用，保留原始证据"
+      ],
+      "sources": [
+        {
+          "id": "steam",
+          "name": "Steam",
+          "url": "https://store.steampowered.com/charts/mostplayed"
+        }
+      ]
+    },
+    {
+      "id": "f6acc191f00eb1743b93ff94",
+      "gameId": "steam:3678970",
+      "name": "TBH: Task Bar Hero",
+      "platform": "pc",
+      "reason": "对比上次同来源同口径快照 2026-11-17T08:40:50.734675Z，Steam 采集时在线人数上升2名；不是日涨幅",
+      "observedAt": "2026-11-18T08:04:22.972337Z",
+      "positive": [],
+      "negative": [],
+      "events": [],
+      "insight": null,
+      "status": "insufficient",
+      "limitations": [
+        "评价样本：该主机本次已拒绝访问或限流，不继续请求；无已验证同口径fallback",
+        "filter=recent只表示排序；本次最多取一页100条，按timestamp_created严格筛近7天，匿名有效样本0条；非完整近7天评价。",
+        "评价查询 language=all、purchase_type=all、review_type=all、day_range=365，三项过滤均=1；汇总好评率与本页样本分开。",
+        "近期匿名有效样本不足20条，不输出情绪变化强结论。",
+        "最近7天未取得可核验匿名评价或官方公告，保留证据不足提示卡。",
+        "公共内容加工总时限已达；未追加玩家动向调用，保留原始证据"
+      ],
+      "sources": [
+        {
+          "id": "steam",
+          "name": "Steam",
+          "url": "https://store.steampowered.com/charts/mostplayed"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "coreyhaines31-competitor-alternatives",
+      "name": "competitor-alternatives",
+      "category": "资讯与竞品研究",
+      "description": "围绕竞品对比与替代方案组织研究材料，编写定位清晰的比较页面。原文面向通用产品营销，不是游戏行业数据源。",
+      "scenarios": "可辅助游戏发行定位、竞品差异梳理与落地页研究；游戏事实与市场结论仍须另行取证。",
+      "author": "coreyhaines31 / marketingskills",
+      "tools": "兼容 Agent / 工具元数据暂不可用，请以原文说明为准。",
+      "prerequisites": "需提供产品背景和可核验的竞品依据；使用前自行检查 Skill 依赖、许可及权限。本站只打开原文，不安装或执行。",
+      "url": "https://skills.sh/coreyhaines31/marketingskills/competitor-alternatives",
+      "checkedAt": "2026-09-22T19:59:54Z",
+      "status": "unavailable",
+      "curatedOrder": 1,
+      "popularity": null
+    },
+    {
+      "id": "coreyhaines31-copywriting",
+      "name": "copywriting",
+      "category": "运营与营销内容",
+      "description": "为首页、落地页、定价页等转化场景组织营销文案。可作为游戏推广文案的写作方法参考，不保证营销效果。",
+      "scenarios": "游戏发行落地页、版本介绍与活动页面初稿；上线前需核实游戏特性、价格、授权与宣传合规性。",
+      "author": "coreyhaines31 / marketingskills",
+      "tools": "兼容 Agent / 工具元数据暂不可用，请以原文说明为准。",
+      "prerequisites": "需准备真实产品卖点、受众和目标动作；使用前自行检查 Skill 依赖、许可及权限。不得把模型草稿当作已验证效果。",
+      "url": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
+      "checkedAt": "2026-09-22T19:59:54Z",
+      "status": "unavailable",
+      "curatedOrder": 2,
+      "popularity": null
+    }
+  ],
+  "coverage": [
+    {
+      "id": "ign",
+      "name": "IGN",
+      "method": "rss",
+      "url": "https://feeds.ign.com/ign/all",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内20条（主题筛选前）",
+      "count": 20
+    },
+    {
+      "id": "kotaku",
+      "name": "Kotaku",
+      "method": "rss",
+      "url": "https://kotaku.com/rss",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "403/防护，未取得有效RSS；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "gamespot",
+      "name": "GameSpot",
+      "method": "rss",
+      "url": "https://www.gamespot.com/feeds/mashup/",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；15条有效日期订阅，24小时内12条（主题筛选前）",
+      "count": 15
+    },
+    {
+      "id": "polygon",
+      "name": "Polygon",
+      "method": "rss",
+      "url": "https://www.polygon.com/rss/index.xml",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；10条有效日期订阅，24小时内10条（主题筛选前）",
+      "count": 10
+    },
+    {
+      "id": "eurogamer",
+      "name": "Eurogamer",
+      "method": "rss",
+      "url": "https://eurogamer.net/feed",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内15条（主题筛选前）",
+      "count": 100
+    },
+    {
+      "id": "rps",
+      "name": "Rock Paper Shotgun",
+      "method": "rss",
+      "url": "https://www.rockpapershotgun.com/feed",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内16条（主题筛选前）",
+      "count": 100
+    },
+    {
+      "id": "vg247",
+      "name": "VG247",
+      "method": "rss",
+      "url": "https://vg247.com/feed",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内0条（主题筛选前）",
+      "count": 100
+    },
+    {
+      "id": "gematsu",
+      "name": "Gematsu",
+      "method": "rss",
+      "url": "https://gematsu.com/feed",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内10条（主题筛选前）",
+      "count": 20
+    },
+    {
+      "id": "playstation",
+      "name": "PlayStation Blog",
+      "method": "rss",
+      "url": "https://blog.playstation.com/feed",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；10条有效日期订阅，24小时内2条（主题筛选前）",
+      "count": 10
+    },
+    {
+      "id": "gcores",
+      "name": "机核",
+      "method": "rss",
+      "url": "https://www.gcores.com/rss",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内12条（主题筛选前）",
+      "count": 20
+    },
+    {
+      "id": "chuapp",
+      "name": "触乐",
+      "method": "rss",
+      "url": "https://www.chuapp.com/feed",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；30条有效日期订阅，24小时内2条（主题筛选前）",
+      "count": 30
+    },
+    {
+      "id": "rsshub-843ed2f2957d",
+      "name": "游民星空",
+      "method": "rsshub",
+      "url": "https://rsshub.app/gamersky/news",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "公共 RSSHub 实例首轮403；未取得路由/访问许可依据，不换镜像、不绕过",
+      "count": 0
+    },
+    {
+      "id": "rsshub-0f44a19c6993",
+      "name": "3DM",
+      "method": "rsshub",
+      "url": "https://rsshub.app/3dm/news",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "公共 RSSHub 实例首轮403；未取得路由/访问许可依据，不换镜像、不绕过",
+      "count": 0
+    },
+    {
+      "id": "rsshub-5e1082e4af94",
+      "name": "游侠网",
+      "method": "rsshub",
+      "url": "https://rsshub.app/ali213/news",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "公共 RSSHub 实例首轮403；未取得路由/访问许可依据，不换镜像、不绕过",
+      "count": 0
+    },
+    {
+      "id": "rsshub-eb0ff923066b",
+      "name": "17173",
+      "method": "rsshub",
+      "url": "https://rsshub.app/17173/news",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "公共 RSSHub 实例首轮403；未取得路由/访问许可依据，不换镜像、不绕过",
+      "count": 0
+    },
+    {
+      "id": "rsshub-3d2b81d8887e",
+      "name": "TapTap 142793",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/142793/official",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 142793：不休的乌拉拉（先行服；非全站榜）；身份状态=not_a_chart；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "rsshub-a8e2b2db306c",
+      "name": "TapTap 168332",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/168332/official",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 168332：原神；身份状态=verified；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "rsshub-dd6c93ecd3fe",
+      "name": "TapTap 328943",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/328943/official",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 328943：崩坏：星穹铁道（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "rsshub-e861ec26b5e7",
+      "name": "TapTap 183019",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/183019/official",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 183019：绝区零（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "rsshub-1e12cc860241",
+      "name": "TapTap 200112",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/200112/official",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 200112：王者荣耀（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "rsshub-c914483221c8",
+      "name": "TapTap 34599",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/34599/official",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 34599：PATIENCE（不是明日方舟）；身份状态=mismatch；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "rsshub-4226de7860f2",
+      "name": "TapTap 218205",
+      "method": "rsshub",
+      "url": "https://rsshub.app/taptap/topic/218205/official",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 218205：鸣潮（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "web-327b50890931",
+      "name": "GameLook",
+      "method": "web",
+      "url": "https://www.gamelook.com.cn/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-9807c553569b",
+      "name": "游戏葡萄",
+      "method": "web",
+      "url": "https://www.youxiputao.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "页面可读但非资讯列表；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-f4af570f7c78",
+      "name": "游戏陀螺",
+      "method": "web",
+      "url": "https://www.youxituoluo.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "资讯列表可读；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-97729c70f226",
+      "name": "NGA综合区",
+      "method": "web",
+      "url": "https://bbs.nga.cn/thread.php?fid=-563198",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "入口受阻；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-33ee9f243ea3",
+      "name": "NGA原神预置分区",
+      "method": "web",
+      "url": "https://bbs.nga.cn/thread.php?fid=650601",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "入口受阻；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-8a036be7d57f",
+      "name": "NGA方舟预置分区",
+      "method": "web",
+      "url": "https://bbs.nga.cn/thread.php?fid=650302",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "入口受阻；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-7bc090255cae",
+      "name": "TapTap榜单",
+      "method": "web",
+      "url": "https://www.taptap.cn/top",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-cc0cd0cca89a",
+      "name": "TapTap热门榜",
+      "method": "web",
+      "url": "https://www.taptap.cn/top/download",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-7ce89538ee0d",
+      "name": "TapTap热玩榜",
+      "method": "web",
+      "url": "https://www.taptap.cn/top/played",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-2645de35c797",
+      "name": "百度贴吧原神吧",
+      "method": "web",
+      "url": "https://tieba.baidu.com/f?kw=%E5%8E%9F%E7%A5%9E",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "安全验证阻断；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-185f569793f4",
+      "name": "米游社",
+      "method": "web",
+      "url": "https://www.miyoushe.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-c7290b90aa9f",
+      "name": "Reddit原神",
+      "method": "web",
+      "url": "https://www.reddit.com/r/Genshin_Impact/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-3ce5bc1c7627",
+      "name": "Reddit星铁",
+      "method": "web",
+      "url": "https://www.reddit.com/r/HonkaiStarRail/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-9de489f3ac63",
+      "name": "Reddit绝区零",
+      "method": "web",
+      "url": "https://www.reddit.com/r/ZenlessZoneZero/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-1ea3c60f7674",
+      "name": "Reddit英雄联盟",
+      "method": "web",
+      "url": "https://www.reddit.com/r/leagueoflegends/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "网络失败；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-1a9b65d174c8",
+      "name": "Reddit明日方舟",
+      "method": "web",
+      "url": "https://www.reddit.com/r/arknights/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-f3775f2cae65",
+      "name": "Reddit鸣潮",
+      "method": "web",
+      "url": "https://www.reddit.com/r/WutheringWaves/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-1d5387214e14",
+      "name": "B站原神搜索",
+      "method": "web",
+      "url": "https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "搜索页部分数据可读；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-b68fc09b976e",
+      "name": "王者营地",
+      "method": "web",
+      "url": "https://yingdi.qq.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-77468a137086",
+      "name": "PRTS Wiki",
+      "method": "web",
+      "url": "https://prts.wiki/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "百科内容可读；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "steam-popularity",
+      "name": "Steam在线榜",
+      "method": "web",
+      "url": "https://store.steampowered.com/charts/mostplayed",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用",
+      "count": 20
+    },
+    {
+      "id": "steam-commercial",
+      "name": "Steam全球畅销榜",
+      "method": "web",
+      "url": "https://store.steampowered.com/charts/topselling/global",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用",
+      "count": 20
+    },
+    {
+      "id": "steam-reviews",
+      "name": "Steam评价样本",
+      "method": "web",
+      "url": "https://store.steampowered.com/appreviews/570?json=1&language=all&filter=recent&num_per_page=1",
+      "status": "failed",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-10-22T05:36:56.750121Z",
+      "reason": "当期候选并集33款，明确查询参数汇总成功0款、失败33款；100条门槛通过0款；服务端汇总时间窗口未核实，不称近30天/完整历史；无已验证同口径fallback",
+      "count": 0
+    },
+    {
+      "id": "web-16cbcc41702e",
+      "name": "Steam新闻接口文档",
+      "method": "web",
+      "url": "https://partner.steamgames.com/doc/webapi/ISteamNews",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "文档及公开API样本；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-73699a0dedd8",
+      "name": "Skill目录",
+      "method": "web",
+      "url": "https://skills.sh/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "有效目录元数据；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-163b89365cd3",
+      "name": "Apple官方RSS生成器",
+      "method": "web",
+      "url": "https://rss.marketingtools.apple.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "生成器及JSON样本；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-65f79bbe4ebf",
+      "name": "GooglePlay游戏页",
+      "method": "web",
+      "url": "https://play.google.com/store/games?hl=en_US&gl=US",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "部分发现页数据；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-3459952de6dc",
+      "name": "腾讯财报目录",
+      "method": "web",
+      "url": "https://www.tencent.com/investors/financial-reports/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "目录及报告文字可读；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-a7aee6dc35a4",
+      "name": "官方销量公告样本",
+      "method": "web",
+      "url": "https://store.steampowered.com/news/app/2101390/view/681886390551577538",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "正文及日期已验证；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-1f3189cc02cc",
+      "name": "SensorTower公开博客",
+      "method": "web",
+      "url": "https://sensortower.com/blog",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "公开列表可读；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-1a2edd76404d",
+      "name": "SensorTowerAPI说明",
+      "method": "web",
+      "url": "https://sensortower.com/api",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "旧地址404；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-10e4f4ae1964",
+      "name": "AppMagic",
+      "method": "web",
+      "url": "https://appmagic.rocks/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-72033d9a6e13",
+      "name": "AppMagicAPI说明",
+      "method": "web",
+      "url": "https://appmagic.rocks/tool-descriptions/api",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-cfe585484fcf",
+      "name": "YouTube游戏频道",
+      "method": "web",
+      "url": "https://www.youtube.com/gaming",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "无有效视频列表；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-5cda8bfa4514",
+      "name": "YouTubeAPI入门说明",
+      "method": "web",
+      "url": "https://developers.google.com/youtube/v3/getting-started",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "文档可读，未调用API；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-f9d8afd0cc85",
+      "name": "Twitch游戏目录",
+      "method": "web",
+      "url": "https://www.twitch.tv/directory",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "仅网页外壳；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-b348c5fbf833",
+      "name": "TwitchAPI入门说明",
+      "method": "web",
+      "url": "https://dev.twitch.tv/docs/api/get-started/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "文档可读，未调用API；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-a05c544f932c",
+      "name": "原神 official",
+      "method": "web",
+      "url": "https://ys.mihoyo.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-e603430dcafa",
+      "name": "原神 official",
+      "method": "web",
+      "url": "https://genshin.hoyoverse.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-b7bbf9be578e",
+      "name": "崩坏：星穹铁道 official",
+      "method": "web",
+      "url": "https://sr.mihoyo.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-287eee83ebd4",
+      "name": "崩坏：星穹铁道 official",
+      "method": "web",
+      "url": "https://hsr.hoyoverse.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-9a4c5b3e01ec",
+      "name": "绝区零 official",
+      "method": "web",
+      "url": "https://zzz.mihoyo.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-3a0d3f9e6521",
+      "name": "绝区零 official",
+      "method": "web",
+      "url": "https://zenless.hoyoverse.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-f73e1d51ac8f",
+      "name": "王者荣耀 official",
+      "method": "web",
+      "url": "https://pvp.qq.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-565e71c37c80",
+      "name": "和平精英 official",
+      "method": "web",
+      "url": "https://gp.qq.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "专题正文可读但发布日期未知；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-a3624f1b9395",
+      "name": "英雄联盟 official",
+      "method": "web",
+      "url": "https://lol.qq.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "客户端跳转占位；公告未验证；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-2bc017a1366a",
+      "name": "英雄联盟 official",
+      "method": "web",
+      "url": "https://www.leagueoflegends.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "公告入口与一篇带日期正文已验证；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-7f88f68aed3a",
+      "name": "明日方舟 official",
+      "method": "web",
+      "url": "https://ak.hypergryph.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "公告入口与一篇带日期正文已验证；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-68a7c439895a",
+      "name": "明日方舟 official",
+      "method": "web",
+      "url": "https://www.arknights.global/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-0cf94c0915fe",
+      "name": "鸣潮 official",
+      "method": "web",
+      "url": "https://mc.kurogames.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-a228e47a21fc",
+      "name": "鸣潮 official",
+      "method": "web",
+      "url": "https://wutheringwaves.kurogames.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "200网页外壳；未取得公告；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-043172c553f7",
+      "name": "TapTap app 142793",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/142793",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 142793：不休的乌拉拉（先行服；非全站榜）；身份状态=not_a_chart；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "web-03c411ca725b",
+      "name": "TapTap app 168332",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/168332",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 168332：原神；身份状态=verified；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "web-98b14590b77a",
+      "name": "TapTap app 328943",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/328943",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 328943：崩坏：星穹铁道（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "web-1abcef4522f1",
+      "name": "TapTap app 183019",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/183019",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 183019：绝区零（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "web-c7ea8bcd9bac",
+      "name": "TapTap app 200112",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/200112",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 200112：王者荣耀（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "web-810fb6b0b631",
+      "name": "TapTap app 34599",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/34599",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 34599：PATIENCE（不是明日方舟）；身份状态=mismatch；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "web-13ac4d0cf54f",
+      "name": "TapTap app 218205",
+      "method": "web",
+      "url": "https://www.taptap.cn/app/218205",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "TapTap 218205：鸣潮（旧映射未确认）；身份状态=unknown；即使身份匹配也未打通评分/评论/榜单，禁用旧路由",
+      "count": 0
+    },
+    {
+      "id": "web-4916c1e7314a",
+      "name": "英雄联盟 official article sample",
+      "method": "web",
+      "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-19-notes",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "带日期公告正文已验证；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-e92d7af92468",
+      "name": "明日方舟 official article sample",
+      "method": "web",
+      "url": "https://ak.hypergryph.com/news/4922",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "带日期公告正文已验证；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-3db69e1313a6",
+      "name": "Apple CN Top Free",
+      "method": "web",
+      "url": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-free/10/apps.json",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "有效全应用榜JSON；非游戏专榜/营收榜；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-3a78734e1f55",
+      "name": "Apple CN Top Paid",
+      "method": "web",
+      "url": "https://rss.marketingtools.apple.com/api/v2/cn/apps/top-paid/10/apps.json",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "有效全应用榜JSON；非游戏专榜/营收榜；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "steam-announcements",
+      "name": "steam_public_news_api",
+      "method": "web",
+      "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2?appid=570&count=1&maxlength=200",
+      "status": "ok",
+      "attemptedAt": "2026-11-18T08:04:22.972337Z",
+      "lastSuccessAt": "2026-11-18T08:04:22.972337Z",
+      "reason": "仅入选游戏按需请求2次，2次JSON有效；另逐条核对appid/官方feed/发布时间，外部媒体不称公告",
+      "count": 2
+    },
+    {
+      "id": "web-c8a41ba7ea2b",
+      "name": "tuoluo_article",
+      "method": "web",
+      "url": "https://www.youxituoluo.com/534901.html",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "body_and_relative_publish_time_verified；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-1610627d1057",
+      "name": "tencent_pdf",
+      "method": "web",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "minimal_pdf_text_verified；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-4e6383098783",
+      "name": "twitch_rate_documentation",
+      "method": "web",
+      "url": "https://dev.twitch.tv/docs/api/guide/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "documentation_read；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "web-d2bf4adae798",
+      "name": "sensortower_connect",
+      "method": "web",
+      "url": "https://sensortower.com/product/connect",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "official_api_product_description_verified_technical_access_unconfirmed；本流水线未启用，未宣称生产接入",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-7cc010491bd6",
+      "name": "机核",
+      "method": "controlled_search",
+      "url": "https://gcores.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-2e496e4e99dd",
+      "name": "触乐",
+      "method": "controlled_search",
+      "url": "https://chuapp.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-76e5c93267fc",
+      "name": "游民星空",
+      "method": "controlled_search",
+      "url": "https://gamersky.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-e0d87100b15d",
+      "name": "3DM",
+      "method": "controlled_search",
+      "url": "https://3dmgame.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-8779f37ee012",
+      "name": "GameLook",
+      "method": "controlled_search",
+      "url": "https://gamelook.com.cn/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-30972e764e23",
+      "name": "游戏葡萄",
+      "method": "controlled_search",
+      "url": "https://youxiputao.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-7d808882f0d1",
+      "name": "IGN",
+      "method": "controlled_search",
+      "url": "https://ign.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-1e6df392e145",
+      "name": "GameSpot",
+      "method": "controlled_search",
+      "url": "https://gamespot.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-b13cbc9b806e",
+      "name": "Polygon",
+      "method": "controlled_search",
+      "url": "https://polygon.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-df561ec27af9",
+      "name": "Gematsu",
+      "method": "controlled_search",
+      "url": "https://gematsu.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-2adaf81b4e96",
+      "name": "TapTap",
+      "method": "controlled_search",
+      "url": "https://taptap.cn/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-9a77df120b8c",
+      "name": "NGA",
+      "method": "controlled_search",
+      "url": "https://bbs.nga.cn/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-f84c99c470b4",
+      "name": "百度贴吧",
+      "method": "controlled_search",
+      "url": "https://tieba.baidu.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-013b72c6d22d",
+      "name": "米游社",
+      "method": "controlled_search",
+      "url": "https://miyoushe.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-48bbd3bb2a87",
+      "name": "Reddit",
+      "method": "controlled_search",
+      "url": "https://reddit.com/r/Genshin_Impact/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-48fb95bbce2b",
+      "name": "B站",
+      "method": "controlled_search",
+      "url": "https://bilibili.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-b68fc09b976e",
+      "name": "王者营地",
+      "method": "controlled_search",
+      "url": "https://yingdi.qq.com/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-77468a137086",
+      "name": "PRTS Wiki",
+      "method": "controlled_search",
+      "url": "https://prts.wiki/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "controlled_search-43315e4b16de",
+      "name": "GameSpot",
+      "method": "controlled_search",
+      "url": "https://www.gamespot.com/articles/",
+      "status": "not_configured",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "只登记域名定向发现计划；没有受控搜索服务、账户预算或正文日期核验适配器；本次不搜索",
+      "count": 0
+    },
+    {
+      "id": "ign-canonical",
+      "name": "IGN",
+      "method": "rss",
+      "url": "https://www.ign.com/rss/articles/feed",
+      "status": "not_attempted",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "count": 0
+    },
+    {
+      "id": "polygon-canonical",
+      "name": "Polygon",
+      "method": "rss",
+      "url": "https://www.polygon.com/feed/",
+      "status": "not_attempted",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "count": 0
+    },
+    {
+      "id": "eurogamer-canonical",
+      "name": "Eurogamer",
+      "method": "rss",
+      "url": "https://www.eurogamer.net/feed",
+      "status": "not_attempted",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "count": 0
+    },
+    {
+      "id": "vg247-canonical",
+      "name": "VG247",
+      "method": "rss",
+      "url": "https://www.vg247.com/feed",
+      "status": "not_attempted",
+      "attemptedAt": null,
+      "lastSuccessAt": "2026-09-23T12:46:54.657752Z",
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "count": 0
+    },
+    {
+      "id": "gematsu-canonical",
+      "name": "Gematsu",
+      "method": "rss",
+      "url": "https://www.gematsu.com/feed",
+      "status": "not_attempted",
+      "attemptedAt": null,
+      "lastSuccessAt": null,
+      "reason": "既有本机验证到达并解析的同一订阅规范入口；仅主入口失败时使用",
+      "count": 0
+    }
+  ]
+}
