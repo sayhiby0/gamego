@@ -1,84 +1,16 @@
 {
   "schemaVersion": 1,
-  "dataDate": "2026-10-28",
-  "attemptedAt": "2026-10-28T06:27:11.102045Z",
-  "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
+  "dataDate": "2026-11-27",
+  "attemptedAt": "2026-11-27T09:17:47.036044Z",
+  "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
   "status": "partial",
   "notice": "本次有限本地公开采集；未做生产持续验收。手游三维度缺失；AI未成功的条目只保留标题和来源。",
   "news": [
     {
-      "id": "d60f407fdacb5f5bdb842f5a",
-      "title": "梁其伟长文致谢玩家，《影之刃零》明日上线！",
-      "originalTitle": "梁其伟长文致谢玩家，《影之刃零》明日上线！",
-      "publishedAt": "2026-10-28T05:01:53Z",
-      "platforms": [
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "影之刃零"
-      ],
-      "categories": [
-        "产品与版本",
-        "运营活动",
-        "营销与联动"
-      ],
-      "summary": "国产3A武侠动作游戏《影之刃零》即将于明日上线，制作人梁其伟在个人微博发布长文，回顾了从20年前的独立游戏《雨血：死镇》到如今《影之刃零》的研发历程。团队曾于三年多前在PlayStation发布会上首次展示本作预告，随后暂停其他项目，集中资源打磨品质，完成数千小时动作捕捉与实地3D扫描，并邀请武术大师担任动作指导，在甄子丹顾问共创下设计战斗系统。游戏强调操作直观，不设高门槛。",
-      "insight": "AI 推论：《影之刃零》的全球发布策略可能依托于PlayStation平台的国际发行渠道，结合制作人公开致谢玩家的行为，暗示团队正通过情感化叙事强化玩家归属感，以应对海外市场对国产3A游戏认知度较低的挑战；该推论依赖于‘灵游坊曾在PlayStation发布会亮相’及‘梁其伟致谢玩家’的事实。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "f0ef09438aaf71f44b5cb1253cf59918ff6558cb45e100978e0afac6644bec18"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/221570"
-        }
-      ]
-    },
-    {
-      "id": "62bd8d91f70cf52d1129e8a0",
-      "title": "Digimon Alysion pre-registration now available",
-      "originalTitle": "Digimon Alysion pre-registration now available",
-      "publishedAt": "2026-10-28T04:32:24Z",
-      "platforms": [
-        "mobile"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Digimon Alysion",
-        "Digimon Card Game"
-      ],
-      "categories": [
-        "产品与版本",
-        "发行与渠道"
-      ],
-      "summary": "Digimon Alysion，一款基于《数码宝贝卡片游戏》的免费手机游戏，现已开启预注册。",
-      "insight": "AI 推论：Digimon Alysion 的预注册开启表明该系列正通过新作拓展其在移动端的影响力，可能旨在借助已有IP粉丝基础推动用户增长。此事件依赖于《数码宝贝卡片游戏》的既有知名度及跨媒体开发趋势。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "52f91866a6c759895e6a845758e6c03975d76ef9b5dad86b3b9e6d512284692d"
-      },
-      "sources": [
-        {
-          "id": "gematsu",
-          "name": "Gematsu",
-          "url": "https://www.gematsu.com/2026/10/digimon-alysion-pre-registration-now-available"
-        }
-      ]
-    },
-    {
-      "id": "b67d463d3d40a45798e7ca6d",
-      "title": "《流放者柯南》增强版与《浮空岛》即将登陆 PlayStation5",
-      "originalTitle": "《流放者柯南》增强版与《浮空岛》即将登陆 PlayStation5",
-      "publishedAt": "2026-10-28T03:49:18Z",
+      "id": "c35c2224f4cb19313d5c3b49",
+      "title": "The Best Pokémon TCG Black Friday Deals: Amazon Restocks, 10% Cashback at TCGplayer, and More",
+      "originalTitle": "The Best Pokémon TCG Black Friday Deals: Amazon Restocks, 10% Cashback at TCGplayer, and More",
+      "publishedAt": "2026-11-27T08:00:00Z",
       "platforms": [],
       "markets": [],
       "games": [],
@@ -88,55 +20,20 @@
       "processing": {
         "status": "unavailable",
         "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/221565"
-        }
-      ]
-    },
-    {
-      "id": "1ccf30846aff84aba3162d3a",
-      "title": "The Upcoming Blade Runner 2099 Board Game Will Feature a Different Story Than the TV Series",
-      "originalTitle": "The Upcoming Blade Runner 2099 Board Game Will Feature a Different Story Than the TV Series",
-      "publishedAt": "2026-10-28T03:39:28Z",
-      "platforms": [
-        "pc",
-        "mobile",
-        "console"
-      ],
-      "markets": [
-        "global",
-        "overseas"
-      ],
-      "games": [
-        "Blade Runner 2099"
-      ],
-      "categories": [
-        "产品与版本"
-      ],
-      "summary": "即将推出的《银翼杀手2099》桌游将拥有与电视剧不同的故事线。",
-      "insight": "AI 推论：根据来源 s1，该桌游将独立于电视剧设定新剧情，表明跨媒体叙事中衍生作品可脱离原作主线，可能为拓展世界观或吸引新玩家提供策略。此推论依赖于原文中‘将拥有不同故事线’的事实。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "b029e196471475ba630703ec07e313ae20cdf7e265b1f707ce73ff19bb94cf6d"
       },
       "sources": [
         {
           "id": "ign",
           "name": "IGN",
-          "url": "https://www.ign.com/articles/blade-runner-2099-the-board-game-will-feature-a-different-story-than-the-tv-series"
+          "url": "https://www.ign.com/articles/pokemon-tcg-black-friday-deals-2026"
         }
       ]
     },
     {
-      "id": "6b09f7e09de2cb07e6e7939f",
-      "title": "在《王者荣耀》的巨浪里随波逐流",
-      "originalTitle": "在《王者荣耀》的巨浪里随波逐流",
-      "publishedAt": "2026-10-28T03:30:10Z",
+      "id": "53b811fc2a333cc627cd1701",
+      "title": "The Alienware 18 Area-51 RTX 5070 Gaming Laptop with 32GB of RAM Drops to $2,260 for Black Friday",
+      "originalTitle": "The Alienware 18 Area-51 RTX 5070 Gaming Laptop with 32GB of RAM Drops to $2,260 for Black Friday",
+      "publishedAt": "2026-11-27T07:10:00Z",
       "platforms": [],
       "markets": [],
       "games": [],
@@ -149,86 +46,408 @@
       },
       "sources": [
         {
-          "id": "chuapp",
-          "name": "触乐",
-          "url": "https://www.chuapp.com/article/291718.html"
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/alienware-18-area-51-rtx-5070-gaming-laptop-deal-black-friday-sale-2026"
         }
       ]
     },
     {
-      "id": "e91e3a34720d29ebfb5a66b7",
-      "title": "Pocketpair：乐意让《幻兽帕鲁》登陆NS2",
-      "originalTitle": "Pocketpair：乐意让《幻兽帕鲁》登陆NS2",
-      "publishedAt": "2026-10-28T03:28:28Z",
-      "platforms": [
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "幻兽帕鲁"
-      ],
-      "categories": [
-        "产品与版本",
-        "发行与渠道"
-      ],
-      "summary": "Pocketpair CEO沟部拓郎表示，团队乐意让《幻兽帕鲁》登陆Nintendo Switch 2，并认为该平台对全球及日本游戏产业都极具价值。尽管此前因硬件性能限制无法在Switch上运行，但Switch 2已解决此问题。目前游戏仍面临任天堂诉讼带来的不确定性。",
-      "insight": "AI 推论：若任天堂与Pocketpair的法律纠纷得以和解，且Switch 2的开发环境支持，本作移植可能性将显著提升；但当前诉讼状态构成主要障碍，其结果可能直接影响跨平台发行决策。该推论依赖于s1中提及的诉讼持续进行及开发商表达合作意愿的事实。",
+      "id": "b514d350ddba0886c0fb8ade",
+      "title": "合作经营模拟《鲨鱼超市》今日正式发售",
+      "originalTitle": "合作经营模拟《鲨鱼超市》今日正式发售",
+      "publishedAt": "2026-11-27T07:07:35Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
       "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "32246277ad60c36995eead0edc5d7b7795067e72849c7a927ed36ebec694e3ed"
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
       },
       "sources": [
         {
           "id": "gcores",
           "name": "机核",
-          "url": "https://www.gcores.com/articles/221563"
+          "url": "https://www.gcores.com/articles/222848"
         }
       ]
     },
     {
-      "id": "2069716c258de35d9e12a7c6",
-      "title": "《神探狗狗：汪者归来》现已全平台发售",
-      "originalTitle": "《神探狗狗：汪者归来》现已全平台发售",
-      "publishedAt": "2026-10-28T02:28:33Z",
-      "platforms": [
-        "pc",
-        "mobile",
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "神探狗狗：汪者归来"
-      ],
-      "categories": [
-        "产品与版本",
-        "运营活动",
-        "营销与联动"
-      ],
-      "summary": "《神探狗狗：汪者归来》由 Mindscape 与 Floor 84 联合开发，于 2026 年 10 月 28 日在 Nintendo Switch、Steam、Xbox Series X|S、Xbox One 及 PlayStation 4/5 全平台发售。游戏为横版平台动作类，改编自戴夫·皮尔奇的畅销漫画系列，支持双人合作，玩家可操控 10 名角色，每位拥有独特能力，对抗斯卡姆博士并解救市民。游戏包含动作、笑料与隐藏关卡等元素。",
-      "insight": "AI 推论：基于《神探狗狗》漫画系列的跨媒体改编趋势，本作通过多平台同步发售与双人合作机制，可能旨在扩大家庭用户群体覆盖，提升IP衍生内容的商业价值；其隐藏关卡设定或意在延长玩家生命周期，但具体效果依赖实际用户反馈与社区探索进展。该推论依赖事件事实：游戏已全平台上线、支持多人合作、改编自知名漫画IP、存在未被发现的秘密关卡线索。【s1】",
+      "id": "9d392d92f32b0784b17ef13b",
+      "title": "Woot Has a Grade A Refurbished Nintendo Switch 2 Console for $409.99 During Black Friday",
+      "originalTitle": "Woot Has a Grade A Refurbished Nintendo Switch 2 Console for $409.99 During Black Friday",
+      "publishedAt": "2026-11-27T06:45:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
       "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "c4d24af8d6f24cf1fd4da64f447b8b812566658994684b612a160ec8231ae2c3"
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/refurb-nintendo-switch-2-console-deal-black-friday-sale-2026"
+        }
+      ]
+    },
+    {
+      "id": "b8fa94bf5f329fa313e1cb35",
+      "title": "The Acer Nitro Radeon RX 9070 XT Gaming PC Drops to $1,899 for Black Friday, Excels at 4K Gaming",
+      "originalTitle": "The Acer Nitro Radeon RX 9070 XT Gaming PC Drops to $1,899 for Black Friday, Excels at 4K Gaming",
+      "publishedAt": "2026-11-27T05:30:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/acer-nitro-radeon-rx-9070-xt-gaming-pc-deal-black-friday-sale-2026"
+        }
+      ]
+    },
+    {
+      "id": "d13ace353897e0fff519ef4e",
+      "title": "多人深海恐怖生存游戏《潜渊症》“港以为家”DLC将于12.2发布",
+      "originalTitle": "多人深海恐怖生存游戏《潜渊症》“港以为家”DLC将于12.2发布",
+      "publishedAt": "2026-11-27T04:46:44Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
       },
       "sources": [
         {
           "id": "gcores",
           "name": "机核",
-          "url": "https://www.gcores.com/articles/221558"
+          "url": "https://www.gcores.com/articles/222842"
         }
       ]
     },
     {
-      "id": "8eeffb838d00311e0526ec7a",
-      "title": "(For Southeast Asia) PlayStation 11.11 Power Deals returns from 30 October to 12 November 2026",
-      "originalTitle": "(For Southeast Asia) PlayStation 11.11 Power Deals returns from 30 October to 12 November 2026",
-      "publishedAt": "2026-10-28T02:01:10Z",
+      "id": "60fb1263e3e0ebdf02a3f0ce",
+      "title": "《Hela：鼠鼠奇旅》\"游乐场\"深度解析视频发布",
+      "originalTitle": "《Hela：鼠鼠奇旅》\"游乐场\"深度解析视频发布",
+      "publishedAt": "2026-11-27T04:42:47Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222841"
+        }
+      ]
+    },
+    {
+      "id": "44b6f9200152a1fd441cc1d3",
+      "title": "Save $100 on a FlexiSpot Sentinel Pro Gaming Chair for Black Friday",
+      "originalTitle": "Save $100 on a FlexiSpot Sentinel Pro Gaming Chair for Black Friday",
+      "publishedAt": "2026-11-27T04:25:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/flexispot-sentinel-pro-gaming-chair-black-friday-deal"
+        }
+      ]
+    },
+    {
+      "id": "ddeef2300be9a51d135568f9",
+      "title": "【会员抽奖】走位就是进攻！Roguelike策略战棋游戏《天外来袭》今日发售",
+      "originalTitle": "【会员抽奖】走位就是进攻！Roguelike策略战棋游戏《天外来袭》今日发售",
+      "publishedAt": "2026-11-27T03:49:14Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222833"
+        }
+      ]
+    },
+    {
+      "id": "205ce096217240d50c8ef0df",
+      "title": "《枪火重生》全新DLC“月海弦音”定档12月8日",
+      "originalTitle": "《枪火重生》全新DLC“月海弦音”定档12月8日",
+      "publishedAt": "2026-11-27T03:43:47Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222836"
+        }
+      ]
+    },
+    {
+      "id": "5d3488c74c8e2d71ec470e6d",
+      "title": "《巫师3：狂猎》重制版黑五促销现已开启，限时 4 折",
+      "originalTitle": "《巫师3：狂猎》重制版黑五促销现已开启，限时 4 折",
+      "publishedAt": "2026-11-27T03:04:14Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222831"
+        }
+      ]
+    },
+    {
+      "id": "07f333a2f9744cf42b78b22d",
+      "title": "多人合作狩猎模拟《嘎嘎猎杀组》试玩版现已开放",
+      "originalTitle": "多人合作狩猎模拟《嘎嘎猎杀组》试玩版现已开放",
+      "publishedAt": "2026-11-27T03:01:21Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222829"
+        }
+      ]
+    },
+    {
+      "id": "726502f31df546f57e03f04d",
+      "title": "PS1 and Xbox Hallmark Christmas Ornaments Are on Sale for Black Friday",
+      "originalTitle": "PS1 and Xbox Hallmark Christmas Ornaments Are on Sale for Black Friday",
+      "publishedAt": "2026-11-27T01:32:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/ps1-and-xbox-hallmark-christmas-ornaments-are-on-sale-for-black-friday"
+        }
+      ]
+    },
+    {
+      "id": "89b3b3760e0241d8e23fe6c5",
+      "title": "【会员抽奖】物品修复游戏《拾光修复》现已正式发售",
+      "originalTitle": "【会员抽奖】物品修复游戏《拾光修复》现已正式发售",
+      "publishedAt": "2026-11-27T01:20:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222784"
+        }
+      ]
+    },
+    {
+      "id": "b9c7c3a3e286437309b9d281",
+      "title": "《战锤40K：战争黎明4》涂装工具试玩版现已在Steam免费上线",
+      "originalTitle": "《战锤40K：战争黎明4》涂装工具试玩版现已在Steam免费上线",
+      "publishedAt": "2026-11-27T01:10:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222820"
+        }
+      ]
+    },
+    {
+      "id": "693f5a173e430dace92b970b",
+      "title": "《英雄联盟电竞经理》将于27年1月26日停服",
+      "originalTitle": "《英雄联盟电竞经理》将于27年1月26日停服",
+      "publishedAt": "2026-11-27T01:00:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222818"
+        }
+      ]
+    },
+    {
+      "id": "34819d946769e34bf5377f19",
+      "title": "《战锤40K:星际战士2》 “十一抽杀律”更新现已上线",
+      "originalTitle": "《战锤40K:星际战士2》 “十一抽杀律”更新现已上线",
+      "publishedAt": "2026-11-27T00:50:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gcores",
+          "name": "机核",
+          "url": "https://www.gcores.com/articles/222821"
+        }
+      ]
+    },
+    {
+      "id": "f265c005e31b73d9d1bee8b0",
+      "title": "Dark fantasy and sudoku fuse together in unholy matrimony in Dungoku, a dungeon crawling twist on the classic puzzle game",
+      "originalTitle": "Dark fantasy and sudoku fuse together in unholy matrimony in Dungoku, a dungeon crawling twist on the classic puzzle game",
+      "publishedAt": "2026-11-26T22:50:40Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/dark-fantasy-and-sudoku-fuse-together-in-unholy-matrimony-in-dungoku-a-dungeon-crawling-twist-on-the-classic-puzzle-game"
+        }
+      ]
+    },
+    {
+      "id": "8665b87806f6e93950630fa0",
+      "title": "Nearly Three Decades And Four Consoles Later, I Finally Beat Ocarina Of Time",
+      "originalTitle": "Nearly Three Decades And Four Consoles Later, I Finally Beat Ocarina Of Time",
+      "publishedAt": "2026-11-26T22:00:00Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "gamespot",
+          "name": "GameSpot",
+          "url": "https://www.gamespot.com/articles/nearly-three-decades-and-four-consoles-later-i-finally-beat-ocarina-of-time/"
+        }
+      ]
+    },
+    {
+      "id": "be9b3d84a9fa50da2f483472",
+      "title": "Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5",
+      "originalTitle": "Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5",
+      "publishedAt": "2026-11-26T21:59:37Z",
       "platforms": [],
       "markets": [],
       "games": [],
@@ -243,247 +462,61 @@
         {
           "id": "playstation",
           "name": "PlayStation Blog",
-          "url": "https://blog.playstation.com/2026/10/27/20261028-sale/"
+          "url": "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5/"
         }
       ]
     },
     {
-      "id": "7297aafdbdc9281c30d7e086",
-      "title": "经典网页游戏《坏蛋冰淇淋》公布Steam页面",
-      "originalTitle": "经典网页游戏《坏蛋冰淇淋》公布Steam页面",
-      "publishedAt": "2026-10-28T01:00:00Z",
-      "platforms": [
-        "pc"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "坏蛋冰淇淋"
-      ],
-      "categories": [
-        "产品与版本",
-        "发行与渠道"
-      ],
-      "summary": "由 Nitrome Limited 开发的经典网页游戏《坏蛋冰淇淋》公布 Steam 页面，宣布将推出包含初代三部曲的终极版合集，进行全面重制并加入全新关卡、敌人、陷阱及史诗级头目。支持1至4人本地合作或Steam远程同乐，画面已优化，保留原作特色并剔除设计欠佳关卡。",
-      "insight": "AI 推论：基于《坏蛋冰淇淋》作为累计游玩次数突破1亿的传奇网页游戏，其登陆Steam平台并推出全面重制的终极版合集，表明开发团队正通过跨平台发行与内容升级策略，将经典IP转化为可触达更广泛玩家群体的现代休闲合集产品，可能旨在拓展全球市场（overseas）中对怀旧类休闲游戏的需求。此动作依赖于原作高知名度与玩家基础（s1）。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "7f61b93dd5ea3237fd827ca8516321275a312bba1ea2ac7478b67697d453a281"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/221546"
-        }
-      ]
-    },
-    {
-      "id": "b7ffae706f9533d040add15d",
-      "title": "均分86：《使命召唤：现代战争4》媒体评分汇总",
-      "originalTitle": "均分86：《使命召唤：现代战争4》媒体评分汇总",
-      "publishedAt": "2026-10-28T00:55:00Z",
-      "platforms": [
-        "pc"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "使命召唤：现代战争4"
-      ],
-      "categories": [
-        "产品与版本",
-        "运营活动",
-        "营销与联动"
-      ],
-      "summary": "《使命召唤：现代战争4》由 Infinity Ward 开发、动视发行，于2026年10月23日发售。PC版在Metacritic上获得86分的均分，25家计分媒体均为正面评价。IGN给出7分，称赞其战役为系列重启以来最出色，剧情收束了长达七年的故事线，角色关系建立可信，任务共16个，分为普莱斯复仇与韩国战场两条主线；但指出部分潜行段落与近战反击系统不够精确，影响体验。多人模式取消战术冲刺与全向移动，枪械手感良好，新地图Kill Block在Gunfight模式中每轮重组场景。",
-      "insight": "AI 推论：基于《使命召唤：现代战争4》战役被评价为系列重启以来最出色，且成功清理旧角色并建立新角色羁绊，可推断该作可能在叙事结构上强化了角色弧光与情感联结，以提升玩家代入感。这一设计倾向或反映开发商对长线IP续作叙事深度的重视，尤其在系列关键节点上倾向于完成故事闭环。此推论依赖于IGN对战役质量的正面评价及对角色关系构建的肯定（s1）。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "e54b2c332065a744abf05910bb9fa7543695437b7d88c54b4e6367c1bab30c1b"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/221550"
-        }
-      ]
-    },
-    {
-      "id": "67fb14ed12dccafb63d69974",
-      "title": "《饥荒联机版》现已实装“万圣夜”活动",
-      "originalTitle": "《饥荒联机版》现已实装“万圣夜”活动",
-      "publishedAt": "2026-10-28T00:45:00Z",
-      "platforms": [
-        "pc",
-        "mobile",
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "饥荒联机版"
-      ],
-      "categories": [
-        "运营活动",
-        "营销与联动",
-        "发行与渠道"
-      ],
-      "summary": "《饥荒联机版》于2026年10月28日上线“万圣夜”限时活动，新增女巫扫帚、南瓜炸弹等限定道具，落叶林落叶可积聚并隐藏物品，部分小型生物新增击退反应。玩家可免费领取两个礼盒，包含随机万圣夜服装与饰品，万圣夜主题服装限时试穿，活动结束后收回。相关物品掉落概率提升，商店推出售价10元的南瓜地箱子，含闹鬼陋屋及建筑皮肤。",
-      "insight": "AI 推论：基于《饥荒联机版》在2026年10月28日上线万圣夜活动，结合其长期运营中对节日内容的周期性更新模式，可推断开发团队正通过高频率的季节性活动维持玩家活跃度，同时借助限定外观与道具增强消费意愿，尤其通过10元低价皮肤包刺激小额付费行为，反映当前版本以轻量付费设计为主导的商业化策略。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "3f24160579ee43c783ddc6a831bfdcc0a8748090f56010cefc50728a380c14c1"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/221552"
-        }
-      ]
-    },
-    {
-      "id": "b475335e8decbf9368ae6e7f",
-      "title": "微星神影16 锐龙版爆款来袭 ：京东首发直播领卷+国补到手价8499.2元",
-      "originalTitle": "微星神影16 锐龙版爆款来袭 ：京东首发直播领卷+国补到手价8499.2元",
-      "publishedAt": "2026-10-28T00:30:00Z",
-      "platforms": [
-        "pc"
-      ],
-      "markets": [
-        "cn"
-      ],
-      "games": [],
-      "categories": [
-        "产品与版本",
-        "运营活动",
-        "营销与联动",
-        "发行与渠道"
-      ],
-      "summary": "微星神影16 锐龙版 2026 于2026年10月28日14:00在京东独家首发，搭载锐龙7 8840HX处理器与RTX5060显卡，配备2.5K 240Hz广色域高刷屏，首发促销价10499元，通过京东直播间领500元券及国补立减15%（1499.8元），到手价为8499.2元，并提供6期免息。该机型以轻量化设计和高性能表现成为游戏本市场优选。",
-      "insight": "AI 推论：基于京东平台首发促销策略与国补叠加机制，微星神影16 锐龙版 2026 的到手价显著低于首发价，反映出厂商在新品发布阶段通过渠道补贴与政策优惠快速抢占市场份额的意图，尤其针对价格敏感型消费者群体，可能推动短期内销量增长。此推论依赖事件事实：京东独家首发、直播领券、国补立减15%及到手价8499.2元。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "f8ef615b30398579f9ef2f41d1f726a60e30ababf0097f48401bd8ace206a2af"
-      },
-      "sources": [
-        {
-          "id": "gcores",
-          "name": "机核",
-          "url": "https://www.gcores.com/articles/221562"
-        }
-      ]
-    },
-    {
-      "id": "78796adab42f19553122af7a",
-      "title": "The 2026 55\" LG Evo C6 4K OLED TV Drops to Black Friday Pricing Plus Get a Free Xbox Controller",
-      "originalTitle": "The 2026 55\" LG Evo C6 4K OLED TV Drops to Black Friday Pricing Plus Get a Free Xbox Controller",
-      "publishedAt": "2026-10-28T00:00:00Z",
-      "platforms": [
-        "console"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [],
-      "categories": [
-        "产品与版本",
-        "运营活动",
-        "营销与联动"
-      ],
-      "summary": "2026年款55英寸LG Evo C6 4K OLED电视在黑五期间降价，并附赠一个免费Xbox手柄。",
-      "insight": "AI 推论：该促销活动可能反映游戏硬件与显示设备的捆绑销售趋势，以提升主机外设的吸引力。此推论基于LG电视与Xbox控制器的关联性，以及黑五促销背景，但未涉及具体销量或玩家反馈数据。",
-      "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "e15c81c0044cac62e3be3e785b639fd1ce261e81274d3c3efd9dc481f4aa45c8"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/lg-evo-c6-4k-oled-tv-deal-free-xbox-controller-october-2026"
-        }
-      ]
-    },
-    {
-      "id": "2a9967c0a35a192f81f29b3f",
-      "title": "Masahiro Sakurai Shrugs Off AI Games as ‘Unprofitable Titles’ as Clones and Mods Boom",
-      "originalTitle": "Masahiro Sakurai Shrugs Off AI Games as ‘Unprofitable Titles’ as Clones and Mods Boom",
-      "publishedAt": "2026-10-27T23:27:51Z",
+      "id": "2a0f2cbab96b8ac5bf974296",
+      "title": "Star Trek: Voyager Officially Revisits the Series' Best Two-Parter in a Brand-New Way",
+      "originalTitle": "Star Trek: Voyager Officially Revisits the Series' Best Two-Parter in a Brand-New Way",
+      "publishedAt": "2026-11-26T21:50:18Z",
       "platforms": [],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Super Smash Bros",
-        "Shadow of the Colossus"
-      ],
-      "categories": [
-        "行业与公司"
-      ],
-      "summary": "Super Smash Bros 创始人村尾正浩认为，AI 生成游戏的热潮难以持续，因其作品质量低下，无法与《旺达与巨像》等人类创作的优质游戏相提并论。",
-      "insight": "AI 推论：村尾正浩将 AI 游戏比作‘低质量商品’，暗示其商业可持续性存疑，这一观点基于当前 AI 游戏克隆与模组泛滥的现象，可能反映行业对 AI 内容缺乏长期投资意愿。",
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
       "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "57f9d634ab766d428ee9214f19ed903d4423f623fce3da2e07d3baba34949e45"
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
       },
       "sources": [
         {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/masahiro-sakurai-shrugs-off-ai-games-as-unprofitable-titles-as-clones-and-mods-boom"
+          "id": "polygon",
+          "name": "Polygon",
+          "url": "https://www.polygon.com/star-trek-voyager-across-the-unknown-year-of-hell-dlc-announced/"
         }
       ]
     },
     {
-      "id": "66ced346e3b4948a014d3051",
-      "title": "Monarchs at Play is a 4X strategy city-builder about chaining hexagonal tiles that only takes an hour out of your day",
-      "originalTitle": "Monarchs at Play is a 4X strategy city-builder about chaining hexagonal tiles that only takes an hour out of your day",
-      "publishedAt": "2026-10-27T22:46:08Z",
-      "platforms": [
-        "pc",
-        "mobile"
-      ],
-      "markets": [
-        "global"
-      ],
-      "games": [
-        "Monarchs at Play"
-      ],
-      "categories": [
-        "产品与版本"
-      ],
-      "summary": "Monarchs at Play 是一款 4X 策略城市建造游戏，玩家通过连接六边形地块进行游戏，每日仅需一小时即可完成游玩。",
-      "insight": "AI 推论：在现代生活节奏加快、成年人日常事务繁重的背景下，短时策略游戏的需求可能上升，Monarchs at Play 以每局一小时的设计响应了这一趋势，暗示轻量化策略体验正成为应对时间稀缺性的市场解决方案。此推论基于 s1 中对玩家时间紧张与游戏时长需求的描述。",
+      "id": "2ebff20617a9b5753774fa77",
+      "title": "Your mothership is a giant pinball machine and your ball is its defence system in Appulse, a top-down roguelite shooter that's out now",
+      "originalTitle": "Your mothership is a giant pinball machine and your ball is its defence system in Appulse, a top-down roguelite shooter that's out now",
+      "publishedAt": "2026-11-26T21:31:10Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
       "processing": {
-        "status": "success",
-        "reason": "加工结果已通过本地结构校验；不代表事实已独立核验",
-        "contentHash": "715fa5be2c7c47853994f566c2663d965b9362cf7edef7a88ea5481d413c76fc"
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
       },
       "sources": [
         {
           "id": "rps",
           "name": "Rock Paper Shotgun",
-          "url": "https://www.rockpapershotgun.com/monarchs-at-play-is-a-4x-strategy-city-builder-about-chaining-hexagonal-tiles-that-only-takes-an-hour-out-of-your-day"
+          "url": "https://www.rockpapershotgun.com/your-mothership-is-a-giant-pinball-machine-and-your-ball-is-its-defence-system-in-appulse-a-top-down-roguelite-shooter-thats-out-now"
         }
       ]
     },
     {
-      "id": "665fe523805df2fc40a4a72d",
-      "title": "Creator of Viral Needle in a Haystack Game Roasts Copycats With 'Find the Original Game' Mode",
-      "originalTitle": "Creator of Viral Needle in a Haystack Game Roasts Copycats With 'Find the Original Game' Mode",
-      "publishedAt": "2026-10-27T22:30:35Z",
+      "id": "1e576e01f1bd2cb65598c79b",
+      "title": "The Sims 4 Officially Makes 13 DLCs Free for a Limited Time",
+      "originalTitle": "The Sims 4 Officially Makes 13 DLCs Free for a Limited Time",
+      "publishedAt": "2026-11-26T20:46:54Z",
       "platforms": [],
       "markets": [],
       "games": [],
@@ -492,136 +525,21 @@
       "insight": null,
       "processing": {
         "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/creator-of-viral-needle-in-a-haystack-game-roasts-copycats-with-find-the-original-game-mode"
-        }
-      ]
-    },
-    {
-      "id": "d85ff1c2ade4ce7a566ba8ed",
-      "title": "You Can Unlock Lots Of Free Stuff In Pokemon Go’s Halloween 2026 Event",
-      "originalTitle": "You Can Unlock Lots Of Free Stuff In Pokemon Go’s Halloween 2026 Event",
-      "publishedAt": "2026-10-27T22:07:25Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/heres-everything-you-can-unlock-for-pokemon-go-halloween-2026/"
-        }
-      ]
-    },
-    {
-      "id": "3e3691e807f213afac063ec1",
-      "title": "Resident Evil Executive Producer Says the Series' Story Could End 'In the Next 10 Years'",
-      "originalTitle": "Resident Evil Executive Producer Says the Series' Story Could End 'In the Next 10 Years'",
-      "publishedAt": "2026-10-27T21:49:51Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/resident-evil-executive-producer-says-the-series-story-could-end-in-the-next-10-years"
-        }
-      ]
-    },
-    {
-      "id": "613d3c109d85219b106692cd",
-      "title": "Remember That Time BioWare Made A Sonic The Hedgehog RPG?",
-      "originalTitle": "Remember That Time BioWare Made A Sonic The Hedgehog RPG?",
-      "publishedAt": "2026-10-27T21:31:38Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/remember-that-time-bioware-made-a-sonic-the-hedgehog-rpg/"
-        }
-      ]
-    },
-    {
-      "id": "a6774dc58b894e8524015903",
-      "title": "Life Is Strange Developer Don't Nod Blasted by Union Employees Over 'Illegal' Management Practices as Possible Layoffs Loom",
-      "originalTitle": "Life Is Strange Developer Don't Nod Blasted by Union Employees Over 'Illegal' Management Practices as Possible Layoffs Loom",
-      "publishedAt": "2026-10-27T20:34:03Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/life-is-strange-developer-dont-nod-blasted-by-union-employees-over-illegal-management-practices-as-possible-layoffs-loom"
-        }
-      ]
-    },
-    {
-      "id": "14ca4424f9313e16415a6c56",
-      "title": "Magic Is Reprinting a $20 Commander Powerhouse as a Star Trek Fan Favorite",
-      "originalTitle": "Magic Is Reprinting a $20 Commander Powerhouse as a Star Trek Fan Favorite",
-      "publishedAt": "2026-10-27T20:32:08Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
       },
       "sources": [
         {
           "id": "polygon",
           "name": "Polygon",
-          "url": "https://www.polygon.com/magic-gathering-mtg-star-trek-commander-reprint/"
+          "url": "https://www.polygon.com/the-sims-4-free-maker-pack-holiday-giveaway-2026/"
         }
       ]
     },
     {
-      "id": "cdd46fbb9fe715dc9b6ef787",
-      "title": "McDonald's New 'Pokémon' Happy Meal Surprise Leaks Ahead Of Launch",
-      "originalTitle": "McDonald's New 'Pokémon' Happy Meal Surprise Leaks Ahead Of Launch",
-      "publishedAt": "2026-10-27T20:17:18Z",
+      "id": "a1f62d177ebf8b082d9a2437",
+      "title": "EA removes some live service fluff from Skate and ends seasonal structure \"in favour of regular, agile content updates\"",
+      "originalTitle": "EA removes some live service fluff from Skate and ends seasonal structure \"in favour of regular, agile content updates\"",
+      "publishedAt": "2026-11-26T20:35:20Z",
       "platforms": [],
       "markets": [],
       "games": [],
@@ -630,21 +548,143 @@
       "insight": null,
       "processing": {
         "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "eurogamer",
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/ea-removes-live-service-skate-seasons"
+        }
+      ]
+    },
+    {
+      "id": "c82e394af8b2d1e0d9657014",
+      "title": "Eureka Ergonomic Has Black Friday Deals to Give Your Space the Upgrade It Needs",
+      "originalTitle": "Eureka Ergonomic Has Black Friday Deals to Give Your Space the Upgrade It Needs",
+      "publishedAt": "2026-11-26T19:30:00Z",
+      "platforms": [
+        "pc"
+      ],
+      "markets": [
+        "global"
+      ],
+      "games": [],
+      "categories": [
+        "营销与联动"
+      ],
+      "summary": "Eureka Ergonomic 在黑色星期五推出促销活动，为用户提供办公或游戏空间升级的选项。",
+      "insight": "AI 推论：Eureka Ergonomic 在黑色星期五推出促销活动，可能旨在通过节日消费高峰提升产品销量，吸引注重人体工学设计的用户群体，尤其是对办公和游戏环境有较高要求的消费者。该推论基于其在黑色星期五期间提供优惠的事实。",
+      "processing": {
+        "status": "success",
+        "reason": "原文与本地加工配置哈希一致，复用通过结构校验的历史结果；未独立核验后端配置",
+        "contentHash": "1733acbd7d513852f564835e48e720f7f5b2968c59ca2b6e92adc2b8db1f9434"
+      },
+      "sources": [
+        {
+          "id": "ign",
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/eureka-ergonomic-has-black-friday-deals-to-give-your-space-the-upgrade-it-needs"
+        }
+      ]
+    },
+    {
+      "id": "a161a37ec6589c856a0f5881",
+      "title": "The Witcher 3's new patch adds 40 cross-platform mods, fixes plenty of game-breaking bugs and \"various lighting issues\"",
+      "originalTitle": "The Witcher 3's new patch adds 40 cross-platform mods, fixes plenty of game-breaking bugs and \"various lighting issues\"",
+      "publishedAt": "2026-11-26T19:20:50Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "eurogamer",
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/the-witcher-3-patch-40-mods-bugs"
+        }
+      ]
+    },
+    {
+      "id": "50ed9b37a6ad9f38017242ef",
+      "title": "HARK THE GHOUL is a Victorian gothic dungeon crawler RPG that features a trench-coat-wearing rat man who wants to sell you rats a la counterfeit watches",
+      "originalTitle": "HARK THE GHOUL is a Victorian gothic dungeon crawler RPG that features a trench-coat-wearing rat man who wants to sell you rats a la counterfeit watches",
+      "publishedAt": "2026-11-26T18:53:30Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/hark-the-ghoul-is-a-victorian-gothic-dungeon-crawler-rpg-that-features-a-trench-coat-wearing-rat-man-who-wants-to-sell-you-rats-a-la-counterfeit-watches"
+        }
+      ]
+    },
+    {
+      "id": "e639f96f2db410af733d814a",
+      "title": "Nioh and Ninja Gaiden studio is using AI for QA, but argues \"that a game becomes fun when crafted by human hands\"",
+      "originalTitle": "Nioh and Ninja Gaiden studio is using AI for QA, but argues \"that a game becomes fun when crafted by human hands\"",
+      "publishedAt": "2026-11-26T18:14:30Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
+      },
+      "sources": [
+        {
+          "id": "eurogamer",
+          "name": "Eurogamer",
+          "url": "https://www.eurogamer.net/nioh-ai-qa-game-human-hands"
+        }
+      ]
+    },
+    {
+      "id": "3b64219958c3a449904c5fed",
+      "title": "The 14 Best Star Wars Games of All Time, Ranked",
+      "originalTitle": "The 14 Best Star Wars Games of All Time, Ranked",
+      "publishedAt": "2026-11-26T18:01:21Z",
+      "platforms": [],
+      "markets": [],
+      "games": [],
+      "categories": [],
+      "summary": null,
+      "insight": null,
+      "processing": {
+        "status": "unavailable",
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
       },
       "sources": [
         {
           "id": "polygon",
           "name": "Polygon",
-          "url": "https://www.polygon.com/mcdonalds-pokemon-happy-meal-toy-card-leak-start-date-tcg-promo/"
+          "url": "https://www.polygon.com/best-star-wars-games/"
         }
       ]
     },
     {
-      "id": "4b018729a5fb889078392e01",
-      "title": "30 Years Later, Magic’s Most Ridiculous 1-Mana Creature Is Still a Competitive Powerhouse",
-      "originalTitle": "30 Years Later, Magic’s Most Ridiculous 1-Mana Creature Is Still a Competitive Powerhouse",
-      "publishedAt": "2026-10-27T20:00:19Z",
+      "id": "655de88608900d199a69dddd",
+      "title": "Warhammer 40,000: Space Marine 2's latest updates introduces a Weekly Clash mode that shakes up PvP with some constricting modifiers",
+      "originalTitle": "Warhammer 40,000: Space Marine 2's latest updates introduces a Weekly Clash mode that shakes up PvP with some constricting modifiers",
+      "publishedAt": "2026-11-26T17:58:30Z",
       "platforms": [],
       "markets": [],
       "games": [],
@@ -653,174 +693,13 @@
       "insight": null,
       "processing": {
         "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
+        "reason": "内容服务未返回该项、预算拒绝或输出校验失败；不发布模型文本"
       },
       "sources": [
         {
-          "id": "polygon",
-          "name": "Polygon",
-          "url": "https://www.polygon.com/magic-phyrexian-dreadnought-stiflenought-premodern/"
-        }
-      ]
-    },
-    {
-      "id": "24a278917d3216b9976f5666",
-      "title": "You Can Make Your WoW: Forever Character Now And Be Ready For Launch",
-      "originalTitle": "You Can Make Your WoW: Forever Character Now And Be Ready For Launch",
-      "publishedAt": "2026-10-27T20:00:00Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/you-can-make-your-wow-forever-character-now-and-be-ready-for-launch/"
-        }
-      ]
-    },
-    {
-      "id": "6db4939488f9f556c1eee8d6",
-      "title": "LEGO PlayStation: The Designer Interview",
-      "originalTitle": "LEGO PlayStation: The Designer Interview",
-      "publishedAt": "2026-10-27T19:56:21Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/lego-playstation-the-designer-interview"
-        }
-      ]
-    },
-    {
-      "id": "8b1b78655f3744c9f9196300",
-      "title": "From Cryptids To Carinderias, Here Are 8 Games To Celebrate Filipino American History Month",
-      "originalTitle": "From Cryptids To Carinderias, Here Are 8 Games To Celebrate Filipino American History Month",
-      "publishedAt": "2026-10-27T19:53:46Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/from-cryptids-to-carinderias-here-are-8-games-to-celebrate-filipino-american-history-month/"
-        }
-      ]
-    },
-    {
-      "id": "e3fa55310df1c9d76eb9800d",
-      "title": "Two Creators of the Original Doom Are Arguing About its History on Social Media",
-      "originalTitle": "Two Creators of the Original Doom Are Arguing About its History on Social Media",
-      "publishedAt": "2026-10-27T19:45:17Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/two-creators-of-the-original-doom-are-arguing-about-its-history-on-social-media"
-        }
-      ]
-    },
-    {
-      "id": "9cd6e270a06458ba710bd8bd",
-      "title": "GTA 6 Developers Are About To Do Something Historic",
-      "originalTitle": "GTA 6 Developers Are About To Do Something Historic",
-      "publishedAt": "2026-10-27T19:43:21Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/gta-6-developers-are-about-to-do-something-historic/"
-        }
-      ]
-    },
-    {
-      "id": "b456caed1bb02831cbbba379",
-      "title": "Discord Messages in Discoverable Servers Will Soon Be Searchable on Google",
-      "originalTitle": "Discord Messages in Discoverable Servers Will Soon Be Searchable on Google",
-      "publishedAt": "2026-10-27T19:41:58Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "ign",
-          "name": "IGN",
-          "url": "https://www.ign.com/articles/discord-messages-in-discoverable-servers-will-soon-be-searchable-on-google"
-        }
-      ]
-    },
-    {
-      "id": "1549ef68cc5e41f649fac20c",
-      "title": "This Company Is Paying You To Play GTA 6, But It’s A Long Shot",
-      "originalTitle": "This Company Is Paying You To Play GTA 6, But It’s A Long Shot",
-      "publishedAt": "2026-10-27T19:03:48Z",
-      "platforms": [],
-      "markets": [],
-      "games": [],
-      "categories": [],
-      "summary": null,
-      "insight": null,
-      "processing": {
-        "status": "unavailable",
-        "reason": "本次内容加工总时限已达；不追加调用，保留已完成结果"
-      },
-      "sources": [
-        {
-          "id": "gamespot",
-          "name": "GameSpot",
-          "url": "https://www.gamespot.com/articles/this-company-is-paying-you-to-play-gta-6-but-its-a-long-shot/"
+          "id": "rps",
+          "name": "Rock Paper Shotgun",
+          "url": "https://www.rockpapershotgun.com/warhammer-40000-space-marine-2s-latest-updates-introduces-a-weekly-clash-mode-that-shakes-up-pvp-with-some-constricting-modifiers"
         }
       ]
     }
@@ -841,7 +720,7 @@
       "unit": "人（同时在线）",
       "period": "采集时刻",
       "methodologyVersion": "steam-html-popularity-v1",
-      "observedAt": "2026-10-28T06:27:11.102045Z",
+      "observedAt": "2026-11-27T09:17:47.036044Z",
       "status": "ok",
       "reason": "本次本机解析有效app行；最多20项，不表示持续生产可用",
       "items": [
@@ -849,221 +728,221 @@
           "gameId": "steam:730",
           "name": "Counter-Strike 2",
           "rank": 1,
-          "value": 491612,
+          "value": 619361,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/730/",
-          "previousRank": 2,
-          "rankChange": 1,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "previousRank": 1,
+          "rankChange": 0,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
           "gameId": "steam:570",
           "name": "Dota 2",
           "rank": 2,
-          "value": 480318,
+          "value": 485858,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/570/",
-          "previousRank": 1,
-          "rankChange": -1,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "previousRank": 2,
+          "rankChange": 0,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
           "gameId": "steam:578080",
           "name": "PUBG: BATTLEGROUNDS",
           "rank": 3,
-          "value": 292989,
+          "value": 313059,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/578080/",
           "previousRank": 3,
           "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
           "gameId": "steam:3419430",
           "name": "Bongo Cat",
           "rank": 4,
-          "value": 143072,
+          "value": 185787,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/3419430/",
           "previousRank": 4,
           "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
-          "gameId": "steam:1422450",
-          "name": "Deadlock",
+          "gameId": "steam:4262460",
+          "name": "ROB RUN",
           "rank": 5,
-          "value": 116481,
+          "value": 151540,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1422450/",
+          "url": "https://store.steampowered.com/app/4262460/",
           "previousRank": 5,
           "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:3393110",
-          "name": "AION 2",
-          "rank": 6,
-          "value": 107391,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/3393110/",
-          "previousRank": 6,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:1938090",
-          "name": "Call of Duty®",
-          "rank": 7,
-          "value": 102092,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1938090/",
-          "previousRank": 7,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:1091500",
-          "name": "Cyberpunk 2077",
-          "rank": 8,
-          "value": 85289,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1091500/",
-          "previousRank": 8,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:431960",
-          "name": "Wallpaper Engine",
-          "rank": 9,
-          "value": 69400,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/431960/",
-          "previousRank": 10,
-          "rankChange": 1,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:2676230",
-          "name": "FiveM",
-          "rank": 10,
-          "value": 68846,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2676230/",
-          "previousRank": 9,
-          "rankChange": -1,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:440",
-          "name": "Team Fortress 2",
-          "rank": 11,
-          "value": 66778,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/440/",
-          "previousRank": 11,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
           "gameId": "steam:1172470",
           "name": "Apex Legends™",
-          "rank": 12,
-          "value": 63573,
+          "rank": 6,
+          "value": 94910,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/1172470/",
-          "previousRank": 13,
+          "previousRank": 7,
           "rankChange": 1,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
-          "gameId": "steam:3678970",
-          "name": "TBH: Task Bar Hero",
-          "rank": 13,
-          "value": 58622,
+          "gameId": "steam:440",
+          "name": "Team Fortress 2",
+          "rank": 7,
+          "value": 94718,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/3678970/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
-        },
-        {
-          "gameId": "steam:1867240",
-          "name": "WARDOGS",
-          "rank": 14,
-          "value": 54371,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1867240/",
-          "previousRank": 12,
-          "rankChange": -2,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:2507950",
-          "name": "Delta Force",
-          "rank": 15,
-          "value": 47706,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/2507950/",
-          "previousRank": 17,
+          "url": "https://store.steampowered.com/app/440/",
+          "previousRank": 9,
           "rankChange": 2,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
-          "gameId": "steam:252490",
-          "name": "Rust",
-          "rank": 16,
-          "value": 46346,
+          "gameId": "steam:1422450",
+          "name": "Deadlock",
+          "rank": 8,
+          "value": 93559,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/252490/",
-          "previousRank": 14,
+          "url": "https://store.steampowered.com/app/1422450/",
+          "previousRank": 6,
           "rankChange": -2,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
-          "gameId": "steam:230410",
-          "name": "Warframe",
-          "rank": 17,
-          "value": 46023,
+          "gameId": "steam:3393110",
+          "name": "AION 2",
+          "rank": 9,
+          "value": 86511,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/230410/",
-          "previousRank": 15,
-          "rankChange": -2,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "url": "https://store.steampowered.com/app/3393110/",
+          "previousRank": 8,
+          "rankChange": -1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:431960",
+          "name": "Wallpaper Engine",
+          "rank": 10,
+          "value": 80456,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/431960/",
+          "previousRank": 11,
+          "rankChange": 1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "rank": 11,
+          "value": 77358,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3240220/",
+          "previousRank": 12,
+          "rankChange": 1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
           "gameId": "steam:2868840",
           "name": "Slay the Spire 2",
-          "rank": 18,
-          "value": 44820,
+          "rank": 12,
+          "value": 71831,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/2868840/",
+          "previousRank": 13,
+          "rankChange": 1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:5052450",
+          "name": "Desktop Wallet Heroes",
+          "rank": 13,
+          "value": 69655,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/5052450/",
+          "previousRank": 14,
+          "rankChange": 1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:4115450",
+          "name": "Phantom Blade Zero",
+          "rank": 14,
+          "value": 61998,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4115450/",
+          "previousRank": 15,
+          "rankChange": 1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:252490",
+          "name": "Rust",
+          "rank": 15,
+          "value": 58023,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/252490/",
+          "previousRank": 19,
+          "rankChange": 4,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:1973530",
+          "name": "Limbus Company",
+          "rank": 16,
+          "value": 57860,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1973530/",
+          "previousRank": 10,
+          "rankChange": -6,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:271590",
+          "name": "Grand Theft Auto V Legacy",
+          "rank": 17,
+          "value": 56697,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/271590/",
+          "previousRank": 18,
+          "rankChange": 1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:1938090",
+          "name": "Call of Duty®",
+          "rank": 18,
+          "value": 56672,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1938090/",
           "previousRank": 16,
           "rankChange": -2,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
-          "gameId": "steam:438100",
-          "name": "VRChat",
+          "gameId": "steam:3678970",
+          "name": "TBH: Task Bar Hero",
           "rank": 19,
-          "value": 38121,
+          "value": 55382,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/438100/",
-          "previousRank": 18,
-          "rankChange": -1,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "url": "https://store.steampowered.com/app/3678970/",
+          "previousRank": 17,
+          "rankChange": -2,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
-          "gameId": "steam:413150",
-          "name": "Stardew Valley",
+          "gameId": "steam:2507950",
+          "name": "Delta Force",
           "rank": 20,
-          "value": 36016,
+          "value": 49845,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/413150/",
+          "url": "https://store.steampowered.com/app/2507950/",
           "previousRank": 20,
           "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         }
       ],
       "dataType": "platform_rank"
@@ -1083,31 +962,31 @@
       "unit": "名次（金额/份数未披露）",
       "period": "平台实时收入排名，精确计算窗口未确认",
       "methodologyVersion": "steam-html-commercial-v1",
-      "observedAt": "2026-10-28T06:27:11.102045Z",
+      "observedAt": "2026-11-27T09:17:47.036044Z",
       "status": "ok",
       "reason": "本次本机解析有效app行；最多20项，不表示持续生产可用",
       "items": [
         {
-          "gameId": "steam:4115450",
-          "name": "Phantom Blade Zero",
+          "gameId": "steam:1172470",
+          "name": "Apex Legends™",
           "rank": 1,
           "value": null,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/4115450/",
+          "url": "https://store.steampowered.com/app/1172470/",
           "previousRank": 1,
           "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
-          "gameId": "steam:4435490",
-          "name": "Call of Duty®: Modern Warfare® 4",
+          "gameId": "steam:1091500",
+          "name": "Cyberpunk 2077",
           "rank": 2,
           "value": null,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/4435490/",
-          "previousRank": 2,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "url": "https://store.steampowered.com/app/1091500/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
         },
         {
           "gameId": "steam:730",
@@ -1118,114 +997,180 @@
           "url": "https://store.steampowered.com/app/730/",
           "previousRank": 3,
           "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:1174180",
+          "name": "Red Dead Redemption 2",
+          "rank": 4,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1174180/",
+          "previousRank": 4,
+          "rankChange": 0,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:2767030",
+          "name": "Marvel Rivals",
+          "rank": 5,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2767030/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank": 6,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2272360/",
+          "previousRank": 12,
+          "rankChange": 6,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
           "gameId": "steam:3393110",
           "name": "AION 2",
-          "rank": 4,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/3393110/",
-          "previousRank": 4,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:570",
-          "name": "Dota 2",
-          "rank": 5,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/570/",
-          "previousRank": 5,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:578080",
-          "name": "PUBG: BATTLEGROUNDS",
-          "rank": 6,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/578080/",
-          "previousRank": 8,
-          "rankChange": 2,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:5335510",
-          "name": "Moon Sweepers",
           "rank": 7,
           "value": null,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/5335510/",
-          "previousRank": 7,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "url": "https://store.steampowered.com/app/3393110/",
+          "previousRank": 2,
+          "rankChange": -5,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:2947440",
+          "name": "SILENT HILL f",
+          "rank": 8,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2947440/",
+          "previousRank": 10,
+          "rankChange": 2,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:2138330",
+          "name": "Cyberpunk 2077: Phantom Liberty",
+          "rank": 9,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/2138330/",
+          "previousRank": null,
+          "rankChange": null,
+          "baselineAt": null
+        },
+        {
+          "gameId": "steam:3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "rank": 10,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3240220/",
+          "previousRank": 6,
+          "rankChange": -4,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
           "gameId": "steam:4080220",
           "name": "EA SPORTS FC™ 27",
-          "rank": 8,
+          "rank": 11,
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/4080220/",
-          "previousRank": 12,
-          "rankChange": 4,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "previousRank": 9,
+          "rankChange": -2,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank": 12,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4435490/",
+          "previousRank": 11,
+          "rankChange": -1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:570",
+          "name": "Dota 2",
+          "rank": 13,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/570/",
+          "previousRank": 5,
+          "rankChange": -8,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:1086940",
+          "name": "Baldur's Gate 3",
+          "rank": 14,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/1086940/",
+          "previousRank": 14,
+          "rankChange": 0,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank": 15,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/578080/",
+          "previousRank": 7,
+          "rankChange": -8,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:3768760",
+          "name": "007 First Light",
+          "rank": 16,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/3768760/",
+          "previousRank": 15,
+          "rankChange": -1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
+        },
+        {
+          "gameId": "steam:4262460",
+          "name": "ROB RUN",
+          "rank": 17,
+          "value": null,
+          "reviewCount": null,
+          "url": "https://store.steampowered.com/app/4262460/",
+          "previousRank": 16,
+          "rankChange": -1,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
           "gameId": "steam:381210",
           "name": "Dead by Daylight",
-          "rank": 9,
+          "rank": 18,
           "value": null,
           "reviewCount": null,
           "url": "https://store.steampowered.com/app/381210/",
-          "previousRank": 9,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
+          "previousRank": 8,
+          "rankChange": -10,
+          "baselineAt": "2026-11-26T09:01:47.592212Z"
         },
         {
-          "gameId": "steam:1172470",
-          "name": "Apex Legends™",
-          "rank": 10,
+          "gameId": "steam:3321460",
+          "name": "Crimson Desert Enhanced",
+          "rank": 19,
           "value": null,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1172470/",
-          "previousRank": 13,
-          "rankChange": 3,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:216150",
-          "name": "MapleStory",
-          "rank": 11,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/216150/",
-          "previousRank": 15,
-          "rankChange": 4,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:3259780",
-          "name": "FINAL FANTASY RESONANCE",
-          "rank": 12,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/3259780/",
-          "previousRank": 10,
-          "rankChange": -2,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:4688700",
-          "name": "Project Exhibitionist (hidden by your preferences)",
-          "rank": 13,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/4688700/",
+          "url": "https://store.steampowered.com/app/3321460/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1233,76 +1178,10 @@
         {
           "gameId": "steam:230410",
           "name": "Warframe",
-          "rank": 14,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/230410/",
-          "previousRank": 14,
-          "rankChange": 0,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:305620",
-          "name": "The Long Dark",
-          "rank": 15,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/305620/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
-        },
-        {
-          "gameId": "steam:4922630",
-          "name": "The Long Dark: Iron Road",
-          "rank": 16,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/4922630/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
-        },
-        {
-          "gameId": "steam:236390",
-          "name": "War Thunder",
-          "rank": 17,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/236390/",
-          "previousRank": 16,
-          "rankChange": -1,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:4312190",
-          "name": "CRACK",
-          "rank": 18,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/4312190/",
-          "previousRank": 19,
-          "rankChange": 1,
-          "baselineAt": "2026-10-27T05:48:50.092821Z"
-        },
-        {
-          "gameId": "steam:1326470",
-          "name": "Sons Of The Forest",
-          "rank": 19,
-          "value": null,
-          "reviewCount": null,
-          "url": "https://store.steampowered.com/app/1326470/",
-          "previousRank": null,
-          "rankChange": null,
-          "baselineAt": null
-        },
-        {
-          "gameId": "steam:3219630",
-          "name": "Halloween: The Game",
           "rank": 20,
           "value": null,
           "reviewCount": null,
-          "url": "https://store.steampowered.com/app/3219630/",
+          "url": "https://store.steampowered.com/app/230410/",
           "previousRank": null,
           "rankChange": null,
           "baselineAt": null
@@ -1698,12 +1577,12 @@
   ],
   "movements": [
     {
-      "id": "779e6ed19819a9d655c5fa4e",
-      "gameId": "steam:4080220",
-      "name": "EA SPORTS FC™ 27",
+      "id": "f03f4e6cc948afd9f8738502",
+      "gameId": "steam:2272360",
+      "name": "Warhammer 40,000: Dawn of War IV",
       "platform": "pc",
-      "reason": "对比上次同来源同口径快照 2026-10-27T05:48:50.092821Z，Steam 全球畅销（收入排名）上升4名；不是日涨幅",
-      "observedAt": "2026-10-28T06:27:11.102045Z",
+      "reason": "对比上次同来源同口径快照 2026-11-26T09:01:47.592212Z，Steam 全球畅销（收入排名）上升6名；不是日涨幅",
+      "observedAt": "2026-11-27T09:17:47.036044Z",
       "positive": [],
       "negative": [],
       "events": [],
@@ -1715,7 +1594,7 @@
         "评价查询 language=all、purchase_type=all、review_type=all、day_range=365，三项过滤均=1；汇总好评率与本页样本分开。",
         "近期匿名有效样本不足20条，不输出情绪变化强结论。",
         "最近7天未取得可核验匿名评价或官方公告，保留证据不足提示卡。",
-        "公共内容加工总时限已达；未追加玩家动向调用，保留原始证据"
+        "没有带日期且来源可核验的近七天证据；未调用玩家动向模型"
       ],
       "sources": [
         {
@@ -1726,12 +1605,12 @@
       ]
     },
     {
-      "id": "d6abdcb861f80a6a0d4aa0db",
-      "gameId": "steam:216150",
-      "name": "MapleStory",
+      "id": "975d7dc431d755f268eba2b4",
+      "gameId": "steam:252490",
+      "name": "Rust",
       "platform": "pc",
-      "reason": "对比上次同来源同口径快照 2026-10-27T05:48:50.092821Z，Steam 全球畅销（收入排名）上升4名；不是日涨幅",
-      "observedAt": "2026-10-28T06:27:11.102045Z",
+      "reason": "对比上次同来源同口径快照 2026-11-26T09:01:47.592212Z，Steam 采集时在线人数上升4名；不是日涨幅",
+      "observedAt": "2026-11-27T09:17:47.036044Z",
       "positive": [],
       "negative": [],
       "events": [],
@@ -1743,13 +1622,13 @@
         "评价查询 language=all、purchase_type=all、review_type=all、day_range=365，三项过滤均=1；汇总好评率与本页样本分开。",
         "近期匿名有效样本不足20条，不输出情绪变化强结论。",
         "最近7天未取得可核验匿名评价或官方公告，保留证据不足提示卡。",
-        "公共内容加工总时限已达；未追加玩家动向调用，保留原始证据"
+        "没有带日期且来源可核验的近七天证据；未调用玩家动向模型"
       ],
       "sources": [
         {
           "id": "steam",
           "name": "Steam",
-          "url": "https://store.steampowered.com/charts/topselling/global"
+          "url": "https://store.steampowered.com/charts/mostplayed"
         }
       ]
     }
@@ -1793,8 +1672,8 @@
       "method": "rss",
       "url": "https://feeds.ign.com/ign/all",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
       "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内20条（主题筛选前）",
       "count": 20
     },
@@ -1815,9 +1694,9 @@
       "method": "rss",
       "url": "https://www.gamespot.com/feeds/mashup/",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；15条有效日期订阅，24小时内13条（主题筛选前）",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；15条有效日期订阅，24小时内7条（主题筛选前）",
       "count": 15
     },
     {
@@ -1826,8 +1705,8 @@
       "method": "rss",
       "url": "https://www.polygon.com/rss/index.xml",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
       "reason": "本次本机取得有效字段；不代表持续生产可用；10条有效日期订阅，24小时内10条（主题筛选前）",
       "count": 10
     },
@@ -1837,9 +1716,9 @@
       "method": "rss",
       "url": "https://eurogamer.net/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内10条（主题筛选前）",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内15条（主题筛选前）",
       "count": 100
     },
     {
@@ -1848,10 +1727,10 @@
       "method": "rss",
       "url": "https://www.rockpapershotgun.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；99条有效日期订阅，24小时内15条（主题筛选前）",
-      "count": 99
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内9条（主题筛选前）",
+      "count": 100
     },
     {
       "id": "vg247",
@@ -1859,8 +1738,8 @@
       "method": "rss",
       "url": "https://vg247.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
       "reason": "本次本机取得有效字段；不代表持续生产可用；100条有效日期订阅，24小时内0条（主题筛选前）",
       "count": 100
     },
@@ -1870,9 +1749,9 @@
       "method": "rss",
       "url": "https://gematsu.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内11条（主题筛选前）",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内8条（主题筛选前）",
       "count": 20
     },
     {
@@ -1881,9 +1760,9 @@
       "method": "rss",
       "url": "https://blog.playstation.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；10条有效日期订阅，24小时内5条（主题筛选前）",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；10条有效日期订阅，24小时内1条（主题筛选前）",
       "count": 10
     },
     {
@@ -1892,9 +1771,9 @@
       "method": "rss",
       "url": "https://www.gcores.com/rss",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内18条（主题筛选前）",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；20条有效日期订阅，24小时内15条（主题筛选前）",
       "count": 20
     },
     {
@@ -1903,9 +1782,9 @@
       "method": "rss",
       "url": "https://www.chuapp.com/feed",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
-      "reason": "本次本机取得有效字段；不代表持续生产可用；30条有效日期订阅，24小时内3条（主题筛选前）",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
+      "reason": "本次本机取得有效字段；不代表持续生产可用；30条有效日期订阅，24小时内2条（主题筛选前）",
       "count": 30
     },
     {
@@ -2255,8 +2134,8 @@
       "method": "web",
       "url": "https://store.steampowered.com/charts/mostplayed",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
       "reason": "本次本机取得有效字段；不代表持续生产可用",
       "count": 20
     },
@@ -2266,8 +2145,8 @@
       "method": "web",
       "url": "https://store.steampowered.com/charts/topselling/global",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
       "reason": "本次本机取得有效字段；不代表持续生产可用",
       "count": 20
     },
@@ -2277,9 +2156,9 @@
       "method": "web",
       "url": "https://store.steampowered.com/appreviews/570?json=1&language=all&filter=recent&num_per_page=1",
       "status": "failed",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
       "lastSuccessAt": "2026-10-22T05:36:56.750121Z",
-      "reason": "当期候选并集34款，明确查询参数汇总成功0款、失败34款；100条门槛通过0款；服务端汇总时间窗口未核实，不称近30天/完整历史；无已验证同口径fallback",
+      "reason": "当期候选并集33款，明确查询参数汇总成功0款、失败33款；100条门槛通过0款；服务端汇总时间窗口未核实，不称近30天/完整历史；无已验证同口径fallback",
       "count": 0
     },
     {
@@ -2717,8 +2596,8 @@
       "method": "web",
       "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2?appid=570&count=1&maxlength=200",
       "status": "ok",
-      "attemptedAt": "2026-10-28T06:27:11.102045Z",
-      "lastSuccessAt": "2026-10-28T06:27:11.102045Z",
+      "attemptedAt": "2026-11-27T09:17:47.036044Z",
+      "lastSuccessAt": "2026-11-27T09:17:47.036044Z",
       "reason": "仅入选游戏按需请求2次，2次JSON有效；另逐条核对appid/官方feed/发布时间，外部媒体不称公告",
       "count": 2
     },
